@@ -1,0 +1,1902 @@
+{
+  "capitulos": [
+    {
+      "id": 1,
+      "titulo": "La iglesia de Dios a través de las edades",
+      "contenido": "El trayecto de los creyentes fieles desde el primer siglo hasta la reforma.",
+      "completado": false
+    },
+    {
+      "id": 2,
+      "titulo": "Heraldos del mensaje del segundo advenimiento (1755-1843)",
+      "contenido": "El despertar profético y el movimiento millerita.",
+      "completado": false
+    },
+    {
+      "id": 3,
+      "titulo": "Surge la iglesia remanente (1844-1852)",
+      "contenido": "El gran chasco, el clamor de medianoche y los inicios del mensaje del sábado.",
+      "completado": false
+    },
+    {
+      "id": 4,
+      "titulo": "Se organiza oficialmente la iglesia remanente (1853-1863)",
+      "contenido": "Los pasos hacia la organización formal de la Iglesia Adventista del Séptimo Día.",
+      "completado": false
+    },
+    {
+      "id": 5,
+      "titulo": "Expansión y reforma (1864-1873)",
+      "contenido": "Crecimiento hacia el oeste, salud, educación y escuela sabática.",
+      "completado": false
+    },
+    {
+      "id": 6,
+      "titulo": "Visión mundial (1874-1878)",
+      "contenido": "Los primeros misioneros oficiales al extranjero y la expansión en Europa.",
+      "completado": false
+    },
+    {
+      "id": 7,
+      "titulo": "Progresos y pérdidas de importancia (1879-1904)",
+      "contenido": "Expansión mundial, nuevas instituciones y pérdida de pioneros.",
+      "completado": false
+    },
+    {
+      "id": 8,
+      "titulo": "Continúa la expansión de las misiones (1905-1923)",
+      "contenido": "Misiones a nuevos continentes y subdivisión del campo mundial.",
+      "completado": false
+    },
+    {
+      "id": 9,
+      "titulo": "Progresos a pesar de los reveses (1924-1946)",
+      "contenido": "La gran depresión, la Segunda Guerra Mundial y nuevas agencias evangelizadoras.",
+      "completado": false
+    },
+    {
+      "id": 10,
+      "titulo": "Consolidación y expansión (1947-1959)",
+      "contenido": "Reorganización de posguerra y crecimiento institucional.",
+      "completado": false
+    },
+    {
+      "id": 11,
+      "titulo": "Progresando en la terminación de la comisión evangélica (1960- )",
+      "contenido": "Nuevos desafíos, presidentes de la Asociación General y crecimiento mundial.",
+      "completado": false
+    },
+    {
+      "id": 12,
+      "titulo": "La acción de la iglesia a través de sus departamentos",
+      "contenido": "Organización departamental de la iglesia y sus servicios.",
+      "completado": false
+    },
+    {
+      "id": 13,
+      "titulo": "Divisiones mundiales de la iglesia",
+      "contenido": "Las divisiones mundiales de la Iglesia Adventista y sus sedes.",
+      "completado": false
+    }
+  ],
+  "preguntas": [
+    {
+      "id": 1,
+      "capituloId": 1,
+      "enunciado": "¿Qué grupo de cristianos se refugió en los Alpes para proteger la Biblia de la destrucción durante la Edad Media?",
+      "opciones": "Los Valdenses, Los Hugonotes, Los Albigenses, Los Lolardos",
+      "respuestaCorrecta": "Los Valdenses",
+      "justificacion": "Los Valdenses huyeron a las montañas del norte de Italia. Fueron fundamentales para preservar la verdad, copiando y memorizando partes de las Escrituras.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 2,
+      "capituloId": 1,
+      "enunciado": "¿A qué reformador se le conoce como la 'Estrella Matutina de la Reforma'?",
+      "opciones": "Martín Lutero, Juan Hus, Juan Wiclef, Juan Calvino",
+      "respuestaCorrecta": "Juan Wiclef",
+      "justificacion": "Juan Wiclef (John Wycliffe) recibió este título porque fue el primero en Europa en traducir la Biblia al inglés y en desafiar abiertamente las tradiciones de Roma mucho antes que Lutero.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 3,
+      "capituloId": 1,
+      "enunciado": "¿Qué reformador bohemio fue quemado en la hoguera por predicar la verdad bíblica?",
+      "opciones": "Jerónimo, Juan Hus, Ulrico Zuinglio, Felipe Melanchton",
+      "respuestaCorrecta": "Juan Hus",
+      "justificacion": "Juan Hus fue engañado con un salvoconducto para asistir al Concilio de Constanza, donde fue condenado y quemado vivo cantando salmos.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 4,
+      "capituloId": 1,
+      "enunciado": "¿En qué ciudad clavó Martín Lutero sus famosas 95 Tesis en la puerta de la iglesia?",
+      "opciones": "Worms, Ginebra, Wittenberg, Roma",
+      "respuestaCorrecta": "Wittenberg",
+      "justificacion": "El 31 de octubre (o 1º de noviembre, según la fuente) de 1517, Lutero clavó sus 95 Tesis en la iglesia del castillo de Wittenberg, Alemania, marcando el inicio de la Reforma Protestante.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 5,
+      "capituloId": 1,
+      "enunciado": "¿En qué año las tribus bárbaras del norte derribaron el Imperio Romano, dando paso al engrandecimiento del obispo de Roma?",
+      "opciones": "año 70, año 476, año 538, año 1798",
+      "respuestaCorrecta": "año 476",
+      "justificacion": "En el año 476 las tribus bárbaras derribaron al imperio romano, y en la lucha que siguió el obispo de Roma se engrandeció hasta convertirse en cabeza de toda la iglesia.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 6,
+      "capituloId": 1,
+      "enunciado": "¿Quién tradujo la Biblia al alemán mientras estaba escondido en el Castillo de Wartburgo?",
+      "opciones": "Martín Lutero, Juan Wiclef, William Tyndale, Erasmo de Rotterdam",
+      "respuestaCorrecta": "Martín Lutero",
+      "justificacion": "Para protegerlo tras la Dieta de Worms, amigos de Lutero lo escondieron en Wartburgo, donde realizó la traducción al alemán.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 7,
+      "capituloId": 1,
+      "enunciado": "¿Cómo se llamaban los creyentes franceses que sufrieron persecución en la Noche de San Bartolomé?",
+      "opciones": "Lolardos, Valdenses, Hugonotes, Puritanos",
+      "respuestaCorrecta": "Hugonotes",
+      "justificacion": "Los Hugonotes eran protestantes calvinistas franceses, apoyados por Juan Calvino desde Ginebra.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 8,
+      "capituloId": 1,
+      "enunciado": "¿Cuántos años gobernó el papado con supremacía, según la profecía de Daniel y Apocalipsis?",
+      "opciones": "500 años, 1000 años, 1260 años, 1798 años",
+      "respuestaCorrecta": "1260 años",
+      "justificacion": "El poder del papa llegó a ser supremo en el año 538 y gobernó durante 1260 años, terminando en 1798 cuando el papa fue tomado prisionero.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 9,
+      "capituloId": 1,
+      "enunciado": "¿En qué navío viajaron los Padres Peregrinos hacia América en 1620?",
+      "opciones": "Santa María, Mayflower, Endeavour, Beagle",
+      "respuestaCorrecta": "Mayflower",
+      "justificacion": "El 16 de septiembre de 1620, unos cien peregrinos se embarcaron en el navío Mayflower rumbo a lo que hoy es Estados Unidos.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 10,
+      "capituloId": 1,
+      "enunciado": "¿Quién fundó la colonia de Rhode Island con una forma de gobierno republicana y libertad religiosa total?",
+      "opciones": "Roger Williams, Guillermo Penn, John Winthrop, Guillermo Carey",
+      "respuestaCorrecta": "Roger Williams",
+      "justificacion": "Roger Williams llegó a ser fundador de la colonia de Rhode Island, el primer grupo establecido con libertad total.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 11,
+      "capituloId": 1,
+      "enunciado": "¿A quién se conoce como 'el padre de las misiones modernas'?",
+      "opciones": "Guillermo Carey, Adoniram Judson, David Livingstone, Roberto Morrison",
+      "respuestaCorrecta": "Guillermo Carey",
+      "justificacion": "Guillermo Carey, zapatero inglés inspirado por los relatos del capitán Cook, se embarcó a la India como primer misionero a tierras extranjeras.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 12,
+      "capituloId": 1,
+      "enunciado": "¿Qué misionero abrió el continente africano al cristianismo?",
+      "opciones": "David Livingstone, Roberto Moffat, John G. Paton, Adoniram Judson",
+      "respuestaCorrecta": "David Livingstone",
+      "justificacion": "David Livingstone es reconocido en el texto por abrir el continente africano al cristianismo.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 13,
+      "capituloId": 2,
+      "enunciado": "¿Cuál fue el gran desastre natural ocurrido en 1755 que se considera una señal profética del fin?",
+      "opciones": "El gran huracán del Atlántico, La erupción del Vesubio, El terremoto de Lisboa, El tsunami del Pacífico",
+      "respuestaCorrecta": "El terremoto de Lisboa",
+      "justificacion": "El 1 de noviembre de 1755, uno de los terremotos más fuertes registrados destruyó Lisboa y se sintió en Europa, África y América, cumpliendo Apocalipsis 6:12.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 14,
+      "capituloId": 2,
+      "enunciado": "¿En qué fecha exacta ocurrió el evento conocido como 'El Día Oscuro' en Norteamérica?",
+      "opciones": "13 de noviembre de 1833, 19 de mayo de 1780, 22 de octubre de 1844, 1 de noviembre de 1755",
+      "respuestaCorrecta": "19 de mayo de 1780",
+      "justificacion": "Ese día, una oscuridad sobrenatural cubrió gran parte de Nueva Inglaterra y partes de Canadá, obligando a encender velas a mediodía (Mateo 24:29).",
+      "vecesFallada": 0
+    },
+    {
+      "id": 15,
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el agricultor bautista que, tras estudiar Daniel 8:14, concluyó que Jesús volvería en 1843/1844?",
+      "opciones": "José Bates, Jaime White, Guillermo Miller, Hiram Edson",
+      "respuestaCorrecta": "Guillermo Miller",
+      "justificacion": "Miller estudió fervientemente la profecía de los 2300 días y llegó a la conclusión de que la purificación del santuario era el regreso de Cristo a la tierra.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 16,
+      "capituloId": 2,
+      "enunciado": "¿Qué señal astronómica ocurrió el 13 de noviembre de 1833?",
+      "opciones": "Un eclipse solar total, El paso del cometa Halley, La caída de las estrellas, Una aurora boreal masiva",
+      "respuestaCorrecta": "La caída de las estrellas",
+      "justificacion": "La lluvia de meteoros de las Leónidas de 1833 fue tan espectacular que parecía que todas las estrellas del cielo caían a la tierra, cumpliendo la señal del sexto sello.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 17,
+      "capituloId": 2,
+      "enunciado": "¿Cuál era la creencia de Guillermo Miller sobre lo que representaba el 'Santuario' en Daniel 8:14?",
+      "opciones": "El Templo de Jerusalén, La Iglesia, La Tierra, El Cielo",
+      "respuestaCorrecta": "La Tierra",
+      "justificacion": "Miller y sus seguidores creían que 'la tierra' era el santuario que debía ser purificado con fuego en la Segunda Venida de Cristo.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 18,
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el predicador metodista que predijo con exactitud la caída del Imperio Otomano en 1840?",
+      "opciones": "Josías Litch, Carlos Fitch, Samuel Snow, Joshua V. Himes",
+      "respuestaCorrecta": "Josías Litch",
+      "justificacion": "Basado en Apocalipsis 9, Litch calculó que el poder otomano perdería su independencia el 11 de agosto de 1840, cumplimiento que dio gran fuerza al movimiento millerita.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 19,
+      "capituloId": 2,
+      "enunciado": "¿Quién diseñó la famosa 'Carta Profética' de 1843 que ilustraba las profecías de Daniel y Apocalipsis?",
+      "opciones": "Jaime White, Charles Fitch, Guillermo Miller, José Bates",
+      "respuestaCorrecta": "Charles Fitch",
+      "justificacion": "Charles Fitch, junto con Apolos Hale, diseñó este diagrama visual basado en la instrucción de Habacuc 2:2.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 20,
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el principal publicista del movimiento millerita, editando la revista 'Señales de los Tiempos'?",
+      "opciones": "Joshua V. Himes, Hiram Edson, Urias Smith, John N. Andrews",
+      "respuestaCorrecta": "Joshua V. Himes",
+      "justificacion": "Himes era un pastor dinámico de Boston que transformó un movimiento local en una campaña nacional masiva usando la imprenta.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 21,
+      "capituloId": 2,
+      "enunciado": "¿Qué fecha exacta se estableció para la llegada de Cristo, conocida posteriormente como el Gran Chasco?",
+      "opciones": "22 de octubre de 1844, 22 de marzo de 1844, 1843, 31 de octubre de 1844",
+      "respuestaCorrecta": "22 de octubre de 1844",
+      "justificacion": "Samuel Snow propuso esta fecha basándose en el calendario caraíta judío, asociando la purificación del santuario con el Día de la Expiación.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 22,
+      "capituloId": 2,
+      "enunciado": "¿Qué hermano, cruzando un campo de maíz después del Gran Chasco, recibió comprensión sobre el verdadero ministerio en el Santuario Celestial?",
+      "opciones": "Jaime White, José Bates, Hiram Edson, O. R. L. Crosier",
+      "respuestaCorrecta": "Hiram Edson",
+      "justificacion": "La mañana del 23 de octubre de 1844, Edson comprendió que Cristo había entrado al Lugar Santísimo del cielo en lugar de venir a la tierra.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 23,
+      "capituloId": 2,
+      "enunciado": "¿Qué sacerdote jesuita, nacido en Chile, escribió bajo seudónimo un libro sobre la venida del Mesías que influyó en Europa?",
+      "opciones": "José Wolff, Manuel Lacunza, Luis Gaussen, Juan A. Bengel",
+      "respuestaCorrecta": "Manuel Lacunza",
+      "justificacion": "Lacunza publicó 'La venida del Mesías en gloria y majestad' bajo el seudónimo Juan Josafat Ben-Ezra; el libro fue traducido al inglés por Eduardo Irving.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 24,
+      "capituloId": 2,
+      "enunciado": "¿Cuántas veces predicó Guillermo Miller en diez años, según el texto?",
+      "opciones": "Más de 500 veces, Más de 1.000 veces, Más de 3.000 veces, Más de 10.000 veces",
+      "respuestaCorrecta": "Más de 3.000 veces",
+      "justificacion": "En diez años Guillermo Miller predicó más de 3.000 veces en unos mil lugares diferentes.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 25,
+      "capituloId": 2,
+      "enunciado": "¿Quiénes fueron los 'niños predicadores' que defendieron su fe y fueron liberados por orden del rey en Suecia?",
+      "opciones": "Ole Boquist y Erik Walbon, Charles y Apolos Hale, Hentzepeter y Gaussen, Wolff y Bengel",
+      "respuestaCorrecta": "Ole Boquist y Erik Walbon",
+      "justificacion": "Estos dos niños predicadores suecos defendieron su fe en la Biblia y finalmente fueron puestos en libertad por orden del rey, continuando hasta 1844.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 26,
+      "capituloId": 2,
+      "enunciado": "¿Qué revista fundó Josué V. Himes en 1840 en Boston, la primera del movimiento adventista?",
+      "opciones": "The Midnight Cry, Signs of the Times, The Present Truth, Youth's Instructor",
+      "respuestaCorrecta": "Signs of the Times",
+      "justificacion": "Himes comenzó a publicar en Boston, en 1840, la primera revista del movimiento, titulada Signs of the Times (Señales de los tiempos).",
+      "vecesFallada": 0
+    },
+    {
+      "id": 27,
+      "capituloId": 2,
+      "enunciado": "¿Qué predicador congregacionalista de Boston murió de neumonía poco antes del 22 de octubre de 1844 tras bautizar a varios grupos?",
+      "opciones": "Josías Litch, Carlos Fitch, Jorge Storrs, Silvestre Bliss",
+      "respuestaCorrecta": "Carlos Fitch",
+      "justificacion": "El 14 de octubre de 1844, Fitch bautizó a tres grupos sucesivos, se resfrió, contrajo neumonía y murió pocos días antes del 22 de octubre.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 28,
+      "capituloId": 2,
+      "enunciado": "¿Quién estableció que los 2300 años de Daniel 8:14 terminaban en el otoño de 1844 y no en la primavera?",
+      "opciones": "S. S. Snow, Jorge Storrs, Silvestre Bliss, Josías Litch",
+      "respuestaCorrecta": "S. S. Snow",
+      "justificacion": "S.S. Snow fue el primero en establecer que los 2300 años terminaban en el otoño del hemisferio norte de 1844.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 29,
+      "capituloId": 3,
+      "enunciado": "¿Durante qué período se proclamó principalmente el mensaje del segundo ángel?",
+      "opciones": "Entre 1831 y 1840, Entre marzo y octubre de 1844, Entre 1845 y 1848, Entre 1798 y 1833",
+      "respuestaCorrecta": "Entre marzo y octubre de 1844",
+      "justificacion": "El mensaje del segundo ángel fue proclamado principalmente durante el período de 'demora' que se extendió entre marzo y octubre de 1844.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 30,
+      "capituloId": 3,
+      "enunciado": "¿Quién presentó el tema 'el clamor de medianoche' en las reuniones campestres de agosto de 1844?",
+      "opciones": "Hiram Edson, Samuel S. Snow, José Bates, Jaime White",
+      "respuestaCorrecta": "Samuel S. Snow",
+      "justificacion": "José Bates invitó a Samuel S. Snow a presentar el tema del 'clamor de medianoche' en reuniones campestres de New Hampshire en agosto de 1844.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 31,
+      "capituloId": 3,
+      "enunciado": "¿Qué comprendió Hiram Edson en su visión en el campo de maíz el 23 de octubre de 1844?",
+      "opciones": "Que Cristo vendría en 1845, Que Cristo entró al Lugar Santísimo del santuario celestial, Que la fecha había sido correcta y Cristo vendría en un mes, Que debía predicar el sábado",
+      "respuestaCorrecta": "Que Cristo entró al Lugar Santísimo del santuario celestial",
+      "justificacion": "Edson comprendió que, en lugar de venir a la tierra, Cristo entró por primera vez al segundo departamento del santuario celestial, iniciando el juicio investigador.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 32,
+      "capituloId": 3,
+      "enunciado": "¿Quién llevó la verdad del sábado bíblico al grupo adventista de Washington, New Hampshire, en 1844?",
+      "opciones": "Raquel Preston, T. M. Preble, Federico Wheeler, José Bates",
+      "respuestaCorrecta": "Raquel Preston",
+      "justificacion": "Raquel Preston, una bautista del séptimo día, visitó Washington, New Hampshire, y distribuyó folletos que llevaron a casi todo el grupo a aceptar el sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 33,
+      "capituloId": 3,
+      "enunciado": "¿Quién fue el primer ministro adventista en aceptar la verdad del sábado?",
+      "opciones": "José Bates, Federico Wheeler, Hiram Edson, T. M. Preble",
+      "respuestaCorrecta": "Federico Wheeler",
+      "justificacion": "Federico Wheeler, pastor del grupo de Washington, New Hampshire, fue el primer ministro adventista en aceptar el sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 34,
+      "capituloId": 3,
+      "enunciado": "¿Quién escribió el artículo sobre el sábado publicado a principios de 1845 en una revista de Portland, Maine, que llamó la atención de los adventistas?",
+      "opciones": "T. M. Preble, J. B. Cook, José Bates, Hiram Edson",
+      "respuestaCorrecta": "T. M. Preble",
+      "justificacion": "T. M. Preble escribió el artículo que llamó la atención de los adventistas sobre el tema del sábado, publicado en Portland, Maine, a principios de 1845.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 35,
+      "capituloId": 3,
+      "enunciado": "¿A qué edad tuvo Elena Gould Harmon su primera visión, en diciembre de 1844?",
+      "opciones": "15 años, 17 años, 19 años, 21 años",
+      "respuestaCorrecta": "17 años",
+      "justificacion": "En diciembre de 1844, Elena, de 17 años, recibió una visión que mostraba el futuro de la iglesia desde el 22 de octubre de 1844 hasta la Nueva Jerusalén.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 36,
+      "capituloId": 3,
+      "enunciado": "¿Cuántos congresos o encuentros sobre doctrinas bíblicas se realizaron en 1848 entre los primeros creyentes del sábado?",
+      "opciones": "Tres, Cuatro, Seis, Diez",
+      "respuestaCorrecta": "Seis",
+      "justificacion": "En total se realizaron seis encuentros o conferencias sobre doctrinas bíblicas durante 1848, en los que Elena G. de White jugó un papel importante.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 37,
+      "capituloId": 3,
+      "enunciado": "¿Quién fue el primero de los líderes originales en aceptar la verdad del sábado y presentarla a otros?",
+      "opciones": "Jaime White, José Bates, Hiram Edson, J. N. Andrews",
+      "respuestaCorrecta": "José Bates",
+      "justificacion": "José Bates fue el primero de los líderes de aquellos primeros días que aceptó la verdad del sábado y la presentó a otros dirigentes y creyentes.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 38,
+      "capituloId": 3,
+      "enunciado": "¿En qué fecha se casaron Jaime White y Elena Harmon?",
+      "opciones": "30 de agosto de 1846, 22 de octubre de 1844, 16 de julio de 1848, 26 de noviembre de 1845",
+      "respuestaCorrecta": "30 de agosto de 1846",
+      "justificacion": "Jaime White y Elena Harmon (Gould) se casaron el 30 de agosto de 1846, formando parte del núcleo original de la iglesia remanente.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 39,
+      "capituloId": 3,
+      "enunciado": "¿En qué año y lugar nació Elena Gould Harmon?",
+      "opciones": "1815 en Boston, 1827 en Gorham, Maine, 1830 en Portland, 1844 en Battle Creek",
+      "respuestaCorrecta": "1827 en Gorham, Maine",
+      "justificacion": "Elena Gould Harmon nació el 26 de noviembre de 1827 en una finca en Gorham, Maine, a unos 19 km al oeste de Portland.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 40,
+      "capituloId": 3,
+      "enunciado": "¿Cuál de los siguientes NO es un grupo que surgió de la explosión del gran chasco de 1844?",
+      "opciones": "Adventistas evangélicos, Cristianos adventistas, Adventistas del Séptimo Día, Bautistas del Séptimo Día",
+      "respuestaCorrecta": "Bautistas del Séptimo Día",
+      "justificacion": "Los Bautistas del Séptimo Día ya existían antes de 1844 y preservaron la verdad del sábado durante siglos; de ellos, a través de Raquel Preston, los adventistas recibieron la doctrina del sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 41,
+      "capituloId": 4,
+      "enunciado": "¿A qué ciudad se trasladó la pequeña imprenta adventista en 1855, estableciendo allí la sede de la obra hasta 1903?",
+      "opciones": "Rochester, Nueva York, Battle Creek, Michigan, Washington D.C., Boston, Massachusetts",
+      "respuestaCorrecta": "Battle Creek, Michigan",
+      "justificacion": "En 1855 los White aceptaron el ofrecimiento de cuatro laicos y se mudaron de Rochester a Battle Creek, Michigan, donde la sede permaneció hasta 1903.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 42,
+      "capituloId": 4,
+      "enunciado": "¿En qué año fue adoptado oficialmente el nombre 'Adventista del Séptimo Día'?",
+      "opciones": "1853, 1855, 1860, 1863",
+      "respuestaCorrecta": "1860",
+      "justificacion": "En 1860 fue adoptado el nombre Adventista del Séptimo Día, elección que más tarde apoyó Elena G. de White.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 43,
+      "capituloId": 4,
+      "enunciado": "¿Cuándo se constituyó legalmente la Seventh-day Adventist Publishing Association?",
+      "opciones": "13 de mayo de 1861, 1 de noviembre de 1860, 23 de octubre de 1844, 30 de agosto de 1846",
+      "respuestaCorrecta": "13 de mayo de 1861",
+      "justificacion": "El 13 de mayo de 1861 se constituyó una entidad legal bajo el nombre de Seventh-day Adventist Publishing Association.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 44,
+      "capituloId": 4,
+      "enunciado": "¿En qué año se celebró el primer Congreso oficial de la Asociación General, adoptándose una constitución de nueve artículos?",
+      "opciones": "1860, 1861, 1863, 1865",
+      "respuestaCorrecta": "1863",
+      "justificacion": "El primer encuentro general oficial de la iglesia se celebró en 1863 en Battle Creek, adoptando una constitución con nueve artículos.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 45,
+      "capituloId": 4,
+      "enunciado": "¿Quién fue elegido presidente por unanimidad en 1863 pero declinó el honor por razones éticas?",
+      "opciones": "Juan Byington, Jaime White, Urías Smith, J. N. Loughborough",
+      "respuestaCorrecta": "Jaime White",
+      "justificacion": "Jaime White había sido elegido presidente por unanimidad, pero declinó porque había sostenido con énfasis la necesidad de organizar la iglesia sin parecer buscar el cargo.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 46,
+      "capituloId": 4,
+      "enunciado": "¿Quién fue el primer presidente de la Asociación General?",
+      "opciones": "Jaime White, Juan Byington, José Bates, J. N. Andrews",
+      "respuestaCorrecta": "Juan Byington",
+      "justificacion": "Los oficiales de la recién formada Asociación General fueron: Presidente, Juan Byington; secretario, Urías Smith; tesorero, E. S. Walker.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 47,
+      "capituloId": 4,
+      "enunciado": "¿Cuántos miembros, iglesias y ministros ordenados tenía la denominación al organizarse en 1863?",
+      "opciones": "3.500 miembros, 125 iglesias, 22 ministros ordenados; 680 miembros, 50 iglesias, 10 ministros; 17.436 miembros, 680 iglesias, 30 ministros; 1.000 miembros, 20 iglesias, 5 ministros",
+      "respuestaCorrecta": "3.500 miembros, 125 iglesias, 22 ministros ordenados",
+      "justificacion": "Cuando se organizó la iglesia en 1863, contaba con 3.500 miembros, 125 iglesias, 22 ministros ordenados y 8 con licencia de predicador.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 48,
+      "capituloId": 4,
+      "enunciado": "¿Cómo se llamó la revista resultante de la fusión de 'The Present Truth' y 'The Advent Review' en 1850, que se sigue publicando hoy?",
+      "opciones": "Second Advent Review and Sabbath Herald, Youth's Instructor, The Midnight Cry, Signs of the Times",
+      "respuestaCorrecta": "Second Advent Review and Sabbath Herald",
+      "justificacion": "En noviembre de 1850 se fusionaron ambas revistas en Second Advent Review and Sabbath Herald, que hoy se conoce como La Revista Adventista.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 49,
+      "capituloId": 5,
+      "enunciado": "¿Qué estatus le concedió el gobierno de los Estados Unidos a la iglesia en 1864, durante la Guerra Civil?",
+      "opciones": "Objetor de conciencia, No combatiente, Exención total del servicio, Ninguno, se les exigió combatir",
+      "respuestaCorrecta": "No combatiente",
+      "justificacion": "En 1864, durante la guerra civil americana, el gobierno de Estados Unidos le concedió a la iglesia el estatus de 'no combatiente'.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 50,
+      "capituloId": 5,
+      "enunciado": "¿En qué año fundó Goodloe H. Bell oficialmente la primera escuela adventista en Battle Creek?",
+      "opciones": "1853, 1866, 1872, 1883",
+      "respuestaCorrecta": "1872",
+      "justificacion": "En 1872, Goodloe H. Bell, un ex-paciente del sanatorio, fundó oficialmente en Battle Creek la primera escuela adventista.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 51,
+      "capituloId": 5,
+      "enunciado": "¿Qué institución de salud se estableció en 1866 en Battle Creek, luego llamada Battle Creek Sanitarium?",
+      "opciones": "Western Health Reform Institute, American Medical Missionary College, College of Medical Evangelist, White Memorial Hospital",
+      "respuestaCorrecta": "Western Health Reform Institute",
+      "justificacion": "Como resultado de una visión de Elena de White sobre la salud, se estableció en 1866 el Western Health Reform Institute, más tarde llamado Battle Creek Sanitarium.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 52,
+      "capituloId": 5,
+      "enunciado": "¿Quién escribió los seis folletos publicados en 1865 titulados 'Health: or How to Live'?",
+      "opciones": "Elena G. de White, Jaime White, J. P. Kellogg, Kate Lindsay",
+      "respuestaCorrecta": "Elena G. de White",
+      "justificacion": "En 1865 vieron la luz 6 folletos escritos por Elena G. de White, basados en una visión sobre la reforma pro salud recibida en junio de 1863.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 53,
+      "capituloId": 5,
+      "enunciado": "¿En qué año se celebró el primer 'encuentro campestre' tras la reorganización de estas reuniones, cinco años después de organizarse la Asociación General?",
+      "opciones": "1863, 1868, 1872, 1876",
+      "respuestaCorrecta": "1868",
+      "justificacion": "La idea de los encuentros campestres fue revivida en 1868, celebrándose el primero en una finca de Michigan con 2.000 asistentes.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 54,
+      "capituloId": 5,
+      "enunciado": "¿Quién trazó en 1852 el plan para las primeras lecciones de escuela sabática?",
+      "opciones": "Jaime White, G. H. Bell, S. N. Haskell, J. N. Andrews",
+      "respuestaCorrecta": "Jaime White",
+      "justificacion": "En 1852, preocupado por los jóvenes, Jaime White trazó el plan para una serie de lecciones bíblicas, primeras lecciones de escuela sabática.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 55,
+      "capituloId": 5,
+      "enunciado": "¿Cómo se llamó el barco misionero financiado por las escuelas sabáticas de Norteamérica para las misiones del Pacífico Sur?",
+      "opciones": "Pitcairn, Mayflower, Endeavour, Luzeiro",
+      "respuestaCorrecta": "Pitcairn",
+      "justificacion": "Las escuelas sabáticas de Norteamérica financiaron y enviaron un barco misionero al sur del Pacífico llamado Pitcairn, en honor a la primera isla a la que fue enviado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 56,
+      "capituloId": 5,
+      "enunciado": "¿En qué congreso se organizó la Sociedad de Publicaciones y Obra Misionera, antecesora del Departamento de Actividades Laicas?",
+      "opciones": "Congreso de la Asociación General de 1863, Congreso de la Asociación General de 1873, Congreso de la Asociación General de 1901, Congreso de la Asociación General de 1913",
+      "respuestaCorrecta": "Congreso de la Asociación General de 1873",
+      "justificacion": "En el Congreso de la Asociación General de 1873 se organizó la Sociedad de Publicaciones y Obra Misionera, hasta que en 1913 se transformó en el Departamento de Actividades Laicas.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 57,
+      "capituloId": 6,
+      "enunciado": "¿Quién fue el primer misionero oficial enviado por la iglesia al extranjero, en 1874?",
+      "opciones": "M. B. Czechowski, Juan Nevins Andrews, Guillermo Ings, Juan G. Matteson",
+      "respuestaCorrecta": "Juan Nevins Andrews",
+      "justificacion": "En el Congreso de la Asociación General de 1874 se decidió enviar a Suiza a J. N. Andrews como el primer misionero oficial de la iglesia al extranjero.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 58,
+      "capituloId": 6,
+      "enunciado": "¿A qué país fue enviado J. N. Andrews como primer misionero oficial?",
+      "opciones": "Inglaterra, Suiza, Alemania, Rusia",
+      "respuestaCorrecta": "Suiza",
+      "justificacion": "Andrews fue enviado a Suiza, donde organizó la Misión Europea tras responder a llamados macedónicos de un grupo de observadores del sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 59,
+      "capituloId": 6,
+      "enunciado": "¿Qué evangelista ex-sacerdote católico había preparado el terreno en Suiza antes de la llegada de Andrews?",
+      "opciones": "M. B. Czechowski, D. T. Bourdeau, Philpp Reiswig, Guillermo Ings",
+      "respuestaCorrecta": "M. B. Czechowski",
+      "justificacion": "Czechowski, evangelista polaco ex-sacerdote católico convertido al adventismo, regresó a Europa por su cuenta e hizo una tarea de siembra extraordinaria en Suiza.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 60,
+      "capituloId": 6,
+      "enunciado": "¿En qué ciudad estableció J. N. Andrews una casa publicadora clave para la obra en Europa?",
+      "opciones": "Basilea, Hamburgo, Melun, Londres",
+      "respuestaCorrecta": "Basilea",
+      "justificacion": "Andrews estableció en Basilea, en el límite entre Suiza y Alemania, una casa publicadora donde se produjo la primera revista adventista europea en francés.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 61,
+      "capituloId": 6,
+      "enunciado": "¿Quién llevó el mensaje adventista a Escandinavia en 1877?",
+      "opciones": "Juan G. Matteson, D. T. Bourdeau, Philpp Reiswig, Guillermo Ings",
+      "respuestaCorrecta": "Juan G. Matteson",
+      "justificacion": "En 1877, Juan G. Matteson llevó el mensaje a Escandinavia, y dos años más tarde se abrió allí una casa publicadora.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 62,
+      "capituloId": 6,
+      "enunciado": "¿Quién fue el primero en llevar el mensaje adventista a Inglaterra?",
+      "opciones": "Guillermo Ings, J. N. Loughborough, D. T. Bourdeau, A. C. Bourdeau",
+      "respuestaCorrecta": "Guillermo Ings",
+      "justificacion": "Guillermo Ings, nacido en Inglaterra y criado en Norteamérica, fue el primero en llevar el mensaje allí; en 16 semanas tenía a diez personas guardando el sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 63,
+      "capituloId": 7,
+      "enunciado": "¿Quiénes fundaron la primera organización de jóvenes adventistas en Hazelton, Michigan?",
+      "opciones": "Lutero Warren y Harry Fenner, Jaime White y J. N. Andrews, G. H. Bell y S. N. Haskell, Pedro Wessels y Van Druten",
+      "respuestaCorrecta": "Lutero Warren y Harry Fenner",
+      "justificacion": "Lutero Warren, de menos de veinte años, y Harry Fenner, de 17, formaron la primera sociedad de jóvenes adventistas tras buscar la dirección de Dios en el campo.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 64,
+      "capituloId": 7,
+      "enunciado": "¿Quién comenzó la obra de colportaje vendiendo al público el libro 'Daniel y Apocalipsis' de Urías Smith?",
+      "opciones": "Jorge King, Abram La Rué, Pedro Wessels, G. J. Van Druten",
+      "respuestaCorrecta": "Jorge King",
+      "justificacion": "En 1881 Jorge King se sintió impresionado a vender al público el libro de Urías Smith, estableciendo así la obra de colportaje.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 65,
+      "capituloId": 7,
+      "enunciado": "¿En qué congreso de la Asociación General se destacó la doctrina de la justificación por la fe, marcando un momento crítico?",
+      "opciones": "Congreso de 1863, Congreso de Minneapolis de 1888, Congreso de 1901, Congreso de 1913",
+      "respuestaCorrecta": "Congreso de Minneapolis de 1888",
+      "justificacion": "El congreso de la Asociación General de 1888, celebrado en Minneapolis, terminó siendo de gran importancia por la discusión sobre la justificación por la fe.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 66,
+      "capituloId": 7,
+      "enunciado": "¿Quién dirigió el establecimiento de la misión adventista en Australia en 1885?",
+      "opciones": "S. N. Haskell, A. G. Daniells, Jorge I. Butler, Elena G. de White",
+      "respuestaCorrecta": "S. N. Haskell",
+      "justificacion": "El Congreso de la Asociación General de 1884 decidió enviar a Australia a S. N. Haskell, embarcándose en San Francisco el 10 de mayo de 1885.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 67,
+      "capituloId": 7,
+      "enunciado": "¿Quién visitó la isla de Pitcairn en 1886 y logró que sus habitantes aceptaran guardar el sábado?",
+      "opciones": "Juan I. Tay, S. N. Haskell, A. G. Daniells, Abram La Rué",
+      "respuestaCorrecta": "Juan I. Tay",
+      "justificacion": "Juan I. Tay llegó a Pitcairn el 18 de octubre de 1886 y en un mes logró que todos los habitantes decidieran guardar el sábado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 68,
+      "capituloId": 7,
+      "enunciado": "¿Quién consiguió tierras de Cecil Rhodes para establecer la estación misionera de Solusi en Rhodesia?",
+      "opciones": "Pedro Wessels, G. J. Van Druten, Guillermo Hunt, Abram La Rué",
+      "respuestaCorrecta": "Pedro Wessels",
+      "justificacion": "Pedro Wessels, junto a otros misioneros, visitó a Cecil Rhodes en 1894 y consiguió tierras para abrir la misión industrial de Solusi en Rhodesia.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 69,
+      "capituloId": 7,
+      "enunciado": "¿Quién llevó el mensaje adventista a China en 1888 como obrero de sostén propio?",
+      "opciones": "Abram La Rué, Jorge Riffel, Guillermo Hunt, Philpp Reiswig",
+      "respuestaCorrecta": "Abram La Rué",
+      "justificacion": "Abram La Rué se embarcó para Hong Kong en 1888 y trabajó incansablemente durante 15 años preparando el camino para los primeros misioneros permanentes.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 70,
+      "capituloId": 7,
+      "enunciado": "¿Qué destacado líder adventista apostató, se opuso a la organización y a la obra de Elena de White, escribiendo libros contra la iglesia?",
+      "opciones": "D. M. Canright, J. H. Kellogg, Urías Smith, J. H. Waggoner",
+      "respuestaCorrecta": "D. M. Canright",
+      "justificacion": "D. M. Canright apostató y abandonó la iglesia, escribiendo virulentos libros contra ella y muriendo en la desesperación.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 71,
+      "capituloId": 7,
+      "enunciado": "¿Qué edificio de Battle Creek se incendió totalmente en febrero de 1902?",
+      "opciones": "El sanatorio, La casa editora Review and Herald, El colegio, La imprenta original",
+      "respuestaCorrecta": "El sanatorio",
+      "justificacion": "En febrero de 1902 ardió totalmente el edificio principal del sanatorio de Battle Creek, y en diciembre de ese año se incendió también la Review and Herald.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 72,
+      "capituloId": 7,
+      "enunciado": "¿A dónde se trasladó la sede de la obra adventista en 1903, tras los incendios de Battle Creek?",
+      "opciones": "Takoma Park, Washington D.C., Loma Linda, California, Silver Spring, Maryland, Nueva York",
+      "respuestaCorrecta": "Takoma Park, Washington D.C.",
+      "justificacion": "En 1903 se atendió el consejo de Elena de White de mudar la sede hacia el este, adquiriéndose una propiedad en Takoma Park, Washington D.C.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 73,
+      "capituloId": 7,
+      "enunciado": "¿En qué año se subdividió por primera vez el campo mundial en divisiones?",
+      "opciones": "1901, 1903, 1913, 1916",
+      "respuestaCorrecta": "1913",
+      "justificacion": "En 1913 se dio un paso importantísimo al subdividir el campo mundial en divisiones, como resultado de la expansión de la obra.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 74,
+      "capituloId": 8,
+      "enunciado": "¿Quién inició la obra entre los incas de Sudamérica en 1909?",
+      "opciones": "F. A. Stahl, Jorge Riffel, R. A. Caldwell, W. E. Howell",
+      "respuestaCorrecta": "F. A. Stahl",
+      "justificacion": "F. A. Stahl inició la obra entre los incas de Sudamérica en 1909, según el resumen de misioneros de ese período.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 75,
+      "capituloId": 8,
+      "enunciado": "¿A quién se le ocurrió en 1903 el plan que dio origen a la Recolección anual?",
+      "opciones": "Jasper Wayne, H. M. S. Richards, Leo B. Halliwell, A. G. Daniells",
+      "respuestaCorrecta": "Jasper Wayne",
+      "justificacion": "En 1903, el laico Jasper Wayne propuso solicitar dinero al público para las misiones, obsequiando la revista Signs of the Times, idea que Elena de White aprobó.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 76,
+      "capituloId": 8,
+      "enunciado": "¿En qué año quedó establecido en Loma Linda, California, el College of Medical Evangelist?",
+      "opciones": "1895, 1905, 1910, 1913",
+      "respuestaCorrecta": "1910",
+      "justificacion": "El College of Medical Evangelist estaba ya establecido sobre bases firmes en Loma Linda, California, en 1910.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 77,
+      "capituloId": 8,
+      "enunciado": "¿Quién sucedió a A. G. Daniells como presidente de la Asociación General en 1922?",
+      "opciones": "W. A. Spicer, C. H. Watson, R. R. Figuhr, W. H. Branson",
+      "respuestaCorrecta": "W. A. Spicer",
+      "justificacion": "Cuando en 1922 Daniells dejó la presidencia, se escogió a W. A. Spicer, quien había servido como secretario de la Asociación General durante 20 años.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 78,
+      "capituloId": 8,
+      "enunciado": "¿En qué fecha falleció Elena G. de White?",
+      "opciones": "16 de julio de 1915, 22 de octubre de 1913, 30 de agosto de 1918, 26 de noviembre de 1920",
+      "respuestaCorrecta": "16 de julio de 1915",
+      "justificacion": "Elena G. de White murió el 16 de julio de 1915 a la edad de 87 años, marcando el fin de una era en la historia de la iglesia.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 79,
+      "capituloId": 8,
+      "enunciado": "¿En qué año se establece el modelo de cuatro niveles administrativos: iglesia local, asociación local, unión y Asociación General?",
+      "opciones": "1863, 1901, 1913, 1916",
+      "respuestaCorrecta": "1901",
+      "justificacion": "El Congreso de la Asociación General de 1901 decidió el modelo de cuatro pasos administrativos y creó las uniones como nivel descentralizado.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 80,
+      "capituloId": 9,
+      "enunciado": "¿El fallecimiento de qué pionero, en 1924, marcó el fin de la era de los pioneros?",
+      "opciones": "J. N. Loughborough, Jaime White, José Bates, Urías Smith",
+      "respuestaCorrecta": "J. N. Loughborough",
+      "justificacion": "El fallecimiento del pastor J. N. Loughborough en 1924 marcó el fin de la era de los pioneros, aunque su espíritu se mantuvo vivo en la obra.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 81,
+      "capituloId": 9,
+      "enunciado": "¿Quiénes pusieron en servicio en 1931 la primera de las lanchas misioneras 'Luzeiro' en el río Amazonas?",
+      "opciones": "Leo B. y Jessie Halliwell, Hans Mayr y su hermano, C. H. Watson, W. H. Branson",
+      "respuestaCorrecta": "Leo B. y Jessie Halliwell",
+      "justificacion": "En 1931, los enfermeros Leo B. Halliwell y su esposa Jessie pusieron en servicio la primera lancha Luzeiro, dando inicio a la flota médico-misionera del Amazonas.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 82,
+      "capituloId": 9,
+      "enunciado": "¿En qué año se creó en Washington, D.C. el Seminario Teológico Adventista del Séptimo Día?",
+      "opciones": "1926, 1931, 1936, 1941",
+      "respuestaCorrecta": "1936",
+      "justificacion": "En 1936 se creó el Seminario Teológico Adventista, que en 1960 se trasladó a Michigan para dar origen a la Universidad Andrews.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 83,
+      "capituloId": 9,
+      "enunciado": "¿Quién fue el pionero de la radiodifusión adventista, iniciando el programa 'The Voice of Prophecy'?",
+      "opciones": "H. M. S. Richards, George Vandeman, W. A. Fagal, Jasper Wayne",
+      "respuestaCorrecta": "H. M. S. Richards",
+      "justificacion": "El pastor H. M. S. Richards hizo su primera transmisión en 1926, y en 1941 The Voice of Prophecy fue aceptada oficialmente como proyecto denominacional.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 84,
+      "capituloId": 9,
+      "enunciado": "¿En qué año se adoptó la declaración de creencias fundamentales de la iglesia?",
+      "opciones": "1926, 1931, 1936, 1941",
+      "respuestaCorrecta": "1931",
+      "justificacion": "En 1931 se adoptó la declaración de creencias fundamentales, y en 1941 un certificado bautismal uniforme para todo el campo mundial.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 85,
+      "capituloId": 9,
+      "enunciado": "¿Qué conflicto mundial (1939-1945) trajo escasez de papel, dificultades de viaje y pérdida de propiedades de la iglesia?",
+      "opciones": "La Primera Guerra Mundial, La Segunda Guerra Mundial, La Guerra Civil Americana, La Gran Depresión",
+      "respuestaCorrecta": "La Segunda Guerra Mundial",
+      "justificacion": "La Segunda Guerra Mundial (1939-1945) trajo escasez de materiales, dificultades de transporte, destrucción de propiedades y pérdida de obreros.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 86,
+      "capituloId": 10,
+      "enunciado": "¿Quién fue presidente de la Asociación General entre 1950 y 1954, tras haber trabajado en China y África?",
+      "opciones": "W. H. Branson, R. R. Figuhr, C. H. Watson, Neal C. Wilson",
+      "respuestaCorrecta": "W. H. Branson",
+      "justificacion": "Desde 1950 hasta 1954 la presidencia fue ocupada por W. H. Branson, quien había trabajado en China y en África.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 87,
+      "capituloId": 10,
+      "enunciado": "¿Quién dirigió el programa de televisión 'It Is Written', desarrollado en 1955?",
+      "opciones": "George Vandeman, W. A. Fagal, H. M. S. Richards, R. R. Figuhr",
+      "respuestaCorrecta": "George Vandeman",
+      "justificacion": "En 1955 se desarrolló el programa de televisión 'It Is Written', dirigido por el pastor George Vandeman.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 88,
+      "capituloId": 10,
+      "enunciado": "¿Quién dirigió el programa de televisión 'Faith for Today', que salió al aire en Nueva York?",
+      "opciones": "W. A. Fagal, George Vandeman, W. H. Branson, R. H. Pierson",
+      "respuestaCorrecta": "W. A. Fagal",
+      "justificacion": "El programa Faith for Today comenzó a salir al aire en Nueva York bajo la dirección del pastor W. A. Fagal, con escuela bíblica creada en 1952.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 89,
+      "capituloId": 10,
+      "enunciado": "¿Cuál fue la membrecía total de la iglesia en 1959, según el texto?",
+      "opciones": "637.033, 1.194.030, 3.000.000, 7.000.000",
+      "respuestaCorrecta": "1.194.030",
+      "justificacion": "La membrecía total de la iglesia en 1959 alcanzó la cifra de 1.194.030 miembros, con diezmos de casi 54 millones de dólares.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 90,
+      "capituloId": 11,
+      "enunciado": "¿En qué año se jubiló R. R. Figuhr como presidente de la Asociación General, sucediéndole R. H. Pierson?",
+      "opciones": "1954, 1960, 1966, 1979",
+      "respuestaCorrecta": "1966",
+      "justificacion": "En 1966 el pastor R. R. Figuhr se jubiló como presidente de la Asociación General, y lo sucedió el pastor R. H. Pierson.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 91,
+      "capituloId": 11,
+      "enunciado": "¿Quién asumió la presidencia mundial de la Asociación General en enero de 1979, tras el retiro de R. H. Pierson?",
+      "opciones": "Neal C. Wilson, Roberto Folkenberg, R. R. Figuhr, W. A. Spicer",
+      "respuestaCorrecta": "Neal C. Wilson",
+      "justificacion": "En 1978 fue elegido el pastor Neal C. Wilson, ex misionero en varias divisiones, quien asumió la responsabilidad mundial en enero de 1979.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 92,
+      "capituloId": 11,
+      "enunciado": "¿En qué ciudad se celebró en 1975 el primer congreso mundial de la iglesia fuera de los Estados Unidos?",
+      "opciones": "Viena, Austria, Londres, Inglaterra, Ciudad de México, Berna, Suiza",
+      "respuestaCorrecta": "Viena, Austria",
+      "justificacion": "En 1975 la iglesia se reunió en congreso mundial por primera vez fuera de Estados Unidos, eligiéndose Viena, Austria, por ser un país neutral.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 93,
+      "capituloId": 11,
+      "enunciado": "¿A dónde se trasladó la sede de la Asociación General a fines de la década de 1980, tras vender las instalaciones de Takoma Park?",
+      "opciones": "Silver Spring, Maryland, Loma Linda, California, Battle Creek, Michigan, Miami, Florida",
+      "respuestaCorrecta": "Silver Spring, Maryland",
+      "justificacion": "Para fines de los años 80, las instalaciones de Takoma Park eran insuficientes, por lo que la Asociación General se trasladó a Silver Spring, Maryland.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 94,
+      "capituloId": 11,
+      "enunciado": "¿Qué división mundial se convirtió en la más grande del mundo, con un millón de miembros, entre 1975 y 1980?",
+      "opciones": "División Interamericana, División Sudamericana, División Norteamericana, División Sudasiática",
+      "respuestaCorrecta": "División Interamericana",
+      "justificacion": "En ese período la División Interamericana se convirtió en la división más grande del mundo con un millón de miembros; en 1991 la Sudamericana alcanzó el mismo honor.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 95,
+      "capituloId": 12,
+      "enunciado": "¿En qué año se organizó el Departamento de los Ministerios de la Iglesia (DMI)?",
+      "opciones": "1972, 1975, 1985, 1990",
+      "respuestaCorrecta": "1985",
+      "justificacion": "El Departamento de los Ministerios de la Iglesia (DMI) fue organizado en 1985, fusionando varias actividades bajo una sola coordinación.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 96,
+      "capituloId": 12,
+      "enunciado": "¿A qué área del DMI corresponde el ex-departamento de actividad misionera?",
+      "opciones": "Actividades laicas, Escuela sabática, Jóvenes adventistas, Mayordomía y desarrollo",
+      "respuestaCorrecta": "Actividades laicas",
+      "justificacion": "El área de Actividades laicas corresponde al ex-departamento de actividad misionera, y organiza a la iglesia para prestar servicios en favor de Cristo.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 97,
+      "capituloId": 12,
+      "enunciado": "¿En qué año fue adoptado por la Asociación General el Club de los Conquistadores?",
+      "opciones": "1907, 1930, 1950, 1970",
+      "respuestaCorrecta": "1950",
+      "justificacion": "El Club de los Conquistadores fue adoptado por la Asociación General en 1950, dentro del área de Jóvenes Adventistas (JA).",
+      "vecesFallada": 0
+    },
+    {
+      "id": 98,
+      "capituloId": 12,
+      "enunciado": "¿Cómo se llama la revista especializada para pastores publicada por la Asociación Ministerial?",
+      "opciones": "Ministry, Insight, Signs of the Times, Adventist Review",
+      "respuestaCorrecta": "Ministry",
+      "justificacion": "La Asociación Ministerial, organizada en 1922, publica la revista Ministry (El Ministerio adventista) para pastores.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 99,
+      "capituloId": 12,
+      "enunciado": "¿Qué significan las siglas ADRA?",
+      "opciones": "Adventist Development and Relief Agency, Adventist Direct Radio Association, Adventist Doctrinal Research Agency, Advent Religious Assembly",
+      "respuestaCorrecta": "Adventist Development and Relief Agency",
+      "justificacion": "ADRA (Agencia Adventista de Desarrollo y Recursos Asistenciales) incluye la obra que antes conocíamos como OFASA y la Sociedad Dorcas.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 100,
+      "capituloId": 13,
+      "enunciado": "¿En qué ciudad se encuentra actualmente la sede de la División Interamericana?",
+      "opciones": "Coral Gables, Florida, Balboa, Panamá, La Habana, Cuba, Ciudad de México",
+      "respuestaCorrecta": "Coral Gables, Florida",
+      "justificacion": "La sede de la División Interamericana pasó por Balboa (Panamá), La Habana (Cuba) y Miami, estableciéndose actualmente en Coral Gables, Florida.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 101,
+      "capituloId": 13,
+      "enunciado": "¿Quién fue el jamaicano que aceptó el primer tratado adventista sobre el sábado y el domingo, difundiéndolo en el Caribe?",
+      "opciones": "Henry Williams, Michel Nord Isaac, E. E. Andross, Glenn Calkins",
+      "respuestaCorrecta": "Henry Williams",
+      "justificacion": "Un paquete de tratados enviado por J. N. Loughborough llegó a Henry Williams en Jamaica, quien junto a su esposa aceptó las enseñanzas y distribuyó el resto de los tratados.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 102,
+      "capituloId": 13,
+      "enunciado": "¿Quiénes fueron los primeros adventistas en pisar la zona del Caribe, viajando hacia el oeste de los Estados Unidos en 1868?",
+      "opciones": "D. T. Bourdeau y J. N. Loughborough, E. E. Andross y S. E. Kellmann, Glenn Calkins y C. L. Torrey, J. N. Andrews y su hijo Charles",
+      "respuestaCorrecta": "D. T. Bourdeau y J. N. Loughborough",
+      "justificacion": "Estos dos hombres, viajando hacia California en 1868, cruzaron Panamá y tienen el honor de haber sido los primeros adventistas en la zona del Caribe.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 103,
+      "capituloId": 13,
+      "enunciado": "¿Dónde está ubicada la sede de la División Sudamericana?",
+      "opciones": "Brasilia, Brasil, Buenos Aires, Argentina, Lima, Perú, Montevideo, Uruguay",
+      "respuestaCorrecta": "Brasilia, Brasil",
+      "justificacion": "La División Sudamericana fue organizada en 1916 y su sede se encuentra en Brasilia, Brasil.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 104,
+      "capituloId": 13,
+      "enunciado": "¿En qué ciudad está la sede de la División Noreuropea?",
+      "opciones": "St. Albans, Inglaterra, Berna, Suiza, Nicosia, Chipre, Singapur",
+      "respuestaCorrecta": "St. Albans, Inglaterra",
+      "justificacion": "La sede de la División Noreuropea está en St. Albans, Inglaterra, cerca de Londres, y cuenta con ocho uniones más la Asociación de Islandia.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 105,
+      "capituloId": 13,
+      "enunciado": "¿En qué universidad de la División Interamericana se especializa la Pacific Press con una sucursal, ubicada en México?",
+      "opciones": "Universidad de Montemorelos, Colegio de las Antillas, Colegio Adventista del Plata, Colegio de Jamaica",
+      "respuestaCorrecta": "Universidad de Montemorelos",
+      "justificacion": "La Pacific Press cuenta con una sucursal en Montemorelos, México, donde también está la Universidad de Montemorelos, institución destacada de la División Interamericana.",
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿A quién usó Dios como el primer escritor para dejar instrucciones permanentes a su iglesia del Antiguo Testamento?",
+      "opciones": "Abraham, Moisés, David, Isaías",
+      "respuestaCorrecta": "Moisés",
+      "justificacion": "Moisés fue el primer escritor a quien Dios usó para dejar instrucciones permanentes para su iglesia y registrar por escrito las experiencias del pueblo.",
+      "id": 106,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Con quiénes hizo Dios un pacto sempiterno, según el Salmo 105:8-11?",
+      "opciones": "Moisés, Josué y Caleb, Abraham, Isaac, Jacob y los hijos de Israel, David y Salomón, Los doce apóstoles",
+      "respuestaCorrecta": "Abraham, Isaac, Jacob y los hijos de Israel",
+      "justificacion": "En el Salmo 105:8-11 se descubre que Dios hizo un convenio sempiterno con Abraham, Isaac, Jacob y los hijos de Israel, para mil generaciones.",
+      "id": 107,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Qué reformador francés apoyó a los hugonotes desde Ginebra, Suiza?",
+      "opciones": "Juan Calvino, Ulrico Zuinglio, Juan Knox, Felipe Melanchton",
+      "respuestaCorrecta": "Juan Calvino",
+      "justificacion": "Juan Calvino, francés, apoyó a los hugonotes desde Ginebra, de donde salieron estudiantes que llevaron la Reforma a España, Inglaterra y otros países.",
+      "id": 108,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Quién fue el reformador en Suiza, pastor de la catedral de Zurich, contemporáneo de Lutero?",
+      "opciones": "Ulrico Zuinglio, Juan Calvino, Juan Wesley, Guillermo Tyndale",
+      "respuestaCorrecta": "Ulrico Zuinglio",
+      "justificacion": "Ulrico Zuinglio fue el reformador en Suiza en la época de Lutero, pastor de la catedral de Zurich.",
+      "id": 109,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Quién ayudó a redactar la Confesión de Augsburgo, punto culminante de la Reforma protestante?",
+      "opciones": "Felipe Melanchton, Juan Calvino, Juan Knox, Erasmo de Rotterdam",
+      "respuestaCorrecta": "Felipe Melanchton",
+      "justificacion": "Felipe Melanchton, amigo íntimo de Lutero y profesor en Wittenberg, ayudó a redactar la Confesión de Augsburgo.",
+      "id": 110,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Quiénes tradujeron la Biblia al sueco, contribuyendo a que Suecia se convirtiera en país protestante?",
+      "opciones": "Los hermanos Petri, Juan Tausen y Pedersen, José Wolff, Juan A. Bengel",
+      "respuestaCorrecta": "Los hermanos Petri",
+      "justificacion": "En Escandinavia, los hermanos Petri tradujeron la Biblia al sueco y Suecia se convirtió en un país protestante.",
+      "id": 111,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Quién predicó el mensaje de la Reforma en Dinamarca?",
+      "opciones": "Juan Tausen, Pedersen, Guillermo Tyndale, Juan Wesley",
+      "respuestaCorrecta": "Juan Tausen",
+      "justificacion": "Juan Tausen predicó el mensaje de la Reforma en Dinamarca; Pedersen tradujo la Biblia al danés.",
+      "id": 112,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Qué misionero preparó un diccionario inglés-chino y publicó la Biblia en chino?",
+      "opciones": "Roberto Morrison, Adoniram Judson, Roberto Moffat, John Williams",
+      "respuestaCorrecta": "Roberto Morrison",
+      "justificacion": "Roberto Morrison preparó un diccionario inglés y chino y publicó la Biblia en chino.",
+      "id": 113,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Qué misionero trabajó con un vapor llamado 'El Mensajero de la Paz' en el sur del Pacífico?",
+      "opciones": "John Williams, John G. Paton, Roberto Moffat, David Livingstone",
+      "respuestaCorrecta": "John Williams",
+      "justificacion": "John Williams fue el primero en trabajar con un vapor llamado 'El Mensajero de la Paz' en el sur del Pacífico.",
+      "id": 114,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Qué misionero vio su vida amenazada 53 veces por caníbales en las islas del sur del Pacífico?",
+      "opciones": "John G. Paton, Roberto Moffat, David Livingstone, Adoniram Judson",
+      "respuestaCorrecta": "John G. Paton",
+      "justificacion": "La vida de John G. Paton fue amenazada por los caníbales 53 veces en las islas del sur del Pacífico.",
+      "id": 115,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿En qué año se estableció la primera sociedad misionera protestante, dando inicio a la era de las misiones modernas?",
+      "opciones": "1761, 1799, 1820, 1834",
+      "respuestaCorrecta": "1799",
+      "justificacion": "La primera sociedad misionera de la iglesia se estableció en 1799, dando inicio a la era de las misiones modernas.",
+      "id": 116,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 1,
+      "enunciado": "¿Qué apóstol es descrito en el texto como 'quizás el más grande evangelista de todos los tiempos'?",
+      "opciones": "Pedro, Pablo, Juan, Santiago",
+      "respuestaCorrecta": "Pablo",
+      "justificacion": "El texto describe a Pablo como quizás el más grande evangelista de todos los tiempos, junto a Bernabé, Silas y otros.",
+      "id": 117,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue conocido como 'el misionero universal', hablaba 14 idiomas y predicó el advenimiento en Europa, África y Asia?",
+      "opciones": "José Wolff, Juan A. Bengel, Eduardo Irving, Luis Gaussen",
+      "respuestaCorrecta": "José Wolff",
+      "justificacion": "José Wolff, hijo de un rabino judío, llegó a ser conocido como 'el misionero universal' y hablaba 14 idiomas.",
+      "id": 118,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el ministro luterano alemán que enseñó la pronta venida de Jesús a principios del siglo XVIII, antes que Wolff o Miller?",
+      "opciones": "Juan A. Bengel, Eduardo Irving, Enrique Drummond, H. Hentzepeter",
+      "respuestaCorrecta": "Juan A. Bengel",
+      "justificacion": "Bengel enseñó en Alemania la verdad de la pronta venida de Jesús a principios del siglo XVIII, antes de que aparecieran Wolff o Miller, falleciendo en 1752.",
+      "id": 119,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el destacado predicador adventista en las Islas Británicas que tradujo al inglés el libro de Lacunza?",
+      "opciones": "Eduardo Irving, Enrique Drummond, Roberto Winter, Horacio Bonar",
+      "respuestaCorrecta": "Eduardo Irving",
+      "justificacion": "Eduardo Irving, pastor de la iglesia de Escocia, se cautivó con el mensaje de Lacunza y tradujo su libro al inglés.",
+      "id": 120,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Qué banquero inglés y miembro del parlamento dictaba anualmente cinco conferencias proféticas sobre Daniel y Apocalipsis?",
+      "opciones": "Enrique Drummond, Roberto Winter, Jorge Müller, Horacio Bonar",
+      "respuestaCorrecta": "Enrique Drummond",
+      "justificacion": "Enrique Drummond dictaba anualmente una serie de cinco conferencias proféticas a las que asistían unos 20 ministros de distintas denominaciones.",
+      "id": 121,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién predicaba en las calles de Inglaterra con un diagrama profético sujeto a una vara, según sus propias cartas?",
+      "opciones": "Roberto Winter, Jorge Müller, Horacio Bonar, H. Hentzepeter",
+      "respuestaCorrecta": "Roberto Winter",
+      "justificacion": "Roberto Winter escribió a sus amigos en Estados Unidos que predicaba en las calles con el diagrama profético sujeto a una vara.",
+      "id": 122,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el director del famoso orfanato de Bristol que predicó el mensaje del advenimiento en Inglaterra?",
+      "opciones": "Jorge Müller, Horacio Bonar, Enrique Drummond, José Wolff",
+      "respuestaCorrecta": "Jorge Müller",
+      "justificacion": "Entre los predicadores del advenimiento en Inglaterra se encontraba Jorge Müller, director del famoso orfanato de Bristol.",
+      "id": 123,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién era el director del museo real de Holanda que se sintió impelido a predicar el advenimiento tras un sueño?",
+      "opciones": "H. Hentzepeter, Luis Gaussen, José Wolff, Juan A. Bengel",
+      "respuestaCorrecta": "H. Hentzepeter",
+      "justificacion": "H. Hentzepeter, director del museo real de Holanda, estudió el advenimiento tras un sueño en que vio que la venida de Cristo estaba cerca.",
+      "id": 124,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién proclamó el mensaje del primer ángel en Francia y Suiza, siendo natural de Ginebra?",
+      "opciones": "Luis Gaussen, Juan Calvino, Eduardo Irving, José Wolff",
+      "respuestaCorrecta": "Luis Gaussen",
+      "justificacion": "Luis Gaussen, natural de Ginebra, proclamó el mensaje del primer ángel en Francia y Suiza, comenzando sus conferencias con los niños.",
+      "id": 125,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Siendo el mayor de cuántos hermanos nació Guillermo Miller, lo cual limitó su educación académica?",
+      "opciones": "8 hermanos, 12 hermanos, 16 hermanos, 20 hermanos",
+      "respuestaCorrecta": "16 hermanos",
+      "justificacion": "Guillermo Miller era el mayor de 16 hermanos, por lo que no pudo recibir una buena educación académica y se convirtió en autodidacta.",
+      "id": 126,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿En qué año comenzaron los estudios bíblicos intensivos de Guillermo Miller, extendiéndose hasta 1831?",
+      "opciones": "1798, 1810, 1816, 1825",
+      "respuestaCorrecta": "1816",
+      "justificacion": "Los estudios de Miller comenzaron en 1816 y se extendieron intensivamente hasta 1831, cuando comenzó a predicar.",
+      "id": 127,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue el sobrino de Guillermo Miller que lo invitó a predicar por primera vez en público, en agosto de 1831?",
+      "opciones": "Irving Guilford, Josué Himes, Josías Litch, Carlos Fitch",
+      "respuestaCorrecta": "Irving Guilford",
+      "justificacion": "Un sábado de agosto de 1831, llegó su sobrino Irving Guilford invitándolo a predicar en el culto dominical, dando inicio a su ministerio público.",
+      "id": 128,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Quién fue Roberto Harmon, expulsado con su familia de su iglesia en 1843 por creer en el mensaje adventista?",
+      "opciones": "El padre de Elena G. de White, El esposo de Elena G. de White, El hermano de Guillermo Miller, El pastor de Josué Himes",
+      "respuestaCorrecta": "El padre de Elena G. de White",
+      "justificacion": "Entre los desfraternizados por aceptar el mensaje adventista se encontraba Roberto Harmon, padre de la que luego sería Elena G. de White.",
+      "id": 129,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿En qué año murió Guillermo Miller, cuatro años después de finalizar su ministerio público?",
+      "opciones": "1844, 1845, 1848, 1849",
+      "respuestaCorrecta": "1849",
+      "justificacion": "Miller finalizó su ministerio público en 1845 y murió cuatro años después, en 1849, confiando en el pronto regreso del Salvador.",
+      "id": 130,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 2,
+      "enunciado": "¿Cuál de estos NO figura entre los 'embajadores del advenimiento en América del Norte' mencionados en el capítulo?",
+      "opciones": "Josué V. Himes, Josías Litch, Carlos Fitch, Manuel Lacunza",
+      "respuestaCorrecta": "Manuel Lacunza",
+      "justificacion": "Manuel Lacunza fue un heraldo del advenimiento dentro de la Iglesia Católica en Chile/Europa, no un embajador norteamericano como Himes, Litch o Fitch.",
+      "id": 131,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Quién fue el mulato bautista de Boston que recibió una visión sobre la iglesia remanente en enero de 1842, antes que Elena Harmon?",
+      "opciones": "Guillermo Foy, Hazen Foss, Hiram Edson, Federico Wheeler",
+      "respuestaCorrecta": "Guillermo Foy",
+      "justificacion": "En enero de 1842, Guillermo Foy, un mulato bautista de Boston, recibió una visión de los redimidos siendo escoltados a las glorias del cielo.",
+      "id": 132,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Quién fue el joven adventista de Maine que recibió una visión pero rehusó compartirla, perdiendo finalmente el don profético?",
+      "opciones": "Hazen Foss, Guillermo Foy, José Bates, T. M. Preble",
+      "respuestaCorrecta": "Hazen Foss",
+      "justificacion": "Hazen Foss recibió una visión sobre tres peldaños proféticos pero, por temor al ridículo, rehusó relatarla, y el don le fue quitado y transferido a otra persona.",
+      "id": 133,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Cuál fue el primer libro publicado por Elena G. de White, en 1851?",
+      "opciones": "El conflicto de los siglos, A Sketch of the Christian Experience and Views of Ellen G. White, El Deseado de todas las gentes, Patriarcas y profetas",
+      "respuestaCorrecta": "A Sketch of the Christian Experience and Views of Ellen G. White",
+      "justificacion": "En 1851 publicó su primer libro, un folleto de 64 páginas, que aparece hoy en la primera parte de Primeros escritos.",
+      "id": 134,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿En qué mes y año recibió Elena de White la visión del sábado, viendo el arca con los Diez Mandamientos?",
+      "opciones": "Diciembre de 1844, Abril de 1847, Agosto de 1846, Enero de 1848",
+      "respuestaCorrecta": "Abril de 1847",
+      "justificacion": "En abril de 1847 recibió una visión sobre el sábado, viendo el templo en el cielo y los Diez Mandamientos con un halo de luz alrededor del cuarto.",
+      "id": 135,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Dónde está enterrada Elena G. de White?",
+      "opciones": "En el cementerio de Battle Creek, Michigan, En Elmshaven, California, En Washington D.C., En Silver Spring, Maryland",
+      "respuestaCorrecta": "En el cementerio de Battle Creek, Michigan",
+      "justificacion": "Elena G. de White murió en su casa de Elmshaven, pero está enterrada junto a su esposo e hijos en el cementerio de Battle Creek, Michigan.",
+      "id": 136,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Quién escribió el libro 'Historia del sábado' y fue el primer misionero oficial enviado a Europa?",
+      "opciones": "Juan Nevins Andrews, J. N. Loughborough, J. H. Waggoner, Urías Smith",
+      "respuestaCorrecta": "Juan Nevins Andrews",
+      "justificacion": "J. N. Andrews escribió el libro Historia del sábado, sugirió la organización de la iglesia y fue enviado a Europa en 1874 como primer misionero oficial.",
+      "id": 137,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Quién fue el primer ministro adventista en realizar reuniones bajo carpa?",
+      "opciones": "Juan Norton Loughborough, M. E. Cornell, José Bates, Federico Wheeler",
+      "respuestaCorrecta": "Juan Norton Loughborough",
+      "justificacion": "J. N. Loughborough, quien predicó desde los 17 años, fue el primer ministro adventista en realizar reuniones bajo carpa.",
+      "id": 138,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Qué organización de temperancia fundó José Bates en Estados Unidos antes de conocer el mensaje adventista?",
+      "opciones": "Una de las primeras sociedades de temperancia de EE.UU., La Sociedad Americana de Temperancia, La Asociación Internacional de Temperancia, Ninguna, se dedicó solo a la navegación",
+      "respuestaCorrecta": "Una de las primeras sociedades de temperancia de EE.UU.",
+      "justificacion": "José Bates, antes de ser llamado a predicar, organizó una de las primeras sociedades de temperancia de los Estados Unidos.",
+      "id": 139,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿Cómo murió Ana Smith en 1855, hermana de Urías Smith y recordada por sus poesías usadas como himnos?",
+      "opciones": "De tuberculosis, En un naufragio, De fiebre amarilla, En un incendio",
+      "respuestaCorrecta": "De tuberculosis",
+      "justificacion": "Ana Smith murió prematuramente en 1855 a causa de la tuberculosis, siendo recordada especialmente por sus poesías.",
+      "id": 140,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 3,
+      "enunciado": "¿A qué edad murió Jaime White, en 1881, tras años de mala salud por exceso de trabajo?",
+      "opciones": "50 años, 60 años, 70 años, 80 años",
+      "respuestaCorrecta": "60 años",
+      "justificacion": "Jaime White murió cuando tenía sólo 60 años, tras sufrir mala salud debido en parte al exceso de trabajo.",
+      "id": 141,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿En qué año comenzó a entregarse credenciales a los ministros como primer paso hacia la organización de la iglesia?",
+      "opciones": "1850, 1853, 1860, 1863",
+      "respuestaCorrecta": "1853",
+      "justificacion": "Como paso inicial hacia la organización, se decidió entregar credenciales a los ministros, procedimiento que comenzó en 1853.",
+      "id": 142,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿Qué pastores usaron una carpa por primera vez para un esfuerzo evangélico en 1854?",
+      "opciones": "M. E. Cornell y J. N. Loughborough, Jaime White y José Bates, J. N. Andrews y J. H. Waggoner, Urías Smith y Hiram Edson",
+      "respuestaCorrecta": "M. E. Cornell y J. N. Loughborough",
+      "justificacion": "Los pastores M. E. Cornell y J. N. Loughborough usaron una carpa para un esfuerzo evangélico en 1854, sumando muchas personas a la iglesia.",
+      "id": 143,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿Cuánto costaba en 1853 un juego completo de revistas y folletos, cuando se decidió venderlos en lugar de regalarlos?",
+      "opciones": "10 centavos, 35 centavos, 1 dólar, 5 dólares",
+      "respuestaCorrecta": "35 centavos",
+      "justificacion": "Hasta 1853 se regalaban las revistas; ese año Jaime White sugirió venderlas, costando 35 centavos un juego completo.",
+      "id": 144,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿Cómo se llamó el plan financiero original que pedía a cada miembro dar al menos el 1% del valor de sus propiedades libres de deuda?",
+      "opciones": "Plan del diezmo, Plan de benevolencia sistemática, Plan de la Recolección anual, Plan de mayordomía cristiana",
+      "respuestaCorrecta": "Plan de benevolencia sistemática",
+      "justificacion": "La comisión dirigida por J. N. Andrews propuso el 'Plan de benevolencia sistemática', antecesor del sistema del diezmo que se adoptaría después.",
+      "id": 145,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿Quién presidió la comisión bíblica que estudió el sostén del ministerio y propuso el plan de benevolencia sistemática?",
+      "opciones": "J. N. Andrews, Jaime White, Urías Smith, José Bates",
+      "respuestaCorrecta": "J. N. Andrews",
+      "justificacion": "Bajo la dirección de J. N. Andrews se reunió un grupo de hermanos para estudiar las Escrituras y descubrir los métodos de Dios para el sostenimiento del ministerio.",
+      "id": 146,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿Por qué muchos adventistas se oponían inicialmente a la idea de organizar la iglesia formalmente?",
+      "opciones": "Temían que llevara al despotismo eclesiástico, No tenían suficiente dinero, El gobierno de EE.UU. lo prohibía, Preferían seguir siendo parte de otras denominaciones",
+      "respuestaCorrecta": "Temían que llevara al despotismo eclesiástico",
+      "justificacion": "Existía una gran antipatía contra toda 'organización' eclesiástica, pensando que tal cosa llevaría al despotismo eclesiástico.",
+      "id": 147,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿A nombre de quién estaban escrituradas la imprenta y otras propiedades de la iglesia antes de que se creara una entidad legal?",
+      "opciones": "Jaime White, Urías Smith, Juan Byington, José Bates",
+      "respuestaCorrecta": "Jaime White",
+      "justificacion": "Hasta que se creó una entidad legal, tanto la imprenta como otras propiedades estaban escrituradas a nombre de Jaime White.",
+      "id": 148,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 4,
+      "enunciado": "¿En qué año se organizó la primera asociación de iglesias, con todas las iglesias del estado de Michigan?",
+      "opciones": "1860, 1861, 1862, 1863",
+      "respuestaCorrecta": "1861",
+      "justificacion": "Ese mismo año (1861) se organizó la primera asociación de iglesias con todas las del estado de Michigan; en 1862 se organizaron otras 7 asociaciones.",
+      "id": 149,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿Quiénes contribuyeron con 500 dólares cada uno para establecer el Western Health Reform Institute en 1866?",
+      "opciones": "Jaime White y J. P. Kellogg, José Bates y Urías Smith, J. N. Andrews y Kate Lindsay, Federico Wheeler y Hiram Edson",
+      "respuestaCorrecta": "Jaime White y J. P. Kellogg",
+      "justificacion": "Esta institución fue erigida en base a donativos; Jaime White y J. P. Kellogg contribuyeron con 500 dólares cada uno.",
+      "id": 150,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿Quién ayudó a establecer la escuela de enfermería de Battle Creek en 1883?",
+      "opciones": "La doctora Kate Lindsay, Elena G. de White, J. P. Kellogg, G. H. Bell",
+      "respuestaCorrecta": "La doctora Kate Lindsay",
+      "justificacion": "La doctora Kate Lindsay ayudó a establecer la escuela de enfermería de Battle Creek en el año 1883.",
+      "id": 151,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿En qué fecha se publicó el primer número de la revista Signs of the Times en California?",
+      "opciones": "4 de junio de 1874, 1 de enero de 1872, 30 de agosto de 1868, 22 de octubre de 1865",
+      "respuestaCorrecta": "4 de junio de 1874",
+      "justificacion": "Como resultado de la visita del matrimonio White a la costa del Pacífico, el primer número de Signs of the Times se publicó en California el 4 de junio de 1874.",
+      "id": 152,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿Cómo se llamó la primera sociedad de actividad misionera, fundada en 1869 en South Lancaster, Massachusetts?",
+      "opciones": "Sociedad de misioneros vigilantes, Sociedad de Publicaciones y Obra Misionera, Departamento de Actividades Laicas, Sociedad Dorcas",
+      "respuestaCorrecta": "Sociedad de misioneros vigilantes",
+      "justificacion": "En 1869 se fundó la 'Sociedad de misioneros vigilantes', formada por diez mujeres que distribuían publicaciones en sus barrios.",
+      "id": 153,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿A quién se conoce como 'el padre de la idea de los folletos y de las actividades misioneras'?",
+      "opciones": "S. N. Haskell, Jaime White, G. H. Bell, J. N. Andrews",
+      "respuestaCorrecta": "S. N. Haskell",
+      "justificacion": "El pastor S. N. Haskell vio las posibilidades de la obra misionera de folletos y la organizó en forma más extensa.",
+      "id": 154,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿Quién preparó en 1869 dos series de lecciones de escuela sabática, una sobre el Antiguo Testamento para niños y otra sobre Daniel para jóvenes?",
+      "opciones": "G. H. Bell, Jaime White, S. N. Haskell, J. N. Andrews",
+      "respuestaCorrecta": "G. H. Bell",
+      "justificacion": "G. H. Bell, de quien se decía que 'había nacido para maestro', preparó en 1869 estas series de lecciones que dieron inicio a la obra de la escuela sabática.",
+      "id": 155,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 5,
+      "enunciado": "¿Aproximadamente qué fracción de la feligresía adventista de Estados Unidos vive hoy en la costa oeste, según el texto?",
+      "opciones": "Un cuarto, Un tercio, La mitad, Dos tercios",
+      "respuestaCorrecta": "Un tercio",
+      "justificacion": "El texto señala que hoy un tercio de toda la feligresía de los Estados Unidos vive en la costa oeste.",
+      "id": 156,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 6,
+      "enunciado": "¿Con quiénes viajó J. N. Andrews a Europa en 1874, tras enviudar en 1872?",
+      "opciones": "Con sus hijos Charles y Mary, Con su esposa y su hermano, Solo, sin familia, Con Josué Himes y su familia",
+      "respuestaCorrecta": "Con sus hijos Charles y Mary",
+      "justificacion": "Andrews se embarcó ese mismo año con su hijo Charles, de 17 años, y su hija Mary, de 13.",
+      "id": 157,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 6,
+      "enunciado": "¿En qué país encontró J. N. Andrews un grupo de 46 observadores del sábado, fruto de las labores de Czechowski?",
+      "opciones": "Prusia, Rusia, Italia, Rumania",
+      "respuestaCorrecta": "Prusia",
+      "justificacion": "Andrews visitó Prusia donde encontró un grupo de 46 observadores del sábado, fruto de las labores de M. B. Czechowski.",
+      "id": 158,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 6,
+      "enunciado": "¿Quién trabajó como misionero en Italia, Alemania, Francia, Suiza y Rumania?",
+      "opciones": "A. C. Bourdeau, D. T. Bourdeau, Philpp Reiswig, Guillermo Ings",
+      "respuestaCorrecta": "A. C. Bourdeau",
+      "justificacion": "D. T. Bourdeau fue enviado a confirmar la obra en Francia, y su hermano A. C. Bourdeau trabajó en Italia, Alemania, Francia, Suiza y Rumania.",
+      "id": 159,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 6,
+      "enunciado": "¿Quién fue el primero en llevar la verdad adventista a Rusia, a pesar de ser tartamudo y tener poca preparación?",
+      "opciones": "Philpp Reiswig, Juan G. Matteson, Guillermo Ings, A. C. Bourdeau",
+      "respuestaCorrecta": "Philpp Reiswig",
+      "justificacion": "Philpp Reiswig fue el primero que llevó la verdad a Rusia; aunque era tartamudo, Dios hizo de él un obrero excelente.",
+      "id": 160,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 6,
+      "enunciado": "¿Quién se hizo cargo del trabajo en Inglaterra al embarcarse en diciembre de 1878, atendiendo los insistentes pedidos de Guillermo Ings?",
+      "opciones": "J. N. Loughborough, J. N. Andrews, D. T. Bourdeau, Juan G. Matteson",
+      "respuestaCorrecta": "J. N. Loughborough",
+      "justificacion": "Los pedidos de Ings eran tan insistentes que en diciembre de 1878 se embarcó J. N. Loughborough y se hizo cargo del trabajo en Inglaterra.",
+      "id": 161,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Qué asociación fue la primera, en 1889, en formar un departamento de jóvenes para todo su territorio, conocido como 'Cristianos Voluntarios'?",
+      "opciones": "La Asociación de Ohío, La Asociación de Michigan, La Asociación de Massachusetts, La Asociación de Nueva York",
+      "respuestaCorrecta": "La Asociación de Ohío",
+      "justificacion": "La Asociación de Ohío fue la primera, en 1889, en formar una organización de jóvenes para todo el territorio, conocida como Cristianos Voluntarios.",
+      "id": 162,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿En qué año se organizó oficialmente el Departamento de Jóvenes de la Asociación General?",
+      "opciones": "1889, 1901, 1907, 1913",
+      "respuestaCorrecta": "1907",
+      "justificacion": "El Congreso de 1901 confió el cuidado de las sociedades de jóvenes al Departamento de Escuela Sabática, y en 1907 se organizó oficialmente el Departamento de Jóvenes.",
+      "id": 163,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Cuántas iglesias y miembros había en 1883, veinte años después de organizarse la Asociación General?",
+      "opciones": "125 iglesias y 3.500 miembros, 680 iglesias y 17.436 miembros, 1.392 iglesias y 400.876 miembros, 2.611 iglesias y 637.033 miembros",
+      "respuestaCorrecta": "680 iglesias y 17.436 miembros",
+      "justificacion": "En 1883 había 680 iglesias y 17.436 miembros, con diezmos que alcanzaron los 96.500 dólares de aquella época.",
+      "id": 164,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Quién ideó el plan de 'estudios bíblicos' de preguntas y respuestas al ser interrumpido por lluvia torrencial en un encuentro campestre?",
+      "opciones": "Stephen Haskell, Jorge I. Butler, A. G. Daniells, S. N. Haskell",
+      "respuestaCorrecta": "Stephen Haskell",
+      "justificacion": "El pastor Stephen Haskell, interrumpido por la lluvia, reunió a un grupo, repartió textos bíblicos e hizo preguntas, dando origen al método de 'estudios bíblicos'.",
+      "id": 165,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Quién visitó Europa en 1884 y organizó una asociación, siendo presidente de la Asociación General?",
+      "opciones": "Jorge I. Butler, A. G. Daniells, S. N. Haskell, C. H. Watson",
+      "respuestaCorrecta": "Jorge I. Butler",
+      "justificacion": "Jorge I. Butler, presidente de la Asociación General, visitó Europa en 1884 y organizó una asociación.",
+      "id": 166,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Quién llegó a Nueva Zelanda con su esposa en 1886 para dar inicio a la obra permanente en ese país?",
+      "opciones": "A. G. Daniells, S. N. Haskell, Jorge I. Butler, Juan I. Tay",
+      "respuestaCorrecta": "A. G. Daniells",
+      "justificacion": "El pastor Haskell visitó Nueva Zelanda en 1885, pero la obra permanente no comenzó hasta que llegó el pastor A. G. Daniells con su esposa en 1886.",
+      "id": 167,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿En qué año se fundó el Colegio Avondale en Australia, impulsado por Elena de White?",
+      "opciones": "1886, 1891, 1893, 1894",
+      "respuestaCorrecta": "1894",
+      "justificacion": "En 1894 se fundó el Colegio Avondale en Australia, institución fundada por Elena de White que enviaría misioneros a muchas partes del mundo.",
+      "id": 168,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Durante su estadía de casi diez años en qué país impulsó Elena de White la idea de crear la primera 'unión' organizativa, en 1894?",
+      "opciones": "Australia, Sudáfrica, Inglaterra, Estados Unidos",
+      "respuestaCorrecta": "Australia",
+      "justificacion": "En 1894, durante la estadía de Elena de White en Australia, surgió la idea y se creó por primera vez una 'unión', modelo para el resto del mundo.",
+      "id": 169,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Qué médico rompió con la organización de la iglesia, fue amonestado por sincretizar ideas panteístas con la religión de Cristo y perdió el control del sanatorio de Battle Creek?",
+      "opciones": "El Dr. J. H. Kellogg, El Dr. F. C. Castle, El Dr. J. P. Kellogg, El Dr. W. A. Spicer",
+      "respuestaCorrecta": "El Dr. J. H. Kellogg",
+      "justificacion": "El Dr. J. H. Kellogg, director médico del Sanatorio de Battle Creek, rompió con la organización al no aceptar los consejos de Elena de White.",
+      "id": 170,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 7,
+      "enunciado": "¿Cuál de estas instituciones fue fundada en 1893, siendo el primer colegio adventista fuera de los Estados Unidos?",
+      "opciones": "El colegio cerca de la Ciudad del Cabo, en África del Sur, El Colegio Avondale, en Australia, El Colegio de las Antillas, en Puerto Rico, El Colegio del Plata, en Argentina",
+      "respuestaCorrecta": "El colegio cerca de la Ciudad del Cabo, en África del Sur",
+      "justificacion": "En este período se organizó el primer colegio adventista fuera de los Estados Unidos, establecido en 1893 cerca de la Ciudad del Cabo, en África del Sur.",
+      "id": 171,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿En qué años entraron R. A. Caldwell y J. L. McElhany a las islas Filipinas como misioneros?",
+      "opciones": "1905 y 1906, 1909 y 1910, 1912 y 1913, 1914 y 1915",
+      "respuestaCorrecta": "1905 y 1906",
+      "justificacion": "R. A. Caldwell (1905) y J. L. McElhany (1906) entraron en las islas Filipinas como parte de la expansión misionera de este período.",
+      "id": 172,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿En qué año se abrió el American Medical Missionary College en Illinois?",
+      "opciones": "1884, 1895, 1910, 1913",
+      "respuestaCorrecta": "1895",
+      "justificacion": "En 1895 se abrió el American Medical Missionary College en Illinois, que quince años más tarde pasó a depender de la universidad estatal.",
+      "id": 173,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿En qué año se abrió una clínica en Los Ángeles que luego se convirtió en el White Memorial Hospital?",
+      "opciones": "1910, 1913, 1918, 1923",
+      "respuestaCorrecta": "1913",
+      "justificacion": "En 1913 se abrió una clínica en Los Ángeles, que luego se convirtió en el White Memorial Hospital.",
+      "id": 174,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿Cómo se llama actualmente la institución que en 1910 era el College of Medical Evangelist en Loma Linda?",
+      "opciones": "Loma Linda University, Universidad Andrews, Universidad de Montemorelos, Andrews Memorial",
+      "respuestaCorrecta": "Loma Linda University",
+      "justificacion": "Ese colegio recibió más tarde el nombre de Loma Linda University, manteniendo hasta hoy altas normas en la capacitación de médicos.",
+      "id": 175,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿Cada cuántos años pasaron a realizarse los congresos de la Asociación General a partir de la decisión tomada en 1905?",
+      "opciones": "Cada dos años, Cada tres años, Cada cuatro años, Cada cinco años",
+      "respuestaCorrecta": "Cada cuatro años",
+      "justificacion": "En el congreso de 1905 se decidió que los congresos, antes bienales, pasaran a realizarse cada cuatro años; en 1970 se adoptó el ciclo de cinco años.",
+      "id": 176,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 8,
+      "enunciado": "¿En qué año inició F. A. Stahl la obra entre los incas de Sudamérica?",
+      "opciones": "1907, 1909, 1912, 1914",
+      "respuestaCorrecta": "1909",
+      "justificacion": "F. A. Stahl inicia la obra entre los incas de Sudamérica en 1909, según la lista de misioneros de este período.",
+      "id": 177,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 9,
+      "enunciado": "¿Quién fue nombrado presidente de la Asociación General en 1930, destacándose por su integridad financiera durante la Gran Depresión?",
+      "opciones": "C. H. Watson, W. H. Branson, R. R. Figuhr, W. A. Spicer",
+      "respuestaCorrecta": "C. H. Watson",
+      "justificacion": "En 1930, el pastor C. H. Watson, presidente de la División Australasiana, fue nombrado presidente de la Asociación General.",
+      "id": 178,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 9,
+      "enunciado": "¿Cuánto decrecieron las entradas mundiales de la iglesia entre 1931 y 1934 debido a la Gran Depresión?",
+      "opciones": "10 millones de dólares, 54 millones de dólares, 90 millones de dólares, 100 millones de dólares",
+      "respuestaCorrecta": "54 millones de dólares",
+      "justificacion": "Como resultado de la depresión financiera, entre 1931 y 1934 las entradas mundiales de la iglesia decrecieron en 54 millones de dólares.",
+      "id": 179,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 9,
+      "enunciado": "¿En qué año se transformó la Sociedad Americana de Temperancia en la Asociación Internacional de Temperancia?",
+      "opciones": "1932, 1941, 1947, 1955",
+      "respuestaCorrecta": "1947",
+      "justificacion": "La Sociedad Americana de Temperancia, organizada en 1932, se transformó en 1947 en la Asociación Internacional de Temperancia.",
+      "id": 180,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 9,
+      "enunciado": "¿A qué estado se trasladó el Seminario Teológico Adventista en 1960, dando origen a la Universidad Andrews?",
+      "opciones": "Michigan, California, Maryland, Florida",
+      "respuestaCorrecta": "Michigan",
+      "justificacion": "En 1960 se trasladó el Seminario a Michigan y se creó la Universidad Andrews, llamada así en honor a J. N. Andrews.",
+      "id": 181,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 9,
+      "enunciado": "¿A pesar de la Gran Depresión, cuántos miembros más ganó la feligresía mundial entre 1931 y 1934?",
+      "opciones": "40.000, 90.000, 150.000, 200.000",
+      "respuestaCorrecta": "90.000",
+      "justificacion": "A pesar de la crisis financiera, la feligresía aumentó en 90.000 miembros más, y se establecieron 48 misiones nuevas.",
+      "id": 182,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 10,
+      "enunciado": "¿En qué país se estableció un colegio secundario adventista en 1950?",
+      "opciones": "Islandia, Pakistán, Corea, Sudamérica",
+      "respuestaCorrecta": "Islandia",
+      "justificacion": "En 1950 se estableció un colegio secundario en Islandia, como parte de la expansión de posguerra.",
+      "id": 183,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 10,
+      "enunciado": "¿En qué país se abrió un hospital adventista en 1951?",
+      "opciones": "Pakistán, Islandia, Corea, Japón",
+      "respuestaCorrecta": "Pakistán",
+      "justificacion": "En 1951 se abrió un hospital en Pakistán, y ese mismo año se estableció un orfanato en Corea.",
+      "id": 184,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 10,
+      "enunciado": "¿En qué año se organizó la Asociación Hebrea de las Escrituras, junto con la revista Israelite?",
+      "opciones": "1950, 1952, 1955, 1959",
+      "respuestaCorrecta": "1955",
+      "justificacion": "Se encaró un trabajo especializado en favor de los judíos y la Asociación Hebrea de las Escrituras se organizó en 1955.",
+      "id": 185,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 10,
+      "enunciado": "¿Cuántas estaciones de radio transmitían el mensaje adventista en 27 idiomas diferentes en 1957?",
+      "opciones": "800, 961, 1.000, 1.194",
+      "respuestaCorrecta": "961",
+      "justificacion": "En 1957 la iglesia estaba transmitiendo el mensaje por 961 estaciones de radio, en 27 idiomas diferentes.",
+      "id": 186,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 11,
+      "enunciado": "¿En qué año adoptó oficialmente la Asociación General el 'Plan de cinco días para dejar de fumar'?",
+      "opciones": "1955, 1960, 1962, 1970",
+      "respuestaCorrecta": "1962",
+      "justificacion": "En 1962 la Asociación General adoptó oficialmente el 'Plan de cinco días para dejar de fumar', promovido por el Departamento de Temperancia.",
+      "id": 187,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 11,
+      "enunciado": "¿En qué ciudad se celebró por primera vez, en 1972, el Concilio Otoñal (luego llamado 'Concilio anual') fuera de Norteamérica?",
+      "opciones": "Ciudad de México, Buenos Aires, Río de Janeiro, Bogotá",
+      "respuestaCorrecta": "Ciudad de México",
+      "justificacion": "A partir de 1972 se celebró por primera vez el Concilio Otoñal de la Asociación General fuera de Norteamérica, en la Ciudad de México.",
+      "id": 188,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 11,
+      "enunciado": "¿Cómo se llamó el edificio inaugurado en 1972 para albergar a la mayoría de los departamentos de la Asociación General?",
+      "opciones": "El 'Edificio norte', El 'Edificio central', La 'Torre Adventista', El 'Palacio de Misiones'",
+      "respuestaCorrecta": "El 'Edificio norte'",
+      "justificacion": "En 1972 se debió ampliar las oficinas de la Asociación General, inaugurando el llamado 'Edificio norte'.",
+      "id": 189,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 11,
+      "enunciado": "¿En qué año la membrecía mundial de la iglesia superó por primera vez la marca de los tres millones?",
+      "opciones": "1966, 1972, 1978, 1990",
+      "respuestaCorrecta": "1978",
+      "justificacion": "A principios de 1978 la membrecía mundial llegó a superar la marca de los tres millones, distribuidos en 190 países.",
+      "id": 190,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 11,
+      "enunciado": "¿En qué año la iglesia había superado la marca de los 7 millones de miembros bautizados en todo el mundo?",
+      "opciones": "1978, 1985, 1990, 1992",
+      "respuestaCorrecta": "1992",
+      "justificacion": "En 1992 la iglesia había superado la marca de los 7 millones de miembros bautizados, sin contar los aún no bautizados de la escuela sabática.",
+      "id": 191,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 12,
+      "enunciado": "¿En qué año se organizó el Departamento de Comunicación, al fusionarse Relaciones Públicas y Radio-Televisión?",
+      "opciones": "1950, 1967, 1972, 1985",
+      "respuestaCorrecta": "1972",
+      "justificacion": "El Departamento de Comunicación fue creado en 1972 al sumarse la oficina de Relaciones Públicas (1912) y la obra de Radio-Televisión (1950).",
+      "id": 192,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 12,
+      "enunciado": "¿En qué año fue organizado el Departamento de Educación, profundizando el énfasis puesto por los pioneros en 1872?",
+      "opciones": "1885, 1902, 1913, 1922",
+      "respuestaCorrecta": "1902",
+      "justificacion": "El Departamento de Educación fue organizado en 1902, para seguir el énfasis en la educación cristiana que habían puesto los pioneros desde 1872.",
+      "id": 193,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 12,
+      "enunciado": "¿Con qué nombre se organizó primeramente en 1888 lo que hoy es el Departamento de Asuntos Públicos y Libertad Religiosa?",
+      "opciones": "Asociación de la Libertad de Conciencia, Departamento de Relaciones Públicas, Sociedad de Libertad Civil, Comisión de Derechos Humanos",
+      "respuestaCorrecta": "Asociación de la Libertad de Conciencia",
+      "justificacion": "Esta rama de la obra fue organizada primeramente en 1888 con el nombre de 'Asociación de la Libertad de conciencia'.",
+      "id": 194,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 12,
+      "enunciado": "¿En qué año se organizó la Asociación Ministerial, para ayudar a evangelistas, pastores e instructores bíblicos?",
+      "opciones": "1902, 1913, 1922, 1936",
+      "respuestaCorrecta": "1922",
+      "justificacion": "La Asociación Ministerial fue organizada en 1922 con el fin de ayudar a los obreros a superarse intelectual y espiritualmente.",
+      "id": 195,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 12,
+      "enunciado": "¿Qué organización custodia los escritos de Elena G. de White y coordina sus traducciones y publicaciones?",
+      "opciones": "White Estate, ADRA, ASI, GENCON",
+      "respuestaCorrecta": "White Estate",
+      "justificacion": "El 'White Estate' fue formado en armonía con las disposiciones testamentarias de Elena G. de White para custodiar y promocionar sus escritos.",
+      "id": 196,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿En qué año se organizaron por primera vez las divisiones mundiales de la iglesia?",
+      "opciones": "1901, 1913, 1916, 1922",
+      "respuestaCorrecta": "1916",
+      "justificacion": "En 1916 se organizaron las divisiones; desde esa fecha el mundo ha estado dividido primero en diez y últimamente en trece divisiones.",
+      "id": 197,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿Dónde está ubicada actualmente la sede de la División Afromedioriental, tras trasladarse desde Beirut en 1978?",
+      "opciones": "Nicosia, Chipre, Beirut, Líbano, El Cairo, Egipto, Estambul, Turquía",
+      "respuestaCorrecta": "Nicosia, Chipre",
+      "justificacion": "La sede de la División Afromedioriental estaba en Beirut, Líbano, pero en 1978 fue transferida a Nicosia, Chipre.",
+      "id": 198,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿En qué suburbio de Sídney está ubicada la sede de la División Australasiana?",
+      "opciones": "Wahroonga, Bondi, Parramatta, Manly",
+      "respuestaCorrecta": "Wahroonga",
+      "justificacion": "La sede de la iglesia de la División Australasiana está situada en Wahroonga, un suburbio de Sídney, junto al Hospital Adventista.",
+      "id": 199,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿Dónde está la sede de la División del Lejano Oriente?",
+      "opciones": "Singapur, Manila, Yakarta, Seúl",
+      "respuestaCorrecta": "Singapur",
+      "justificacion": "Con su sede en Singapur, la División del Lejano Oriente abarca uniones-misiones como Corea, Japón y Filipinas, entre otras.",
+      "id": 200,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿En qué ciudad de la India está la sede de la División Sudasiática?",
+      "opciones": "Poona, Nueva Delhi, Bombay, Calcuta",
+      "respuestaCorrecta": "Poona",
+      "justificacion": "Las oficinas de la sede de la División Sudasiática están en Poona, India, junto a la Casa Publicadora Oriental Watchman.",
+      "id": 201,
+      "vecesFallada": 0
+    },
+    {
+      "capituloId": 13,
+      "enunciado": "¿Qué institución es reconocida en la historia de la División Sudamericana por su labor de adiestramiento en Perú?",
+      "opciones": "La Escuela de Adiestramiento del Lago Titicaca, El Colegio Adventista del Plata, El Colegio del Brasil, La Universidad de Montemorelos",
+      "respuestaCorrecta": "La Escuela de Adiestramiento del Lago Titicaca",
+      "justificacion": "Una de las instituciones destacadas de la División Sudamericana en la historia de la iglesia es la Escuela de Adiestramiento del Lago Titicaca, en Perú.",
+      "id": 202,
+      "vecesFallada": 0
+    }
+  ]
+}
