@@ -144,7 +144,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 72,
+      "id": 12,
       "capituloId": 1,
       "enunciado": "¿En qué cita bíblica exacta encontramos el relato de la Creación activa en 6 días y el reposo en sábado?",
       "opciones": "Génesis 1:1 - 2:3, Éxodo 20:1-17, Salmo 104:1-35, Génesis 7:1-24",
@@ -153,7 +153,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 73,
+      "id": 13,
       "capituloId": 1,
       "enunciado": "¿En qué capítulos de Génesis se registra el relato del Diluvio Universal y los 150 días del arca?",
       "opciones": "Génesis 1 - 2, Génesis 7 - 8, Génesis 11 - 12, Génesis 18 - 19",
@@ -162,7 +162,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 74,
+      "id": 14,
       "capituloId": 1,
       "enunciado": "¿Cuál es la cita bíblica exacta que afirma que Israel habitó en Egipto 430 años?",
       "opciones": "Éxodo 12:40-41, Génesis 15:13-14, Éxodo 3:7-10, Josué 6:1-5",
@@ -171,7 +171,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 75,
+      "id": 15,
       "capituloId": 1,
       "enunciado": "¿En qué pasaje de las Escrituras se narra la caída de Jericó tras rodearla durante siete días?",
       "opciones": "Josué 6:1-20, Jueces 7:1-22, Éxodo 17:8-13, 1 Samuel 17:40-50",
@@ -180,7 +180,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 76,
+      "id": 16,
       "capituloId": 1,
       "enunciado": "¿En qué cita bíblica exacta se profetizan los 70 años de cautiverio en Babilonia?",
       "opciones": "Jeremías 25:11-12, Daniel 9:1-2, Isaías 45:1-3, Ezequiel 4:6",
@@ -189,7 +189,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 77,
+      "id": 17,
       "capituloId": 1,
       "enunciado": "¿Cuáles son las dos citas de los evangelios indicadas para el ministerio de Juan el Bautista?",
       "opciones": "Mateo 3:1-4 y Lucas 3:2-3, Juan 1:1-14 y Marcos 1:1-8, Mateo 5:1-12 y Lucas 6:20-26, Juan 3:16 y Mateo 28:19",
@@ -198,7 +198,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 78,
+      "id": 18,
       "capituloId": 1,
       "enunciado": "¿Según Génesis 8:4, sobre qué montes reposó el arca al descender las aguas?",
       "opciones": "Montes de Galaad, Montes de Sión, Montes de Ararat, Montes de Efraín",
@@ -207,7 +207,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 79,
+      "id": 19,
       "capituloId": 1,
       "enunciado": "¿Qué combinación de vestimenta y alimento caracterizaba a Juan el Bautista en el desierto de Judea?",
       "opciones": "Pelo de camello; langostas y miel silvestre, Lino fino; higos y uvas, Piel de cabra; pan y agua, Lana pura; granadas y dátiles",
@@ -216,7 +216,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 80,
+      "id": 20,
       "capituloId": 1,
       "enunciado": "¿Qué acción final combinaron los israelitas el séptimo día para la caída de Jericó?",
       "opciones": "Setenta antorchas encendidas, Lanzamiento masivo de flechas, Siete vueltas y toque de trompetas, Ayuno de 24 horas y vigilia",
@@ -225,7 +225,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 12,
+      "id": 21,
       "capituloId": 2,
       "enunciado": "¿Quiénes sostuvieron en alto las manos de Moisés durante la batalla contra Amalec?",
       "opciones": "Aarón y Caleb, Josué y Caleb, Aarón y Hur, Gedeón y Barac",
@@ -234,7 +234,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 13,
+      "id": 22,
       "capituloId": 2,
       "enunciado": "¿Quién dirigió el combate militar en el campo de batalla contra Amalec mientras Moisés oraba en la cumbre?",
       "opciones": "Barac, Josué, Caleb, Gedeón",
@@ -243,7 +243,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 14,
+      "id": 23,
       "capituloId": 2,
       "enunciado": "¿A cuántos hombres redujo Dios finalmente el ejército de Gedeón para vencer a Madián?",
       "opciones": "A 10.000 hombres, A 7.000 hombres, A 300 hombres, A 1.000 hombres",
@@ -252,7 +252,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 15,
+      "id": 24,
       "capituloId": 2,
       "enunciado": "¿De cuántos combatientes iniciales redujo Dios el ejército de Gedeón a 300 hombres?",
       "opciones": "De 32.000 a 300 hombres, De 50.000 a 300 hombres, De 10.000 a 300 hombres, De 20.000 a 300 hombres",
@@ -261,7 +261,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 16,
+      "id": 25,
       "capituloId": 2,
       "enunciado": "¿Qué tres elementos tácticos usó el ejército de 300 hombres de Gedeón contra Madián?",
       "opciones": "Espadas; lanzas y escudos, Cántaros; teas y trompetas, Flechas; carros y arcos, Piedras; hondas y estandartes",
@@ -270,7 +270,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 17,
+      "id": 26,
       "capituloId": 2,
       "enunciado": "¿Aproximadamente cuánto medía el gigante Goliat de Gat según 1 Samuel 17:40-50?",
       "opciones": "4 codos (~1.80m), 6 codos y un palmo (~2.90m), 8 codos (~3.60m), 5 codos y medio (~2.40m)",
@@ -279,7 +279,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 18,
+      "id": 27,
       "capituloId": 2,
       "enunciado": "¿Con qué armas enfrentó David a Goliat de Gat según 1 Samuel 17:40?",
       "opciones": "Espada de bronce y escudo, Una lanza y un dardo, Una onda y 5 piedras lisas, Arco y 10 flechas",
@@ -288,7 +288,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 19,
+      "id": 28,
       "capituloId": 2,
       "enunciado": "¿Qué fenómeno celestial sin precedentes ocurrió en la batalla de Gabaón dirigida por Josué?",
       "opciones": "La luna se convirtió en sangre, El sol se detuvo casi un día entero, Un terremoto abrió la tierra, Hubo oscuridad total por 3 días",
@@ -297,7 +297,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 20,
+      "id": 29,
       "capituloId": 2,
       "enunciado": "¿Qué milagro destructivo del cielo envió Dios contra los enemigos en la batalla de Gabaón?",
       "opciones": "Fuego consumidor, Torbellinos de viento, Lluvia de azufre, Piedras de granizo del cielo",
@@ -306,7 +306,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 21,
+      "id": 30,
       "capituloId": 2,
       "enunciado": "¿Qué táctica espiritual colocó el rey Josafat al frente del ejército de Judá según 2 Crónicas 20:20-22?",
       "opciones": "Colocó a los arqueros más veloces, Colocó cantores al frente alabando a Dios, Colocó sacerdotes en silencio riguroso, Colocó una vanguardia de carros de combate",
@@ -315,7 +315,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 22,
+      "id": 31,
       "capituloId": 2,
       "enunciado": "¿Qué les ocurrió a los enemigos del rey Josafat mientras los cantores alababan a Dios?",
       "opciones": "Se rindieron pacíficamente, Huyeron hacia el mar, Se destruyeron entre sí mutuamente, Fueron consumidos por fuego",
@@ -324,7 +324,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 87,
+      "id": 32,
       "capituloId": 2,
       "enunciado": "¿En qué cita bíblica exacta se narra la victoria sobre Amalec con Moisés, Josué, Aarón y Hur?",
       "opciones": "Éxodo 17:8-13, Números 14:1-10, Éxodo 20:1-17, Deuteronomio 25:17-19",
@@ -333,7 +333,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 88,
+      "id": 33,
       "capituloId": 2,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la batalla de Gedeón y sus 300 hombres contra Madián?",
       "opciones": "Jueces 7:1-22, Josué 6:1-20, Jueces 4:1-16, 1 Samuel 14:1-15",
@@ -342,7 +342,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 89,
+      "id": 34,
       "capituloId": 2,
       "enunciado": "¿En qué cita bíblica exacta se encuentra el combate de David contra Goliat de Gat?",
       "opciones": "1 Samuel 17:40-50, 2 Samuel 5:1-10, 1 Samuel 16:1-13, 1 Crónicas 11:1-9",
@@ -351,7 +351,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 90,
+      "id": 35,
       "capituloId": 2,
       "enunciado": "¿En qué cita bíblica exacta se registra la batalla de Gabaón donde el sol se detuvo?",
       "opciones": "Josué 10:11-14, Josué 1:1-9, Jueces 5:1-12, 2 Samuel 22:1-15",
@@ -360,7 +360,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 91,
+      "id": 36,
       "capituloId": 2,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la victoria del rey Josafat mediante cantores que alababan a Dios?",
       "opciones": "2 Crónicas 20:20-22, 1 Reyes 18:20-40, 2 Reyes 19:14-37, Salmo 46:1-11",
@@ -369,7 +369,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 92,
+      "id": 37,
       "capituloId": 2,
       "enunciado": "¿De qué ciudad filistea era originario el gigante Goliat que combatió contra David?",
       "opciones": "De Asdod, De Gat, De Ecrón, De Ascalón",
@@ -378,7 +378,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 93,
+      "id": 38,
       "capituloId": 2,
       "enunciado": "¿Quién fue el líder militar que dirigió la batalla de Gabaón según Josué 10:11-14?",
       "opciones": "Caleb, Gedeón, Josué, Otoniel",
@@ -387,7 +387,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 94,
+      "id": 39,
       "capituloId": 2,
       "enunciado": "¿Quién era el rey de Judá que lideró la victoria en 2 Crónicas 20:20-22 colocando cantores al frente?",
       "opciones": "El rey Ezequías, El rey Josías, El rey Josafat de Judá, El rey David",
@@ -396,7 +396,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 95,
+      "id": 40,
       "capituloId": 2,
       "enunciado": "¿Cuántas piedras lisas escogió David en el arroyo para enfrentar a Goliat con su onda?",
       "opciones": "Tres piedras lisas, Siete piedras lisas, Cinco piedras lisas, Una sola piedra lisa",
@@ -405,7 +405,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 23,
+      "id": 41,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Abraham', dado tras el cambio de nombre por el pacto en Génesis 17:5?",
       "opciones": "Príncipe victorioso, Padre de muchedumbres, Siervo fiel de Dios, Amigo de Jehová",
@@ -414,7 +414,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 24,
+      "id": 42,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Abram', antes del cambio de nombre por el pacto?",
       "opciones": "Padre de naciones, Padre enaltecido, Hijo prometido, Patriarca justo",
@@ -423,7 +423,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 25,
+      "id": 43,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Sara', dado a la madre del hijo de la promesa en Génesis 17:15?",
       "opciones": "Mi sierva humilde, Princesa (madre de naciones), Paloma hermosa, Fuente de alegría",
@@ -432,7 +432,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 26,
+      "id": 44,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Sarai', antes del cambio registrado en Génesis 17:15?",
       "opciones": "Reina coronada, Sierva escogida, Mi princesa, Flor del desierto",
@@ -441,7 +441,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 27,
+      "id": 45,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Israel', dado a Jacob tras su lucha en Peniel, según Génesis 32:28?",
       "opciones": "El que suplanta, El que lucha con Dios (príncipe), El siervo paciente, El heredero del pacto",
@@ -450,7 +450,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 28,
+      "id": 46,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Jacob', antes de convertirse en Israel?",
       "opciones": "El amado del padre, El que suplanta, El caminante del desierto, El hermano menor",
@@ -459,7 +459,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 29,
+      "id": 47,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Moisés', según la explicación dada en Éxodo 2:10?",
       "opciones": "Líder del pueblo, Rescatado del Nilo, Sacado de las aguas, Legislador divino",
@@ -468,7 +468,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 30,
+      "id": 48,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Samuel', según la respuesta a la oración de Ana en 1 Samuel 1:20?",
       "opciones": "Consagrado a Jehová, Oído por Dios / Pedido a Dios, Profeta fiel, Siervo del santuario",
@@ -477,7 +477,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 31,
+      "id": 49,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'David', ungido rey de Israel en 1 Samuel 16:13?",
       "opciones": "Hombre fuerte, Vencedor de gigantes, Amado / Predilecto, Pastor de Israel",
@@ -486,7 +486,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 32,
+      "id": 50,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Beltesasar', impuesto a Daniel en Daniel 1:6-7?",
       "opciones": "Siervo del sol, Dios es mi juez, Príncipe de Bel, Sabio de Babilonia",
@@ -495,7 +495,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 33,
+      "id": 51,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Daniel', fiel en la corte babilónica según Daniel 1:6-7?",
       "opciones": "Jehová es mi fortaleza, Dios es mi juez, Siervo de Dios, Sabio en la corte",
@@ -504,7 +504,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 34,
+      "id": 52,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Ananías', compañero de Daniel según Daniel 1:7?",
       "opciones": "Jehová ha tenido misericordia, ¿Quién es como Dios?, Dios es mi escudo, Jehová ha ayudado",
@@ -513,7 +513,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 35,
+      "id": 53,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Sadrac', impuesto a Ananías en Daniel 1:7?",
       "opciones": "Príncipe del fuego, Comando de Aku, Siervo de Nego, Luz de Babilonia",
@@ -522,7 +522,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 36,
+      "id": 54,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Misael', compañero de Daniel según Daniel 1:7?",
       "opciones": "¿Quién es lo que Dios es?, Jehová es mi salvación, Amigo de Dios, El Señor es justo",
@@ -531,7 +531,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 37,
+      "id": 55,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Mesac', impuesto a Misael en Daniel 1:7?",
       "opciones": "Guardián de Bel, ¿Quién es como Aku?, Amigo del rey, Siervo valiente",
@@ -540,7 +540,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 38,
+      "id": 56,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Azarías', compañero de Daniel según Daniel 1:7?",
       "opciones": "Jehová ha ayudado, Dios ha perdonado, El Señor es grande, Fiel a Jehová",
@@ -549,7 +549,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 39,
+      "id": 57,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Abed-nego', impuesto a Azarías en Daniel 1:7?",
       "opciones": "Príncipe de Bel, Comando de Aku, Siervo de Nego, Fuerte en el fuego",
@@ -558,7 +558,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 40,
+      "id": 58,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Juan', anunciado por el ángel Gabriel en Lucas 1:13?",
       "opciones": "Voz en el desierto, Elías que había de venir, Jehová es grato / Dios ha mostrado favor, Siervo ungido",
@@ -567,7 +567,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 41,
+      "id": 59,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Jesús' o 'Josué' según la explicación dada en Mateo 1:21?",
       "opciones": "Dios con nosotros, Jehová es salvación / El Señor salva, Príncipe de paz, El Santo de Israel",
@@ -576,7 +576,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 42,
+      "id": 60,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Cefas' o 'Pedro' según Juan 1:42 y Mateo 16:18?",
       "opciones": "Pescador de hombres, Discípulo amado, Piedra / Roca pequeña, Columna de la iglesia",
@@ -585,7 +585,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 43,
+      "id": 61,
       "capituloId": 4,
       "enunciado": "Según Proverbios 1:7 (RVR1995), ¿qué constituye 'el principio de la sabiduría'?",
       "opciones": "La riqueza abundante, La fuerza física, El temor de Jehová, La elocuencia humana",
@@ -594,7 +594,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 44,
+      "id": 62,
       "capituloId": 4,
       "enunciado": "Según Proverbios 1:7 (RVR1995), ¿qué actitud tienen los insensatos hacia la sabiduría y la enseñanza?",
       "opciones": "La ignoran sin saberlo, La aceptan a medias, La desprecian por completo, La buscan con afán",
@@ -603,7 +603,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 45,
+      "id": 63,
       "capituloId": 4,
       "enunciado": "Según Proverbios 3:5 (RVR1995), ¿en qué no debemos apoyarnos al fiarnos de Jehová de todo corazón?",
       "opciones": "En nuestra propia familia, En nuestra propia fuerza, En nuestras propias riquezas, En nuestra propia prudencia",
@@ -612,7 +612,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 46,
+      "id": 64,
       "capituloId": 4,
       "enunciado": "Según Proverbios 3:6 (RVR1995), ¿qué promete Dios a quien lo reconoce en todos sus caminos?",
       "opciones": "Que le dará riquezas abundantes, Que le dará muchos hijos, Que le concederá larga vida, Que él enderezará sus veredas",
@@ -621,7 +621,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 47,
+      "id": 65,
       "capituloId": 4,
       "enunciado": "Según Proverbios 15:1 (RVR1995), ¿qué efecto tiene la blanda respuesta sobre la ira?",
       "opciones": "La blanda respuesta aumenta la ira, La blanda respuesta retrasa la ira, La blanda respuesta quita la ira, La blanda respuesta ignora la ira",
@@ -630,7 +630,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 48,
+      "id": 66,
       "capituloId": 4,
       "enunciado": "Según Proverbios 15:1 (RVR1995), ¿qué efecto produce la palabra áspera?",
       "opciones": "Calma toda discusión, Hace subir el furor, Genera arrepentimiento inmediato, No produce ningún efecto",
@@ -639,7 +639,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 49,
+      "id": 67,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:3 (RVR1995), ¿qué sucede si encomendamos a Jehová nuestras obras?",
       "opciones": "Nuestras riquezas se multiplicarán, Nuestros enemigos huirán de inmediato, Nuestros pensamientos serán afirmados, Nuestros días se alargarán siempre",
@@ -648,7 +648,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 50,
+      "id": 68,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:18 (RVR1995), ¿qué precede a la caída?",
       "opciones": "La pereza constante, La avaricia desmedida, La ignorancia voluntaria, La altivez de espíritu",
@@ -657,7 +657,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 51,
+      "id": 69,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:18 (RVR1995), ¿qué antecede específicamente al quebrantamiento?",
       "opciones": "La envidia, La avaricia, La soberbia, La pereza",
@@ -666,7 +666,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 52,
+      "id": 70,
       "capituloId": 4,
       "enunciado": "Según Proverbios 22:6 (RVR1995), ¿qué ocurrirá cuando el niño instruido en su camino llegue a ser viejo?",
       "opciones": "Buscará nuevos caminos propios, No se apartará de ese camino, Dudará de su instrucción, Olvidará todo lo aprendido",
@@ -675,7 +675,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 53,
+      "id": 71,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la frase: 'la blanda respuesta quita la ira'?",
       "opciones": "Proverbios 16:18, Proverbios 15:1, Proverbios 3:5-6, Proverbios 22:6",
@@ -684,7 +684,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 54,
+      "id": 72,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la frase: 'antes de la caída la altivez de espíritu'?",
       "opciones": "Proverbios 1:7, Proverbios 15:1, Proverbios 16:18, Proverbios 16:3",
@@ -693,7 +693,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 106,
+      "id": 73,
       "capituloId": 4,
       "enunciado": "Según Proverbios 3:5 (RVR1995), ¿con cuánta entrega se nos exhorta a fiarnos de Jehová?",
       "opciones": "Solo en tiempos de dificultad, Con parte de nuestras fuerzas, De todo nuestro corazón, Únicamente al tomar decisiones",
@@ -702,7 +702,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 107,
+      "id": 74,
       "capituloId": 4,
       "enunciado": "Según Proverbios 22:6 (RVR1995), ¿a quién se nos manda instruir en su camino?",
       "opciones": "Al gobernante, Al anciano, Al niño, Al extranjero",
@@ -711,7 +711,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 108,
+      "id": 75,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:3 (RVR1995), ¿qué debemos encomendar a Jehová para que nuestros pensamientos sean afirmados?",
       "opciones": "Nuestras posesiones, Nuestras obras, Nuestras quejas, Nuestras dudas",
@@ -720,7 +720,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 109,
+      "id": 76,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta encontramos la declaración: 'El principio de la sabiduría es el temor de Jehová'?",
       "opciones": "Proverbios 22:6, Proverbios 15:1, Proverbios 16:3, Proverbios 1:7",
@@ -729,7 +729,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 110,
+      "id": 77,
       "capituloId": 4,
       "enunciado": "¿En qué pasaje bíblico se nos promete: 'Reconócelo en todos tus caminos, y él enderezará tus veredas'?",
       "opciones": "Proverbios 16:18, Proverbios 3:5-6, Proverbios 1:7, Proverbios 15:1",
@@ -738,7 +738,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 111,
+      "id": 78,
       "capituloId": 4,
       "enunciado": "¿Qué cita bíblica declara: 'Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él'?",
       "opciones": "Proverbios 3:5-6, Proverbios 1:7, Proverbios 22:6, Proverbios 16:3",
@@ -747,7 +747,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 112,
+      "id": 79,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta se nos enseña: 'Encomienda a Jehová tus obras, y tus pensamientos serán afirmados'?",
       "opciones": "Proverbios 16:3, Proverbios 16:18, Proverbios 22:6, Proverbios 15:1",
@@ -756,7 +756,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 113,
+      "id": 80,
       "capituloId": 4,
       "enunciado": "Completando el texto de Proverbios 15:1 (RVR1995): 'La blanda respuesta quita la ira; mas la palabra áspera hace subir...'",
       "opciones": "La contienda, El furor, La tristeza, El rencor",
@@ -765,7 +765,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 55,
+      "id": 81,
       "capituloId": 5,
       "enunciado": "En la parábola del Sembrador, ¿qué representan las cuatro tierras según la guía teológica?",
       "opciones": "Cuatro naciones gentiles, Las 4 tierras representan la actitud del corazón humano al recibir la Palabra de Dios, Cuatro períodos proféticos, Cuatro niveles de riqueza",
@@ -774,7 +774,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 56,
+      "id": 82,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Sembrador?",
       "opciones": "Mateo 13:3-23, Lucas 15:1-7, Lucas 10:25-37, Mateo 25:14-30",
@@ -783,7 +783,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 57,
+      "id": 83,
       "capituloId": 5,
       "enunciado": "¿Cuál es la enseñanza teológica clave de la parábola del Buen Samaritano?",
       "opciones": "La pureza ceremonial de los levitas, El verdadero prójimo es aquel que muestra misericordia práctica sin prejuicios, La condenación de los viajes peligrosos, El valor del hospedaje en mesones",
@@ -792,7 +792,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 58,
+      "id": 84,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Buen Samaritano?",
       "opciones": "Lucas 10:25-37, Mateo 13:3-23, Lucas 15:11-32, Mateo 25:14-30",
@@ -801,7 +801,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 59,
+      "id": 85,
       "capituloId": 5,
       "enunciado": "¿Cuál es la enseñanza teológica central de la parábola del Hijo Pródigo?",
       "opciones": "La buena administración de la herencia terrenal, El peligro de viajar a provincias lejanas, El amor incondicional del Padre celestial hacia el pecador arrepentido, La justicia severa hacia el desobediente",
@@ -810,7 +810,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 60,
+      "id": 86,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Hijo Pródigo?",
       "opciones": "Lucas 15:11-32, Lucas 10:25-37, Mateo 25:14-30, Mateo 13:3-23",
@@ -819,7 +819,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 61,
+      "id": 87,
       "capituloId": 5,
       "enunciado": "¿Cuál es la enseñanza teológica clave de la parábola de la Oveja Perdida?",
       "opciones": "El pastor debe cuidar solo al noventa y nueve por ciento, Jesús busca activamente a quien se ha descarriado; hay gozo en el cielo por un pecador que se arrepiente, Las ovejas nunca se pierden solas, El peligro de los lobos en el desierto",
@@ -828,7 +828,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 62,
+      "id": 88,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de la Oveja Perdida?",
       "opciones": "Lucas 15:1-7, Mateo 13:3-23, Lucas 10:25-37, Mateo 25:14-30",
@@ -837,7 +837,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 63,
+      "id": 89,
       "capituloId": 5,
       "enunciado": "¿Cuál es la enseñanza teológica clave de la parábola de los Talentos?",
       "opciones": "Enterrar los recursos para no arriesgarlos, Fidelidad y responsabilidad en administrar las capacidades que Dios nos ha encomendado, Ganar dinero sin importar los medios, La superioridad de quien recibe más talentos",
@@ -846,7 +846,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 64,
+      "id": 90,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de los Talentos?",
       "opciones": "Mateo 25:14-30, Lucas 15:1-7, Mateo 13:3-23, Lucas 10:25-37",
@@ -855,7 +855,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 114,
+      "id": 91,
       "capituloId": 5,
       "enunciado": "¿En qué parábola de Jesús se enseña que el verdadero prójimo muestra misericordia práctica sin prejuicios?",
       "opciones": "El Buen Samaritano, El Sembrador, El Hijo Pródigo, Los Talentos",
@@ -864,7 +864,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 115,
+      "id": 92,
       "capituloId": 5,
       "enunciado": "¿Qué parábola destaca que Jesús busca activamente al descarriado y hay gozo celestial por su arrepentimiento?",
       "opciones": "La Oveja Perdida, El Sembrador, Los Talentos, El Buen Samaritano",
@@ -873,7 +873,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 116,
+      "id": 93,
       "capituloId": 5,
       "enunciado": "¿Qué parábola ilustra el amor incondicional del Padre celestial hacia el pecador arrepentido?",
       "opciones": "El Hijo Pródigo, Los Talentos, El Sembrador, La Oveja Perdida",
@@ -882,7 +882,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 117,
+      "id": 94,
       "capituloId": 5,
       "enunciado": "¿Qué parábola enseña la fidelidad y responsabilidad en administrar las capacidades dadas por Dios?",
       "opciones": "Los Talentos, El Sembrador, El Buen Samaritano, La Oveja Perdida",
@@ -891,7 +891,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 118,
+      "id": 95,
       "capituloId": 5,
       "enunciado": "¿En qué parábola las cuatro tierras representan la actitud del corazón humano al recibir la Palabra de Dios?",
       "opciones": "El Sembrador, El Hijo Pródigo, Los Talentos, El Buen Samaritano",
@@ -900,7 +900,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 119,
+      "id": 96,
       "capituloId": 5,
       "enunciado": "¿Cuál es la cita bíblica exacta de la parábola del Buen Samaritano en el evangelio de Lucas?",
       "opciones": "Lucas 10:25-37, Lucas 15:1-7, Lucas 15:11-32, Lucas 19:1-10",
@@ -909,7 +909,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 120,
+      "id": 97,
       "capituloId": 5,
       "enunciado": "¿Cuál es la cita bíblica exacta de la parábola del Sembrador en el evangelio de Mateo?",
       "opciones": "Mateo 13:3-23, Mateo 25:14-30, Mateo 18:21-35, Mateo 20:1-16",
@@ -918,7 +918,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 121,
+      "id": 98,
       "capituloId": 5,
       "enunciado": "¿Cuál es la cita bíblica exacta de la parábola de los Talentos en el evangelio de Mateo?",
       "opciones": "Mateo 25:14-30, Mateo 13:3-23, Mateo 24:1-14, Mateo 7:24-27",
@@ -927,7 +927,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 122,
+      "id": 99,
       "capituloId": 5,
       "enunciado": "¿Cuál es la cita bíblica exacta de la parábola del Hijo Pródigo en el evangelio de Lucas?",
       "opciones": "Lucas 15:11-32, Lucas 10:25-37, Lucas 15:1-7, Lucas 16:1-13",
@@ -936,7 +936,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 123,
+      "id": 100,
       "capituloId": 5,
       "enunciado": "¿Cuál es la cita bíblica exacta de la parábola de la Oveja Perdida en el evangelio de Lucas?",
       "opciones": "Lucas 15:1-7, Lucas 15:11-32, Lucas 10:25-37, Lucas 12:32-34",
@@ -945,7 +945,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 65,
+      "id": 101,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el término 'Pacto' (Berith / Diatheke) en este vocabulario bíblico fundamental?",
       "opciones": "Una alianza temporal entre gobernantes, Acuerdo solemne e inquebrantable iniciado por Dios con su pueblo; basado en sus promesas, Un contrato legal entre iguales, Una promesa condicional revocable",
@@ -954,7 +954,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 66,
+      "id": 102,
       "capituloId": 6,
       "enunciado": "¿Cómo se define 'Expiación / Expiar' en este vocabulario bíblico fundamental?",
       "opciones": "El castigo eterno del impío, Cubrir o borrar el pecado mediante un sacrificio sustitutivo para reconciliar al hombre con Dios, Una penitencia voluntaria del pecador, La compensación económica por un daño",
@@ -963,7 +963,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 67,
+      "id": 103,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Gracia' (Charis) en este vocabulario teológico?",
       "opciones": "La recompensa por guardar la ley, Un don concedido a los más piadosos, Favor inmerecido otorgado por Dios al pecador para salvación y transformación, Una bendición material terrenal",
@@ -972,7 +972,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 68,
+      "id": 104,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Justificación' en este vocabulario teológico?",
       "opciones": "La perfección alcanzada por obras humanas, El perdón de faltas leves únicamente, Declaración divina mediante la cual el pecador arrepentido es considerado justo por la fe en Cristo, El juicio favorable de los hombres",
@@ -981,7 +981,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 69,
+      "id": 105,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Santificación' en este vocabulario teológico?",
       "opciones": "Un acto instantáneo al bautizarse, Proceso continuo mediante la acción del Espíritu Santo para moldear el carácter a la imagen de Cristo, El retiro del mundo a un monasterio, La renuncia total a los bienes terrenales",
@@ -990,7 +990,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 70,
+      "id": 106,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el 'Remanente' en este vocabulario bíblico fundamental?",
       "opciones": "El pueblo de Israel en el Antiguo Testamento, Una pequeña facción política judía, El grupo fiel de creyentes que permanece obediente a los mandamientos de Dios en tiempos de apostasía, Los sobrevivientes de una guerra terrenal",
@@ -999,7 +999,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 71,
+      "id": 107,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Redención' en este vocabulario teológico?",
       "opciones": "Rescate pagado por completo (la sangre de Cristo) para liberar al ser humano de la esclavitud del pecado, El pago de un tributo al templo terrenal, La liberación política de una nación oprimida, La buena reputación moral ante la sociedad",
@@ -1008,7 +1008,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 124,
+      "id": 108,
       "capituloId": 6,
       "enunciado": "¿Cuáles son los términos en hebreo y griego citados en la guía para 'Pacto'?",
       "opciones": "Shalom / Eirene, Berith / Diatheke, Kadosh / Hagios, Hesed / Agape",
@@ -1017,7 +1017,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 125,
+      "id": 109,
       "capituloId": 6,
       "enunciado": "¿Qué término griego se utiliza en la guía para definir 'Gracia'?",
       "opciones": "Charis, Pneuma, Logos, Dunamis",
@@ -1026,7 +1026,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 126,
+      "id": 110,
       "capituloId": 6,
       "enunciado": "¿Qué término teológico se define como: 'Declaración divina mediante la cual el pecador arrepentido es considerado justo por la fe en Cristo'?",
       "opciones": "Justificación, Santificación, Remanente, Expiación",
@@ -1035,7 +1035,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 127,
+      "id": 111,
       "capituloId": 6,
       "enunciado": "¿Qué término teológico se define como: 'Proceso continuo mediante la acción del Espíritu Santo para moldear el carácter a la imagen de Cristo'?",
       "opciones": "Santificación, Justificación, Redención, Pacto",
@@ -1044,7 +1044,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 128,
+      "id": 112,
       "capituloId": 6,
       "enunciado": "¿Qué término bíblico designa al 'grupo fiel de creyentes que permanece obediente a los mandamientos de Dios en tiempos de apostasía'?",
       "opciones": "Remanente, Patriarcas, Diáconos, Levitas",
@@ -1053,7 +1053,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 129,
+      "id": 113,
       "capituloId": 6,
       "enunciado": "¿Qué término se define como: 'Rescate pagado por completo (la sangre de Cristo) para liberar al ser humano de la esclavitud del pecado'?",
       "opciones": "Redención, Expiación, Gracia, Pacto",
@@ -1062,7 +1062,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 130,
+      "id": 114,
       "capituloId": 6,
       "enunciado": "¿Qué término significa: 'Cubrir o borrar el pecado mediante un sacrificio sustitutivo para reconciliar al hombre con Dios'?",
       "opciones": "Expiación / Expiar, Justificación, Santificación, Gracia",
@@ -1071,7 +1071,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 131,
+      "id": 115,
       "capituloId": 6,
       "enunciado": "¿Qué concepto se define como un 'acuerdo solemne e inquebrantable iniciado por Dios con su pueblo; basado en sus promesas'?",
       "opciones": "Pacto (Berith / Diatheke), Redención, Remanente, Ley moral",
@@ -1080,7 +1080,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 132,
+      "id": 116,
       "capituloId": 6,
       "enunciado": "¿Qué término se define como un 'favor inmerecido otorgado por Dios al pecador para salvación y transformación'?",
       "opciones": "Gracia (Charis), Justificación, Santificación, Expiación",
@@ -1089,7 +1089,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 133,
+      "id": 117,
       "capituloId": 6,
       "enunciado": "En la definición de Justificación, ¿por medio de qué es considerado justo el pecador arrepentido ante Dios?",
       "opciones": "Por las obras de la ley, Por la fe en Cristo, Por el sufrimiento personal, Por méritos heredados",
@@ -1098,7 +1098,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 134,
+      "id": 118,
       "capituloId": 6,
       "enunciado": "En la definición de Santificación, ¿mediante la acción de quién se moldea continuamente el carácter a la imagen de Cristo?",
       "opciones": "Mediante la voluntad humana autónoma, Mediante la acción del Espíritu Santo, Mediante la aprobación de la iglesia, Mediante el estudio secular",
@@ -1107,7 +1107,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 135,
+      "id": 119,
       "capituloId": 6,
       "enunciado": "En la definición de Redención, ¿cuál fue el precio de rescate pagado por completo para liberar al ser humano del pecado?",
       "opciones": "Tesoros terrenales de oro y plata, La sangre de Cristo, Buenas obras acumuladas, Sacrificios ceremoniales de animales",
@@ -1116,7 +1116,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 136,
+      "id": 120,
       "capituloId": 6,
       "enunciado": "¿Cuál es el propósito fundamental de la Expiación mediante el sacrificio sustitutivo según el vocabulario bíblico?",
       "opciones": "Evitar penalidades civiles, Reconciliar al hombre con Dios, Demostrar fuerza militar, Satisfacer a gobernantes humanos",
@@ -1125,7 +1125,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 133,
+      "id": 121,
       "capituloId": 7,
       "enunciado": "¿Para qué rango de edad está diseñado el programa del Club de Conquistadores?",
       "opciones": "Personas de todas las edades, Niños de 5 a 9 años de edad, Jóvenes de 16 a 21 años de edad, Menores y adolescentes de 10 a 15 años de edad",
@@ -1134,7 +1134,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 134,
+      "id": 122,
       "capituloId": 7,
       "enunciado": "¿Qué simboliza la 'Espada' en el logo de los Conquistadores?",
       "opciones": "La autoridad del director del club, La Biblia: la Palabra de Dios, La lucha contra el enemigo, La preparación física",
@@ -1143,7 +1143,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 135,
+      "id": 123,
       "capituloId": 7,
       "enunciado": "¿Qué representa el 'Escudo' en el emblema del club?",
       "opciones": "El cuidado de la naturaleza, Protección: escudo de la fe, La unidad de la iglesia, La defensa personal",
@@ -1152,7 +1152,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 136,
+      "id": 124,
       "capituloId": 7,
       "enunciado": "¿Cuál es el significado del 'Triángulo invertido' en el logo?",
       "opciones": "El enfoque en las cosas terrenales, La caída del pecado, Humildad y espíritu de servicio, La jerarquía del club",
@@ -1161,7 +1161,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 137,
+      "id": 125,
       "capituloId": 7,
       "enunciado": "¿Qué representan los 'Tres lados' del triángulo del logo?",
       "opciones": "Liderazgo; obediencia y reverencia, Trinidad (Padre; Hijo y Espíritu Santo) y el trípode educativo (físico; mental y espiritual), Iglesia; hogar y escuela, Pasado; presente y futuro",
@@ -1170,7 +1170,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 138,
+      "id": 126,
       "capituloId": 7,
       "enunciado": "¿Qué significado tiene el color 'Rojo' en la paleta de colores de los Conquistadores?",
       "opciones": "El amor entre los hermanos, La sangre de los mártires, El fuego del Espíritu Santo, El sacrificio de Cristo",
@@ -1179,7 +1179,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 139,
+      "id": 127,
       "capituloId": 7,
       "enunciado": "¿Qué simboliza el color 'Dorado' en el club?",
       "opciones": "El valor de la amistad, Las calles de oro del cielo, Excelencia del carácter, La corona de la vida",
@@ -1188,7 +1188,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 140,
+      "id": 128,
       "capituloId": 7,
       "enunciado": "¿Qué representa el color 'Blanco' en el emblema?",
       "opciones": "La rendición total a Dios, Pureza y justicia de Cristo, La paz mundial, Las vestiduras de los salvos",
@@ -1197,7 +1197,7 @@
       "vecesFallada": 0
     },
     {
-      "id": 141,
+      "id": 129,
       "capituloId": 7,
       "enunciado": "¿Cuál es el significado del color 'Azul'?",
       "opciones": "La inmensidad de la creación, Lealtad del Conquistador, El cielo donde mora Dios, La obediencia a la ley",
