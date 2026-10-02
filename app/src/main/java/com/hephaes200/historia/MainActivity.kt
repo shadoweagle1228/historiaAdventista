@@ -15,6 +15,7 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.booleanResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -100,21 +101,24 @@ fun PantallaMenu(viewModel: HistoriaViewModel) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Tarjeta de rango y racha visible desde el menu principal
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
-            ) {
-                Row(
-                    modifier = Modifier.fillMaxWidth().padding(12.dp),
-                    horizontalArrangement = Arrangement.SpaceEvenly
+            // La tarjeta de rango y racha solo aparece en el flavor "historia"
+            // (controlado por R.bool.show_rango_racha en cada flavor/res/values/bools.xml)
+            if (booleanResource(R.bool.show_rango_racha)) {
+                Card(
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
                 ) {
-                    Text(text = "Rango: $rango", fontWeight = FontWeight.Bold)
-                    Text(text = "Racha: $racha dias", fontWeight = FontWeight.Bold)
+                    Row(
+                        modifier = Modifier.fillMaxWidth().padding(12.dp),
+                        horizontalArrangement = Arrangement.SpaceEvenly
+                    ) {
+                        Text(text = "⭐ Rango: $rango", fontWeight = FontWeight.Bold)
+                        Text(text = "🔥 Racha: $racha días", fontWeight = FontWeight.Bold)
+                    }
                 }
+                Spacer(modifier = Modifier.height(16.dp))
             }
 
-            Spacer(modifier = Modifier.height(32.dp))
             Text(text = "Selecciona un Modo de Juego", fontSize = 18.sp, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -320,7 +324,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
                         modifier = Modifier.weight(1f),
                         contentPadding = PaddingValues(8.dp)
                     ) {
-                        Text(text = "50/50", fontSize = 12.sp, textAlign = TextAlign.Center)
+                        Text(text = "🪄\n50/50", fontSize = 12.sp, textAlign = TextAlign.Center)
                     }
 
                     OutlinedButton(
@@ -329,7 +333,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
                         modifier = Modifier.weight(1f),
                         contentPadding = PaddingValues(8.dp)
                     ) {
-                        Text(text = "Saltar", fontSize = 12.sp, textAlign = TextAlign.Center)
+                        Text(text = "🏃\nSaltar", fontSize = 12.sp, textAlign = TextAlign.Center)
                     }
 
                     OutlinedButton(
@@ -342,7 +346,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
                         else
                             ButtonDefaults.outlinedButtonColors()
                     ) {
-                        Text(text = "Escudo", fontSize = 12.sp, textAlign = TextAlign.Center)
+                        Text(text = "🛡️\nEscudo", fontSize = 12.sp, textAlign = TextAlign.Center)
                     }
                 }
             }
