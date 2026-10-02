@@ -30,9 +30,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.material3.TextButton
-import kotlin.math.ceil
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.ui.res.stringResource
 
 class MainActivity : ComponentActivity() {
 
@@ -80,8 +80,8 @@ fun PantallaMenu(viewModel: HistoriaViewModel) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Spacer(modifier = Modifier.height(32.dp))
-        Text(text = "La Rama Quebrada", fontSize = 36.sp, fontWeight = FontWeight.Black, color = MaterialTheme.colorScheme.primary, textAlign = TextAlign.Center)
-        Text(text = "Trivia y Estudio", fontSize = 20.sp, color = MaterialTheme.colorScheme.secondary)
+        Text(text = stringResource(R.string.app_name), fontSize = 36.sp, fontWeight = FontWeight.Black, color = MaterialTheme.colorScheme.primary, textAlign = TextAlign.Center)
+        Text(text = stringResource(R.string.app_subtitle), fontSize = 20.sp, color = MaterialTheme.colorScheme.secondary)
 
         Spacer(modifier = Modifier.height(48.dp))
         Text(text = "Selecciona un Modo de Juego", fontSize = 18.sp, fontWeight = FontWeight.Bold)
@@ -300,12 +300,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
                 )
                 Spacer(modifier = Modifier.height(48.dp))
 
-                val preguntas = viewModel.preguntas.collectAsState().value
-                val indiceActual = viewModel.indiceActual.collectAsState().value
-
-                val pregunta = preguntas[indiceActual]
-
-                val opcionesList = pregunta.opciones.split(",").map { it.trim() }
+                val opcionesList = preguntas[indice].opciones.split(",").map { it.trim() }
 
                 // Botones de opciones
                 opcionesList.forEach { opcion ->

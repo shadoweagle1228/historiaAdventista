@@ -50,6 +50,10 @@ android {
             dimension = "tema"
             applicationId = "com.hephaes200.rama"
         }
+        create("conocimientos") {
+            dimension = "tema"
+            applicationId = "com.hephaes200.conocimientos"
+        }
     }
 }
 

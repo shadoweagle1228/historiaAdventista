@@ -168,27 +168,22 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
             soundPool.play(sonidoAcierto, 1f, 1f, 0, 0, 1f)
             _feedbackActual.value = Feedback(true, "¡Correcto!\n\n${pregunta.justificacion}")
         } else {
-            if (respuestaSeleccionada == pregunta.respuestaCorrecta) {
-                _puntaje.value += 10
+            // La respuesta es incorrecta
+            if (_escudoActivo.value) {
+                // El escudo absorbe el error: oculta la opción incorrecta y desactiva el escudo
                 _escudoActivo.value = false
-                soundPool.play(sonidoAcierto, 1f, 1f, 0, 0, 1f)
-                _feedbackActual.value = Feedback(true, "¡Correcto!\n\n${pregunta.justificacion}")
+                soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f)
+
+                val nuevasOcultas = _opcionesOcultas.value.toMutableSet()
+                nuevasOcultas.add(respuestaSeleccionada)
+                _opcionesOcultas.value = nuevasOcultas
             } else {
-                if (_escudoActivo.value) {
-                    _escudoActivo.value = false
-                    soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f) // Sonido de rebote
+                _vidas.value -= 1
+                soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f)
+                _feedbackActual.value = Feedback(false, "Incorrecto. La respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}")
 
-                    val nuevasOcultas = _opcionesOcultas.value.toMutableSet()
-                    nuevasOcultas.add(respuestaSeleccionada)
-                    _opcionesOcultas.value = nuevasOcultas
-                } else {
-                    _vidas.value -= 1
-                    soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f)
-                    _feedbackActual.value = Feedback(false, "Incorrecto. La respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}")
-
-                    viewModelScope.launch(Dispatchers.IO) {
-                        dao.registrarFalloPregunta(pregunta.id)
-                    }
+                viewModelScope.launch(Dispatchers.IO) {
+                    dao.registrarFalloPregunta(pregunta.id)
                 }
             }
         }
@@ -196,7 +191,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
 
     fun avanzarPregunta() {
         if (_vidas.value <= 0) {
-            _estadoNavegacion.value = 3
+            finalizarRonda()
             return
         }
         if (_indiceActual.value < _preguntas.value.size - 1) {
@@ -204,7 +199,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
             _feedbackActual.value = null
             _opcionesOcultas.value = emptySet()
         } else {
-            _estadoNavegacion.value = 3
+            finalizarRonda()
         }
     }
 
@@ -217,6 +212,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
             prefs.edit().putInt("puntaje_maximo", _puntaje.value).apply()
         }
         _juegoTerminado.value = true
+        _estadoNavegacion.value = 3
     }
 
     fun reiniciarJuego() {
