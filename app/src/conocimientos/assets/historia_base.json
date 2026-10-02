@@ -48,7 +48,7 @@
       "id": 1,
       "capituloId": 1,
       "enunciado": "¿Cuántos días de creación activa narra Génesis 1:1-2:3 antes del séptimo día de reposo?",
-      "opciones": "Seis días de creación activa, Siete días de creación activa, Cuarenta días de creación activa, Tres días de creación activa",
+      "opciones": "Cuarenta días de creación activa, Tres días de creación activa, Siete días de creación activa, Seis días de creación activa",
       "respuestaCorrecta": "Seis días de creación activa",
       "justificacion": "El relato de la creación registra seis días de actividad creadora; seguidos por el séptimo día de reposo; bendecido y santificado.",
       "vecesFallada": 0
@@ -57,7 +57,7 @@
       "id": 2,
       "capituloId": 1,
       "enunciado": "¿Qué día de la semana fue bendecido y santificado como día de reposo tras concluir la creación?",
-      "opciones": "El sábado; séptimo día de la semana, El domingo; primer día de la semana, El viernes; sexto día de la semana, El lunes; segundo día de la semana",
+      "opciones": "El lunes; segundo día de la semana, El viernes; sexto día de la semana, El sábado; séptimo día de la semana, El domingo; primer día de la semana",
       "respuestaCorrecta": "El sábado; séptimo día de la semana",
       "justificacion": "Génesis 2:2-3 registra que Dios bendijo y santificó el séptimo día; el sábado; como día de reposo tras la creación.",
       "vecesFallada": 0
@@ -66,7 +66,7 @@
       "id": 3,
       "capituloId": 1,
       "enunciado": "¿Durante cuántos días flotó el arca de Noé sobre las aguas del diluvio; según Génesis 7-8?",
-      "opciones": "Ciento cincuenta días, Cuarenta días exactos, Setenta días exactos, Doscientos días exactos",
+      "opciones": "Setenta días exactos, Doscientos días exactos, Ciento cincuenta días, Cuarenta días exactos",
       "respuestaCorrecta": "Ciento cincuenta días",
       "justificacion": "El relato bíblico precisa que el arca flotó ciento cincuenta días antes de comenzar a descender las aguas.",
       "vecesFallada": 0
@@ -75,7 +75,7 @@
       "id": 4,
       "capituloId": 1,
       "enunciado": "¿Dónde reposó finalmente el arca de Noé una vez que las aguas comenzaron a bajar; según Génesis 8:4?",
-      "opciones": "En los montes de Ararat, En el monte Sinaí lejano, En el monte Carmelo cercano, En los montes de Gilboa altos",
+      "opciones": "En el monte Sinaí lejano, En los montes de Ararat, En los montes de Gilboa altos, En el monte Carmelo cercano",
       "respuestaCorrecta": "En los montes de Ararat",
       "justificacion": "Génesis 8:4 señala que el arca reposó sobre los montes de Ararat.",
       "vecesFallada": 0
@@ -84,7 +84,7 @@
       "id": 5,
       "capituloId": 1,
       "enunciado": "¿Cuántos años habitó Israel en la tierra de Egipto antes de la salida del Éxodo; según Éxodo 12:40-41?",
-      "opciones": "Cuatrocientos treinta años, Cuatrocientos años exactos, Doscientos quince años, Quinientos años exactos",
+      "opciones": "Doscientos quince años, Cuatrocientos treinta años, Cuatrocientos años exactos, Quinientos años exactos",
       "respuestaCorrecta": "Cuatrocientos treinta años",
       "justificacion": "Éxodo 12:40-41 precisa que el tiempo que los hijos de Israel habitaron en Egipto fue de cuatrocientos treinta años.",
       "vecesFallada": 0
@@ -93,7 +93,7 @@
       "id": 6,
       "capituloId": 1,
       "enunciado": "¿Qué plaga precedió inmediatamente a la salida masiva de Israel de Egipto?",
-      "opciones": "La muerte de los primogénitos egipcios, La plaga de langostas sobre el campo, La transformación del agua en sangre, La plaga de granizo sobre el ganado",
+      "opciones": "La plaga de granizo sobre el ganado, La muerte de los primogénitos egipcios, La plaga de langostas sobre el campo, La transformación del agua en sangre",
       "respuestaCorrecta": "La muerte de los primogénitos egipcios",
       "justificacion": "La décima plaga; la muerte de los primogénitos; fue la que finalmente provocó la salida masiva de Israel de Egipto.",
       "vecesFallada": 0
@@ -102,7 +102,7 @@
       "id": 7,
       "capituloId": 1,
       "enunciado": "¿Cuántas veces rodearon los israelitas la ciudad de Jericó cada uno de los primeros seis días del asedio?",
-      "opciones": "Una vez al día durante seis días, Dos veces al día durante seis días, Siete veces al día durante seis días, Tres veces al día durante seis días",
+      "opciones": "Dos veces al día durante seis días, Tres veces al día durante seis días, Una vez al día durante seis días, Siete veces al día durante seis días",
       "respuestaCorrecta": "Una vez al día durante seis días",
       "justificacion": "Josué 6:1-20 relata que durante los primeros seis días los israelitas rodearon la ciudad de Jericó una vez por día.",
       "vecesFallada": 0
@@ -111,7 +111,7 @@
       "id": 8,
       "capituloId": 1,
       "enunciado": "¿Qué hicieron específicamente los israelitas el séptimo día del asedio a la ciudad de Jericó?",
-      "opciones": "Dieron siete vueltas y tocaron las trompetas, Dieron una sola vuelta y guardaron silencio, Atacaron directamente sin rodear la ciudad, Esperaron la noche para atacar la ciudad",
+      "opciones": "Atacaron directamente sin rodear la ciudad, Dieron siete vueltas y tocaron las trompetas, Dieron una sola vuelta y guardaron silencio, Esperaron la noche para atacar la ciudad",
       "respuestaCorrecta": "Dieron siete vueltas y tocaron las trompetas",
       "justificacion": "El séptimo día; a diferencia de los anteriores; los israelitas dieron siete vueltas alrededor de Jericó y tocaron las trompetas antes de que cayeran las murallas.",
       "vecesFallada": 0
@@ -120,7 +120,7 @@
       "id": 9,
       "capituloId": 1,
       "enunciado": "¿Cuántos años de cautiverio en Babilonia profetizó Jeremías para el pueblo de Judá?",
-      "opciones": "Setenta años de cautiverio, Cuarenta años de cautiverio, Cien años de cautiverio, Veinte años de cautiverio",
+      "opciones": "Cien años de cautiverio, Setenta años de cautiverio, Cuarenta años de cautiverio, Veinte años de cautiverio",
       "respuestaCorrecta": "Setenta años de cautiverio",
       "justificacion": "Jeremías 25:11-12 establece la duración profética exacta de setenta años de cautiverio en Babilonia.",
       "vecesFallada": 0
@@ -129,7 +129,7 @@
       "id": 10,
       "capituloId": 1,
       "enunciado": "¿En qué región predicaba Juan el Bautista; según Mateo 3:1-4?",
-      "opciones": "En el desierto de Judea, En el desierto del Sinaí, En las afueras de Jerusalén, En la región de Galilea",
+      "opciones": "En las afueras de Jerusalén, En el desierto del Sinaí, En la región de Galilea, En el desierto de Judea",
       "respuestaCorrecta": "En el desierto de Judea",
       "justificacion": "Mateo 3:1 ubica el ministerio de predicación de Juan el Bautista en el desierto de Judea.",
       "vecesFallada": 0
@@ -138,7 +138,7 @@
       "id": 11,
       "capituloId": 1,
       "enunciado": "¿Qué vestía y comía Juan el Bautista durante su ministerio en el desierto; según el relato evangélico?",
-      "opciones": "Vestía pelo de camello y comía langostas y miel silvestre, Vestía túnica de lino y comía pan y pescado, Vestía piel de oveja y comía solo frutos secos, Vestía mantos de lana y comía uvas y aceitunas",
+      "opciones": "Vestía túnica de lino y comía pan y pescado, Vestía pelo de camello y comía langostas y miel silvestre, Vestía mantos de lana y comía uvas y aceitunas, Vestía piel de oveja y comía solo frutos secos",
       "respuestaCorrecta": "Vestía pelo de camello y comía langostas y miel silvestre",
       "justificacion": "Mateo 3:4 describe que Juan el Bautista vestía de pelo de camello y se alimentaba de langostas y miel silvestre.",
       "vecesFallada": 0
@@ -147,7 +147,7 @@
       "id": 12,
       "capituloId": 2,
       "enunciado": "¿Quiénes sostuvieron en alto las manos de Moisés durante la batalla contra Amalec?",
-      "opciones": "Aarón y Hur, Josué y Caleb, Elí y Finees, Josafat y Jehú",
+      "opciones": "Josafat y Jehú, Josué y Caleb, Elí y Finees, Aarón y Hur",
       "respuestaCorrecta": "Aarón y Hur",
       "justificacion": "Éxodo 17:8-13 relata que Aarón y Hur sostuvieron las manos de Moisés en alto mientras duraba la batalla.",
       "vecesFallada": 0
@@ -156,7 +156,7 @@
       "id": 13,
       "capituloId": 2,
       "enunciado": "¿Quién dirigió el combate directo contra el ejército de Amalec mientras Moisés oraba con las manos alzadas?",
-      "opciones": "Josué, Aarón, Hur, Caleb",
+      "opciones": "Hur, Caleb, Aarón, Josué",
       "respuestaCorrecta": "Josué",
       "justificacion": "Éxodo 17:9-10 indica que fue Josué quien peleó directamente contra Amalec mientras Moisés sostenía la vara en lo alto del collado.",
       "vecesFallada": 0
@@ -165,7 +165,7 @@
       "id": 14,
       "capituloId": 2,
       "enunciado": "¿A cuántos hombres redujo Dios finalmente el ejército de Gedeón antes de enfrentar a Madián?",
-      "opciones": "A trescientos hombres, A tres mil hombres, A diez mil hombres, A cien hombres",
+      "opciones": "A tres mil hombres, A cien hombres, A trescientos hombres, A diez mil hombres",
       "respuestaCorrecta": "A trescientos hombres",
       "justificacion": "Jueces 7:1-22 narra que Dios redujo el ejército de Gedeón hasta dejarlo en trescientos hombres.",
       "vecesFallada": 0
@@ -174,7 +174,7 @@
       "id": 15,
       "capituloId": 2,
       "enunciado": "¿Cuántos hombres tenía originalmente el ejército de Gedeón antes de la reducción divina?",
-      "opciones": "Treinta y dos mil hombres, Diez mil hombres exactos, Cincuenta mil hombres exactos, Veinte mil hombres exactos",
+      "opciones": "Veinte mil hombres exactos, Cincuenta mil hombres exactos, Treinta y dos mil hombres, Diez mil hombres exactos",
       "respuestaCorrecta": "Treinta y dos mil hombres",
       "justificacion": "El relato de Jueces 7 señala que el ejército original de Gedeón contaba con treinta y dos mil hombres antes de ser reducido.",
       "vecesFallada": 0
@@ -183,7 +183,7 @@
       "id": 16,
       "capituloId": 2,
       "enunciado": "¿Qué elementos usó el ejército reducido de Gedeón como táctica contra el campamento de Madián?",
-      "opciones": "Cántaros; teas y trompetas, Espadas; lanzas y escudos, Hondas; piedras y arcos, Carros; caballos y arietes",
+      "opciones": "Hondas; piedras y arcos, Cántaros; teas y trompetas, Espadas; lanzas y escudos, Carros; caballos y arietes",
       "respuestaCorrecta": "Cántaros; teas y trompetas",
       "justificacion": "Jueces 7 relata que los trescientos hombres de Gedeón usaron cántaros; teas encendidas y trompetas para sorprender al campamento madianita.",
       "vecesFallada": 0
@@ -192,7 +192,7 @@
       "id": 17,
       "capituloId": 2,
       "enunciado": "¿Aproximadamente cuánto medía Goliat de Gat; según el relato de 1 Samuel 17:40-50?",
-      "opciones": "Seis codos y un palmo; unos 2.90 metros, Cuatro codos; unos 1.80 metros, Diez codos; unos 4.50 metros, Tres codos y medio; unos 1.60 metros",
+      "opciones": "Diez codos; unos 4.50 metros, Seis codos y un palmo; unos 2.90 metros, Cuatro codos; unos 1.80 metros, Tres codos y medio; unos 1.60 metros",
       "respuestaCorrecta": "Seis codos y un palmo; unos 2.90 metros",
       "justificacion": "1 Samuel 17 describe a Goliat con una estatura de seis codos y un palmo; equivalente aproximadamente a 2.90 metros.",
       "vecesFallada": 0
@@ -201,7 +201,7 @@
       "id": 18,
       "capituloId": 2,
       "enunciado": "¿Con qué armas enfrentó el joven David al gigante Goliat de Gat?",
-      "opciones": "Una honda y cinco piedras lisas, Una espada y un escudo de bronce, Un arco y diez flechas, Una lanza y una armadura de hierro",
+      "opciones": "Un arco y diez flechas, Una honda y cinco piedras lisas, Una espada y un escudo de bronce, Una lanza y una armadura de hierro",
       "respuestaCorrecta": "Una honda y cinco piedras lisas",
       "justificacion": "1 Samuel 17:40 narra que David se enfrentó a Goliat usando únicamente una honda y cinco piedras lisas tomadas del arroyo.",
       "vecesFallada": 0
@@ -210,7 +210,7 @@
       "id": 19,
       "capituloId": 2,
       "enunciado": "¿Qué fenómeno celestial se registra durante la batalla de Gabaón dirigida por Josué?",
-      "opciones": "El sol se detuvo casi un día entero, La luna se oscureció totalmente, Las estrellas cayeron del cielo, Un eclipse solar cubrió el campo",
+      "opciones": "Las estrellas cayeron del cielo, Un eclipse solar cubrió el campo, La luna se oscureció totalmente, El sol se detuvo casi un día entero",
       "respuestaCorrecta": "El sol se detuvo casi un día entero",
       "justificacion": "Josué 10:11-14 relata que el sol se detuvo casi un día entero mientras Josué perseguía al enemigo.",
       "vecesFallada": 0
@@ -219,7 +219,7 @@
       "id": 20,
       "capituloId": 2,
       "enunciado": "¿Qué otro fenómeno milagroso acompañó la detención del sol durante la batalla de Gabaón?",
-      "opciones": "Dios lanzó piedras de granizo desde el cielo, Dios envió una densa niebla protectora, Dios causó un terremoto en el campo enemigo, Dios encendió fuego sobre las montañas",
+      "opciones": "Dios encendió fuego sobre las montañas, Dios envió una densa niebla protectora, Dios lanzó piedras de granizo desde el cielo, Dios causó un terremoto en el campo enemigo",
       "respuestaCorrecta": "Dios lanzó piedras de granizo desde el cielo",
       "justificacion": "Josué 10:11 señala que; además de detenerse el sol; Dios lanzó grandes piedras de granizo sobre el enemigo desde el cielo.",
       "vecesFallada": 0
@@ -228,7 +228,7 @@
       "id": 21,
       "capituloId": 2,
       "enunciado": "¿Qué estrategia inusual aplicó el rey Josafat de Judá en la victoria registrada en 2 Crónicas 20:20-22?",
-      "opciones": "Colocó cantores al frente alabando a Dios, Dividió su ejército en tres batallones, Envió espías antes del amanecer, Negoció una alianza con el enemigo",
+      "opciones": "Dividió su ejército en tres batallones, Negoció una alianza con el enemigo, Envió espías antes del amanecer, Colocó cantores al frente alabando a Dios",
       "respuestaCorrecta": "Colocó cantores al frente alabando a Dios",
       "justificacion": "2 Crónicas 20:21 narra que Josafat puso cantores al frente del ejército que alababan a Jehová antes de entrar en combate.",
       "vecesFallada": 0
@@ -237,7 +237,7 @@
       "id": 22,
       "capituloId": 2,
       "enunciado": "¿Qué les ocurrió a los enemigos de Josafat como resultado directo de esta estrategia de alabanza?",
-      "opciones": "Se destruyeron entre sí mutuamente, Huyeron sin ofrecer resistencia alguna, Se rindieron de inmediato ante Judá, Formaron una alianza con Josafat",
+      "opciones": "Formaron una alianza con Josafat, Se rindieron de inmediato ante Judá, Se destruyeron entre sí mutuamente, Huyeron sin ofrecer resistencia alguna",
       "respuestaCorrecta": "Se destruyeron entre sí mutuamente",
       "justificacion": "2 Crónicas 20:22-23 relata que; mientras Judá alababa a Dios; los ejércitos enemigos se volvieron entre sí y se destruyeron mutuamente.",
       "vecesFallada": 0
@@ -246,7 +246,7 @@
       "id": 23,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Abraham'; dado tras el cambio de nombre por el pacto en Génesis 17:5?",
-      "opciones": "Padre de muchedumbres, Padre enaltecido, Siervo del Altísimo, Amigo de Dios eterno",
+      "opciones": "Siervo del Altísimo, Padre enaltecido, Amigo de Dios eterno, Padre de muchedumbres",
       "respuestaCorrecta": "Padre de muchedumbres",
       "justificacion": "Génesis 17:5 explica que el nombre Abraham significa padre de muchedumbres; en contraste con su nombre anterior.",
       "vecesFallada": 0
@@ -255,7 +255,7 @@
       "id": 24,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Abram'; antes del cambio de nombre por el pacto?",
-      "opciones": "Padre enaltecido, Padre de muchedumbres, Hijo de la promesa, Elegido del Altísimo",
+      "opciones": "Padre de muchedumbres, Padre enaltecido, Hijo de la promesa, Elegido del Altísimo",
       "respuestaCorrecta": "Padre enaltecido",
       "justificacion": "Antes del cambio registrado en Génesis 17:5; el nombre Abram significaba padre enaltecido.",
       "vecesFallada": 0
@@ -264,7 +264,7 @@
       "id": 25,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Sara'; dado a la madre del hijo de la promesa en Génesis 17:15?",
-      "opciones": "Princesa; madre de naciones, Mi princesa personal, Sierva fiel de Dios, Amada del Altísimo",
+      "opciones": "Mi princesa personal, Sierva fiel de Dios, Princesa; madre de naciones, Amada del Altísimo",
       "respuestaCorrecta": "Princesa; madre de naciones",
       "justificacion": "Génesis 17:15 explica que el nuevo nombre Sara significa princesa; en su rol de madre de naciones.",
       "vecesFallada": 0
@@ -273,7 +273,7 @@
       "id": 26,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Sarai'; antes del cambio registrado en Génesis 17:15?",
-      "opciones": "Mi princesa, Princesa de naciones, Madre de multitudes, Hija del pacto",
+      "opciones": "Madre de multitudes, Princesa de naciones, Mi princesa, Hija del pacto",
       "respuestaCorrecta": "Mi princesa",
       "justificacion": "Antes del cambio de nombre; Sarai significaba mi princesa; nombre que luego Dios transformó en Sara.",
       "vecesFallada": 0
@@ -282,7 +282,7 @@
       "id": 27,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Israel'; dado a Jacob tras su lucha en Peniel; según Génesis 32:28?",
-      "opciones": "El que lucha con Dios; príncipe, El que suplanta a su hermano, El elegido entre los hermanos, El heredero de la promesa",
+      "opciones": "El heredero de la promesa, El que lucha con Dios; príncipe, El que suplanta a su hermano, El elegido entre los hermanos",
       "respuestaCorrecta": "El que lucha con Dios; príncipe",
       "justificacion": "Génesis 32:28 explica que el nuevo nombre Israel significa el que lucha con Dios; otorgado tras la lucha en Peniel.",
       "vecesFallada": 0
@@ -291,7 +291,7 @@
       "id": 28,
       "capituloId": 3,
       "enunciado": "¿Qué significaba originalmente el nombre 'Jacob'; antes de convertirse en Israel?",
-      "opciones": "El que suplanta, El que lucha con Dios, El bendecido por su padre, El primogénito de la familia",
+      "opciones": "El bendecido por su padre, El que lucha con Dios, El que suplanta, El primogénito de la familia",
       "respuestaCorrecta": "El que suplanta",
       "justificacion": "El nombre original Jacob significaba el que suplanta; antes de ser cambiado a Israel tras la lucha en Peniel.",
       "vecesFallada": 0
@@ -300,7 +300,7 @@
       "id": 29,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Moisés'; según la explicación dada en Éxodo 2:10?",
-      "opciones": "Sacado de las aguas, Elegido para liberar, Hijo de la princesa, Guiado por el fuego",
+      "opciones": "Guiado por el fuego, Hijo de la princesa, Sacado de las aguas, Elegido para liberar",
       "respuestaCorrecta": "Sacado de las aguas",
       "justificacion": "Éxodo 2:10 explica que la hija del Faraón le puso por nombre Moisés; que significa sacado de las aguas.",
       "vecesFallada": 0
@@ -309,7 +309,7 @@
       "id": 30,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Samuel'; según la respuesta a la oración de Ana en 1 Samuel 1:20?",
-      "opciones": "Oído por Dios; pedido a Dios, Consagrado desde la cuna, Profeta de los últimos días, Ungido por el sacerdote",
+      "opciones": "Ungido por el sacerdote, Profeta de los últimos días, Consagrado desde la cuna, Oído por Dios; pedido a Dios",
       "respuestaCorrecta": "Oído por Dios; pedido a Dios",
       "justificacion": "1 Samuel 1:20 explica que el nombre Samuel significa oído por Dios; en reconocimiento a la respuesta de la oración de Ana.",
       "vecesFallada": 0
@@ -318,7 +318,7 @@
       "id": 31,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'David'; en el contexto de su unción como rey de Israel en 1 Samuel 16:13?",
-      "opciones": "Amado; predilecto, Fuerte y valiente, Pastor de ovejas, Vencedor de gigantes",
+      "opciones": "Pastor de ovejas, Fuerte y valiente, Vencedor de gigantes, Amado; predilecto",
       "respuestaCorrecta": "Amado; predilecto",
       "justificacion": "El nombre David significa amado o predilecto; título que acompaña su unción como rey en 1 Samuel 16:13.",
       "vecesFallada": 0
@@ -327,7 +327,7 @@
       "id": 32,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Beltsasar'; impuesto a Daniel en la corte de Babilonia?",
-      "opciones": "Príncipe de Bel, Siervo del Altísimo, Comando de Aku, Guardián del templo",
+      "opciones": "Comando de Aku, Príncipe de Bel, Guardián del templo, Siervo del Altísimo",
       "respuestaCorrecta": "Príncipe de Bel",
       "justificacion": "Daniel 1:6-7 registra que el nombre babilónico Beltsasar; impuesto a Daniel; significa príncipe de Bel.",
       "vecesFallada": 0
@@ -336,7 +336,7 @@
       "id": 33,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Daniel'; fiel en la corte babilónica según Daniel 1:6-7?",
-      "opciones": "Dios es mi juez, Dios es mi fortaleza, Dios es mi pastor, Dios es mi salvación",
+      "opciones": "Dios es mi salvación, Dios es mi pastor, Dios es mi fortaleza, Dios es mi juez",
       "respuestaCorrecta": "Dios es mi juez",
       "justificacion": "El nombre hebreo Daniel significa Dios es mi juez; según la tabla de significados de nombres bíblicos.",
       "vecesFallada": 0
@@ -345,7 +345,7 @@
       "id": 34,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Ananías'; compañero de Daniel según Daniel 1:7?",
-      "opciones": "Jehová ha tenido misericordia, Jehová ha ayudado siempre, Jehová es mi fortaleza, Jehová es grande y fiel",
+      "opciones": "Jehová ha ayudado siempre, Jehová es grande y fiel, Jehová es mi fortaleza, Jehová ha tenido misericordia",
       "respuestaCorrecta": "Jehová ha tenido misericordia",
       "justificacion": "El nombre hebreo Ananías significa Jehová ha tenido misericordia; según el registro de Daniel 1:7.",
       "vecesFallada": 0
@@ -354,7 +354,7 @@
       "id": 35,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Sadrac'; impuesto a Ananías en la corte de Babilonia?",
-      "opciones": "Comando de Aku, Siervo de Nego, Príncipe de Bel, ¿Quién es como Aku?",
+      "opciones": "Siervo de Nego, Comando de Aku, ¿Quién es como Aku?, Príncipe de Bel",
       "respuestaCorrecta": "Comando de Aku",
       "justificacion": "El nombre babilónico Sadrac; dado a Ananías; significa comando de Aku; en honor a una divinidad caldea.",
       "vecesFallada": 0
@@ -363,7 +363,7 @@
       "id": 36,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Misael'; compañero de Daniel según Daniel 1:7?",
-      "opciones": "¿Quién es lo que Dios es?, ¿Quién es como Jehová?, ¿Quién puede contra Dios?, ¿Quién teme al Altísimo?",
+      "opciones": "¿Quién puede contra Dios?, ¿Quién es lo que Dios es?, ¿Quién es como Jehová?, ¿Quién teme al Altísimo?",
       "respuestaCorrecta": "¿Quién es lo que Dios es?",
       "justificacion": "El nombre hebreo Misael significa ¿Quién es lo que Dios es?; reflejando su firmeza en la fe.",
       "vecesFallada": 0
@@ -372,7 +372,7 @@
       "id": 37,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Mesac'; impuesto a Misael en la corte de Babilonia?",
-      "opciones": "¿Quién es como Aku?, Comando de Aku, Siervo de Nego, Príncipe de Bel",
+      "opciones": "Siervo de Nego, ¿Quién es como Aku?, Comando de Aku, Príncipe de Bel",
       "respuestaCorrecta": "¿Quién es como Aku?",
       "justificacion": "El nombre babilónico Mesac; dado a Misael; significa ¿Quién es como Aku?; en referencia a una divinidad caldea.",
       "vecesFallada": 0
@@ -381,7 +381,7 @@
       "id": 38,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre hebreo 'Azarías'; compañero de Daniel según Daniel 1:7?",
-      "opciones": "Jehová ha ayudado, Jehová ha perdonado, Jehová ha escuchado, Jehová ha bendecido",
+      "opciones": "Jehová ha perdonado, Jehová ha escuchado, Jehová ha bendecido, Jehová ha ayudado",
       "respuestaCorrecta": "Jehová ha ayudado",
       "justificacion": "El nombre hebreo Azarías significa Jehová ha ayudado; mostrando su lealtad irrestricta a Dios.",
       "vecesFallada": 0
@@ -390,7 +390,7 @@
       "id": 39,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre babilónico 'Abed-nego'; impuesto a Azarías en la corte de Babilonia?",
-      "opciones": "Siervo de Nego, Comando de Aku, Príncipe de Bel, ¿Quién es como Aku?",
+      "opciones": "¿Quién es como Aku?, Príncipe de Bel, Comando de Aku, Siervo de Nego",
       "respuestaCorrecta": "Siervo de Nego",
       "justificacion": "El nombre babilónico Abed-nego; dado a Azarías; significa siervo de Nego; en honor a una divinidad caldea.",
       "vecesFallada": 0
@@ -399,7 +399,7 @@
       "id": 40,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Juan'; dado al Bautista según el anuncio del ángel Gabriel en Lucas 1:13?",
-      "opciones": "Jehová es grato; Dios ha mostrado favor, Jehová es mi juez eterno, Dios ha enviado consuelo, Jehová es mi fortaleza",
+      "opciones": "Dios ha enviado consuelo, Jehová es grato; Dios ha mostrado favor, Jehová es mi juez eterno, Jehová es mi fortaleza",
       "respuestaCorrecta": "Jehová es grato; Dios ha mostrado favor",
       "justificacion": "Lucas 1:13 relaciona el nombre Juan con el significado Jehová es grato; o Dios ha mostrado favor.",
       "vecesFallada": 0
@@ -408,7 +408,7 @@
       "id": 41,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Jesús' o 'Josué'; según la explicación dada en Mateo 1:21?",
-      "opciones": "Jehová es salvación; el Señor salva, Jehová es mi pastor fiel, El Señor es mi juez, Dios está con nosotros",
+      "opciones": "Jehová es mi pastor fiel, Dios está con nosotros, Jehová es salvación; el Señor salva, El Señor es mi juez",
       "respuestaCorrecta": "Jehová es salvación; el Señor salva",
       "justificacion": "Mateo 1:21 explica que el nombre Jesús significa el Señor salva; pues él salvará a su pueblo de sus pecados.",
       "vecesFallada": 0
@@ -417,7 +417,7 @@
       "id": 42,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Cefas' o 'Pedro'; según Juan 1:42 y Mateo 16:18?",
-      "opciones": "Piedra; roca pequeña, Hijo del trueno fuerte, Pescador de hombres, Fundamento firme eterno",
+      "opciones": "Pescador de hombres, Hijo del trueno fuerte, Piedra; roca pequeña, Fundamento firme eterno",
       "respuestaCorrecta": "Piedra; roca pequeña",
       "justificacion": "Juan 1:42 y Mateo 16:18 registran que el nombre Cefas o Pedro significa piedra o roca pequeña.",
       "vecesFallada": 0
@@ -426,7 +426,7 @@
       "id": 43,
       "capituloId": 4,
       "enunciado": "Según Proverbios 1:7 (RVR1995); ¿qué constituye 'el principio de la sabiduría'?",
-      "opciones": "El temor de Jehová, El estudio constante, La obediencia a los padres, El consejo de los ancianos",
+      "opciones": "La obediencia a los padres, El temor de Jehová, El estudio constante, El consejo de los ancianos",
       "respuestaCorrecta": "El temor de Jehová",
       "justificacion": "Proverbios 1:7 declara: el principio de la sabiduría es el temor de Jehová.",
       "vecesFallada": 0
@@ -435,7 +435,7 @@
       "id": 44,
       "capituloId": 4,
       "enunciado": "Según Proverbios 1:7 (RVR1995); ¿qué actitud tienen los insensatos hacia la sabiduría y la enseñanza?",
-      "opciones": "La desprecian por completo, La buscan con afán, La ignoran sin saberlo, La aceptan a medias",
+      "opciones": "La ignoran sin saberlo, La aceptan a medias, La desprecian por completo, La buscan con afán",
       "respuestaCorrecta": "La desprecian por completo",
       "justificacion": "El mismo versículo añade que los insensatos desprecian la sabiduría y la enseñanza.",
       "vecesFallada": 0
@@ -444,7 +444,7 @@
       "id": 45,
       "capituloId": 4,
       "enunciado": "Según Proverbios 3:5 (RVR1995); ¿en qué no debemos apoyarnos al fiarnos de Jehová de todo corazón?",
-      "opciones": "En nuestra propia prudencia, En nuestras propias riquezas, En nuestra propia familia, En nuestra propia fuerza",
+      "opciones": "En nuestra propia familia, En nuestra propia fuerza, En nuestras propias riquezas, En nuestra propia prudencia",
       "respuestaCorrecta": "En nuestra propia prudencia",
       "justificacion": "Proverbios 3:5 exhorta a fiarnos de Jehová de todo corazón; y no apoyarnos en nuestra propia prudencia.",
       "vecesFallada": 0
@@ -453,7 +453,7 @@
       "id": 46,
       "capituloId": 4,
       "enunciado": "Según Proverbios 3:6 (RVR1995); ¿qué promete Dios a quien lo reconoce en todos sus caminos?",
-      "opciones": "Que él enderezará sus veredas, Que le dará riquezas abundantes, Que le concederá larga vida, Que le dará muchos hijos",
+      "opciones": "Que le dará riquezas abundantes, Que le dará muchos hijos, Que le concederá larga vida, Que él enderezará sus veredas",
       "respuestaCorrecta": "Que él enderezará sus veredas",
       "justificacion": "Proverbios 3:6 promete que al reconocer a Jehová en todos nuestros caminos; él enderezará nuestras veredas.",
       "vecesFallada": 0
@@ -462,7 +462,7 @@
       "id": 47,
       "capituloId": 4,
       "enunciado": "Según Proverbios 15:1 (RVR1995); ¿qué efecto tiene la blanda respuesta sobre la ira?",
-      "opciones": "La blanda respuesta quita la ira, La blanda respuesta aumenta la ira, La blanda respuesta ignora la ira, La blanda respuesta retrasa la ira",
+      "opciones": "La blanda respuesta aumenta la ira, La blanda respuesta retrasa la ira, La blanda respuesta quita la ira, La blanda respuesta ignora la ira",
       "respuestaCorrecta": "La blanda respuesta quita la ira",
       "justificacion": "Proverbios 15:1 declara: la blanda respuesta quita la ira; mas la palabra áspera hace subir el furor.",
       "vecesFallada": 0
@@ -471,7 +471,7 @@
       "id": 48,
       "capituloId": 4,
       "enunciado": "Según Proverbios 15:1 (RVR1995); ¿qué efecto produce la palabra áspera?",
-      "opciones": "Hace subir el furor, Calma toda discusión, No produce ningún efecto, Genera arrepentimiento inmediato",
+      "opciones": "Calma toda discusión, Hace subir el furor, Genera arrepentimiento inmediato, No produce ningún efecto",
       "respuestaCorrecta": "Hace subir el furor",
       "justificacion": "El mismo versículo contrasta la blanda respuesta con la palabra áspera; que hace subir el furor.",
       "vecesFallada": 0
@@ -480,7 +480,7 @@
       "id": 49,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:3 (RVR1995); ¿qué sucede si encomendamos a Jehová nuestras obras?",
-      "opciones": "Nuestros pensamientos serán afirmados, Nuestras riquezas se multiplicarán, Nuestros enemigos huirán de inmediato, Nuestros días se alargarán siempre",
+      "opciones": "Nuestras riquezas se multiplicarán, Nuestros enemigos huirán de inmediato, Nuestros pensamientos serán afirmados, Nuestros días se alargarán siempre",
       "respuestaCorrecta": "Nuestros pensamientos serán afirmados",
       "justificacion": "Proverbios 16:3 declara: encomienda a Jehová tus obras; y tus pensamientos serán afirmados.",
       "vecesFallada": 0
@@ -489,7 +489,7 @@
       "id": 50,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:18 (RVR1995); ¿qué precede a la caída?",
-      "opciones": "La altivez de espíritu, La pereza constante, La ignorancia voluntaria, La avaricia desmedida",
+      "opciones": "La pereza constante, La avaricia desmedida, La ignorancia voluntaria, La altivez de espíritu",
       "respuestaCorrecta": "La altivez de espíritu",
       "justificacion": "Proverbios 16:18 declara: antes del quebrantamiento es la soberbia; y antes de la caída la altivez de espíritu.",
       "vecesFallada": 0
@@ -498,7 +498,7 @@
       "id": 51,
       "capituloId": 4,
       "enunciado": "Según Proverbios 16:18 (RVR1995); ¿qué antecede específicamente al quebrantamiento?",
-      "opciones": "La soberbia, La pereza, La envidia, La avaricia",
+      "opciones": "La envidia, La avaricia, La soberbia, La pereza",
       "respuestaCorrecta": "La soberbia",
       "justificacion": "El mismo versículo señala que antes del quebrantamiento está la soberbia.",
       "vecesFallada": 0
@@ -507,7 +507,7 @@
       "id": 52,
       "capituloId": 4,
       "enunciado": "Según Proverbios 22:6 (RVR1995); ¿qué ocurrirá cuando el niño instruido en su camino llegue a ser viejo?",
-      "opciones": "No se apartará de ese camino, Olvidará todo lo aprendido, Buscará nuevos caminos propios, Dudará de su instrucción",
+      "opciones": "Buscará nuevos caminos propios, No se apartará de ese camino, Dudará de su instrucción, Olvidará todo lo aprendido",
       "respuestaCorrecta": "No se apartará de ese camino",
       "justificacion": "Proverbios 22:6 declara: instruye al niño en su camino; y aun cuando fuere viejo no se apartará de él.",
       "vecesFallada": 0
@@ -516,7 +516,7 @@
       "id": 53,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la frase 'la blanda respuesta quita la ira'?",
-      "opciones": "Proverbios 15:1, Proverbios 16:18, Proverbios 3:5-6, Proverbios 22:6",
+      "opciones": "Proverbios 16:18, Proverbios 15:1, Proverbios 3:5-6, Proverbios 22:6",
       "respuestaCorrecta": "Proverbios 15:1",
       "justificacion": "Esta frase corresponde exactamente a Proverbios 15:1.",
       "vecesFallada": 0
@@ -525,7 +525,7 @@
       "id": 54,
       "capituloId": 4,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la frase 'antes de la caída la altivez de espíritu'?",
-      "opciones": "Proverbios 16:18, Proverbios 1:7, Proverbios 16:3, Proverbios 15:1",
+      "opciones": "Proverbios 1:7, Proverbios 15:1, Proverbios 16:18, Proverbios 16:3",
       "respuestaCorrecta": "Proverbios 16:18",
       "justificacion": "Esta frase corresponde exactamente a Proverbios 16:18.",
       "vecesFallada": 0
@@ -534,7 +534,7 @@
       "id": 55,
       "capituloId": 5,
       "enunciado": "En la parábola del Sembrador; ¿qué representan las cuatro tierras mencionadas en el relato?",
-      "opciones": "Las actitudes del corazón al recibir la Palabra, Las cuatro naciones del mundo antiguo, Los cuatro evangelios del Nuevo Testamento, Las cuatro estaciones del año agrícola",
+      "opciones": "Los cuatro evangelios del Nuevo Testamento, Las cuatro naciones del mundo antiguo, Las cuatro estaciones del año agrícola, Las actitudes del corazón al recibir la Palabra",
       "respuestaCorrecta": "Las actitudes del corazón al recibir la Palabra",
       "justificacion": "La guía señala que las cuatro tierras de la parábola del Sembrador representan la actitud del corazón humano al recibir la Palabra de Dios.",
       "vecesFallada": 0
@@ -543,7 +543,7 @@
       "id": 56,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Sembrador?",
-      "opciones": "Mateo 13:3-23, Lucas 15:11-32, Mateo 25:14-30, Lucas 10:25-37",
+      "opciones": "Lucas 10:25-37, Lucas 15:11-32, Mateo 25:14-30, Mateo 13:3-23",
       "respuestaCorrecta": "Mateo 13:3-23",
       "justificacion": "La parábola del Sembrador se encuentra registrada exactamente en Mateo 13:3-23.",
       "vecesFallada": 0
@@ -552,7 +552,7 @@
       "id": 57,
       "capituloId": 5,
       "enunciado": "¿Cuál es la enseñanza principal de la parábola del Buen Samaritano?",
-      "opciones": "El verdadero prójimo muestra misericordia sin prejuicios, El verdadero prójimo vive cerca de nuestra casa, El verdadero prójimo comparte nuestra misma fe, El verdadero prójimo es siempre un familiar cercano",
+      "opciones": "El verdadero prójimo es siempre un familiar cercano, El verdadero prójimo comparte nuestra misma fe, El verdadero prójimo vive cerca de nuestra casa, El verdadero prójimo muestra misericordia sin prejuicios",
       "respuestaCorrecta": "El verdadero prójimo muestra misericordia sin prejuicios",
       "justificacion": "La guía resume que el verdadero prójimo es aquel que muestra misericordia práctica sin prejuicios.",
       "vecesFallada": 0
@@ -561,7 +561,7 @@
       "id": 58,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Buen Samaritano?",
-      "opciones": "Lucas 10:25-37, Mateo 13:3-23, Lucas 15:1-7, Mateo 25:14-30",
+      "opciones": "Mateo 13:3-23, Lucas 10:25-37, Lucas 15:1-7, Mateo 25:14-30",
       "respuestaCorrecta": "Lucas 10:25-37",
       "justificacion": "La parábola del Buen Samaritano se encuentra registrada exactamente en Lucas 10:25-37.",
       "vecesFallada": 0
@@ -570,7 +570,7 @@
       "id": 59,
       "capituloId": 5,
       "enunciado": "¿Qué enseña principalmente la parábola del Hijo Pródigo?",
-      "opciones": "El amor incondicional del Padre hacia el arrepentido, El castigo merecido por el hijo rebelde, La importancia de administrar bien las riquezas, La obediencia estricta que exige el Padre",
+      "opciones": "El castigo merecido por el hijo rebelde, El amor incondicional del Padre hacia el arrepentido, La obediencia estricta que exige el Padre, La importancia de administrar bien las riquezas",
       "respuestaCorrecta": "El amor incondicional del Padre hacia el arrepentido",
       "justificacion": "La guía resume que esta parábola enseña el amor incondicional del Padre celestial hacia el pecador arrepentido.",
       "vecesFallada": 0
@@ -579,7 +579,7 @@
       "id": 60,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Hijo Pródigo?",
-      "opciones": "Lucas 15:11-32, Lucas 15:1-7, Mateo 13:3-23, Mateo 25:14-30",
+      "opciones": "Lucas 15:1-7, Lucas 15:11-32, Mateo 13:3-23, Mateo 25:14-30",
       "respuestaCorrecta": "Lucas 15:11-32",
       "justificacion": "La parábola del Hijo Pródigo se encuentra registrada exactamente en Lucas 15:11-32.",
       "vecesFallada": 0
@@ -588,7 +588,7 @@
       "id": 61,
       "capituloId": 5,
       "enunciado": "¿Qué enseña principalmente la parábola de la Oveja Perdida?",
-      "opciones": "Jesús busca activamente a quien se ha descarriado, Las ovejas deben cuidarse entre sí mismas, El pastor castiga a la oveja desobediente, Las noventa y nueve ovejas son más valiosas",
+      "opciones": "Las ovejas deben cuidarse entre sí mismas, El pastor castiga a la oveja desobediente, Las noventa y nueve ovejas son más valiosas, Jesús busca activamente a quien se ha descarriado",
       "respuestaCorrecta": "Jesús busca activamente a quien se ha descarriado",
       "justificacion": "La guía señala que esta parábola enseña que Jesús busca activamente a quien se ha descarriado; y hay gozo en el cielo por su arrepentimiento.",
       "vecesFallada": 0
@@ -597,7 +597,7 @@
       "id": 62,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de la Oveja Perdida?",
-      "opciones": "Lucas 15:1-7, Lucas 15:11-32, Mateo 25:14-30, Lucas 10:25-37",
+      "opciones": "Lucas 15:11-32, Mateo 25:14-30, Lucas 10:25-37, Lucas 15:1-7",
       "respuestaCorrecta": "Lucas 15:1-7",
       "justificacion": "La parábola de la Oveja Perdida se encuentra registrada exactamente en Lucas 15:1-7.",
       "vecesFallada": 0
@@ -606,7 +606,7 @@
       "id": 63,
       "capituloId": 5,
       "enunciado": "¿Qué enseña principalmente la parábola de los Talentos?",
-      "opciones": "Fidelidad en administrar lo que Dios nos ha dado, La importancia de acumular riquezas propias, El castigo a quien recibe pocos talentos, La igualdad en los dones repartidos a todos",
+      "opciones": "El castigo a quien recibe pocos talentos, La igualdad en los dones repartidos a todos, Fidelidad en administrar lo que Dios nos ha dado, La importancia de acumular riquezas propias",
       "respuestaCorrecta": "Fidelidad en administrar lo que Dios nos ha dado",
       "justificacion": "La guía resume que esta parábola enseña fidelidad y responsabilidad en administrar las capacidades que Dios nos ha encomendado.",
       "vecesFallada": 0
@@ -615,7 +615,7 @@
       "id": 64,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de los Talentos?",
-      "opciones": "Mateo 25:14-30, Mateo 13:3-23, Lucas 15:11-32, Lucas 10:25-37",
+      "opciones": "Mateo 13:3-23, Mateo 25:14-30, Lucas 10:25-37, Lucas 15:11-32",
       "respuestaCorrecta": "Mateo 25:14-30",
       "justificacion": "La parábola de los Talentos se encuentra registrada exactamente en Mateo 25:14-30.",
       "vecesFallada": 0
@@ -624,7 +624,7 @@
       "id": 65,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el término 'Pacto' (Berith/Diatheke) en este vocabulario bíblico fundamental?",
-      "opciones": "Acuerdo solemne iniciado por Dios con su pueblo, Contrato comercial entre dos naciones, Promesa verbal sin compromiso escrito, Tradición oral transmitida por generaciones",
+      "opciones": "Contrato comercial entre dos naciones, Tradición oral transmitida por generaciones, Promesa verbal sin compromiso escrito, Acuerdo solemne iniciado por Dios con su pueblo",
       "respuestaCorrecta": "Acuerdo solemne iniciado por Dios con su pueblo",
       "justificacion": "La guía define Pacto como un acuerdo solemne e inquebrantable iniciado por Dios con su pueblo; basado en sus promesas.",
       "vecesFallada": 0
@@ -633,7 +633,7 @@
       "id": 66,
       "capituloId": 6,
       "enunciado": "¿Cómo se define 'Expiación' o 'Expiar' en este vocabulario bíblico fundamental?",
-      "opciones": "Cubrir el pecado mediante un sacrificio sustitutivo, Olvidar el pecado con el paso del tiempo, Confesar el pecado ante la congregación, Pagar una multa económica por el pecado",
+      "opciones": "Confesar el pecado ante la congregación, Cubrir el pecado mediante un sacrificio sustitutivo, Pagar una multa económica por el pecado, Olvidar el pecado con el paso del tiempo",
       "respuestaCorrecta": "Cubrir el pecado mediante un sacrificio sustitutivo",
       "justificacion": "La guía define Expiación como cubrir o borrar el pecado mediante un sacrificio sustitutivo para reconciliar al hombre con Dios.",
       "vecesFallada": 0
@@ -642,7 +642,7 @@
       "id": 67,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Gracia' (Charis) en este vocabulario teológico?",
-      "opciones": "Favor inmerecido otorgado por Dios al pecador, Recompensa merecida por las buenas obras, Perdón concedido solo tras larga penitencia, Bendición reservada para los sacerdotes",
+      "opciones": "Bendición reservada para los sacerdotes, Favor inmerecido otorgado por Dios al pecador, Recompensa merecida por las buenas obras, Perdón concedido solo tras larga penitencia",
       "respuestaCorrecta": "Favor inmerecido otorgado por Dios al pecador",
       "justificacion": "La guía define Gracia como el favor inmerecido otorgado por Dios al pecador para salvación y transformación.",
       "vecesFallada": 0
@@ -651,7 +651,7 @@
       "id": 68,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Justificación' en este vocabulario teológico?",
-      "opciones": "Declaración divina de que el pecador es justo por la fe, Proceso humano de autosuperación moral, Castigo divino proporcional al pecado cometido, Ritual anual de purificación del templo",
+      "opciones": "Ritual anual de purificación del templo, Proceso humano de autosuperación moral, Declaración divina de que el pecador es justo por la fe, Castigo divino proporcional al pecado cometido",
       "respuestaCorrecta": "Declaración divina de que el pecador es justo por la fe",
       "justificacion": "La guía define Justificación como la declaración divina mediante la cual el pecador arrepentido es considerado justo por la fe en Cristo.",
       "vecesFallada": 0
@@ -660,7 +660,7 @@
       "id": 69,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Santificación' en este vocabulario teológico?",
-      "opciones": "Proceso continuo del Espíritu para moldear el carácter, Acto único realizado en el momento del bautismo, Ceremonia reservada exclusivamente a los sacerdotes, Resultado automático de guardar los mandamientos",
+      "opciones": "Resultado automático de guardar los mandamientos, Proceso continuo del Espíritu para moldear el carácter, Ceremonia reservada exclusivamente a los sacerdotes, Acto único realizado en el momento del bautismo",
       "respuestaCorrecta": "Proceso continuo del Espíritu para moldear el carácter",
       "justificacion": "La guía define Santificación como el proceso continuo mediante la acción del Espíritu Santo para moldear el carácter a la imagen de Cristo.",
       "vecesFallada": 0
@@ -669,7 +669,7 @@
       "id": 70,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el 'Remanente' en este vocabulario bíblico fundamental?",
-      "opciones": "El grupo fiel que permanece obediente en apostasía, El resto de alimentos ofrecidos en sacrificio, La porción de tierra reservada para el templo, El grupo de sacerdotes designados por sorteo",
+      "opciones": "La porción de tierra reservada para el templo, El grupo fiel que permanece obediente en apostasía, El resto de alimentos ofrecidos en sacrificio, El grupo de sacerdotes designados por sorteo",
       "respuestaCorrecta": "El grupo fiel que permanece obediente en apostasía",
       "justificacion": "La guía define Remanente como el grupo fiel de creyentes que permanece obediente a los mandamientos de Dios en tiempos de apostasía.",
       "vecesFallada": 0
@@ -678,7 +678,7 @@
       "id": 71,
       "capituloId": 6,
       "enunciado": "¿Cómo se define la 'Redención' en este vocabulario teológico?",
-      "opciones": "Rescate pagado por completo con la sangre de Cristo, Perdón otorgado sin necesidad de sacrificio alguno, Liberación política del pueblo de su opresor, Restauración material de bienes perdidos",
+      "opciones": "Liberación política del pueblo de su opresor, Rescate pagado por completo con la sangre de Cristo, Restauración material de bienes perdidos, Perdón otorgado sin necesidad de sacrificio alguno",
       "respuestaCorrecta": "Rescate pagado por completo con la sangre de Cristo",
       "justificacion": "La guía define Redención como el rescate pagado por completo mediante la sangre de Cristo; para liberar al ser humano de la esclavitud del pecado.",
       "vecesFallada": 0
@@ -687,7 +687,7 @@
       "id": 72,
       "capituloId": 1,
       "enunciado": "¿En qué día de la creación fueron formados los seres humanos; varón y mujer; según Génesis 1?",
-      "opciones": "Sexto día de la creación, Quinto día de la creación, Séptimo día de la creación, Cuarto día de la creación",
+      "opciones": "Cuarto día de la creación, Séptimo día de la creación, Quinto día de la creación, Sexto día de la creación",
       "respuestaCorrecta": "Sexto día de la creación",
       "justificacion": "Génesis 1:26-31 relata que el hombre y la mujer fueron creados en el sexto día; antes del reposo del séptimo día.",
       "vecesFallada": 0
@@ -696,7 +696,7 @@
       "id": 73,
       "capituloId": 1,
       "enunciado": "¿Qué fue creado específicamente en el segundo día de la creación; según Génesis 1:6-8?",
-      "opciones": "El firmamento que separa las aguas, Las lumbreras del cielo, Las aves y los peces del mar, La tierra seca y la vegetación",
+      "opciones": "La tierra seca y la vegetación, Las aves y los peces del mar, Las lumbreras del cielo, El firmamento que separa las aguas",
       "respuestaCorrecta": "El firmamento que separa las aguas",
       "justificacion": "Génesis 1:6-8 narra que en el segundo día Dios hizo el firmamento; separando las aguas de arriba de las de abajo.",
       "vecesFallada": 0
@@ -705,7 +705,7 @@
       "id": 74,
       "capituloId": 1,
       "enunciado": "¿Qué fue creado en el cuarto día; según el relato de Génesis 1:14-19?",
-      "opciones": "Las lumbreras del cielo: sol; luna y estrellas, Las aves y los peces del mar, Los animales terrestres y el hombre, La tierra seca y la vegetación",
+      "opciones": "Las aves y los peces del mar, Las lumbreras del cielo: sol; luna y estrellas, Los animales terrestres y el hombre, La tierra seca y la vegetación",
       "respuestaCorrecta": "Las lumbreras del cielo: sol; luna y estrellas",
       "justificacion": "Génesis 1:14-19 relata que en el cuarto día Dios hizo las lumbreras del cielo: el sol; la luna y las estrellas.",
       "vecesFallada": 0
@@ -714,7 +714,7 @@
       "id": 75,
       "capituloId": 1,
       "enunciado": "¿Cuántos años tenía Noé cuando comenzó el diluvio; según Génesis 7:6?",
-      "opciones": "Seiscientos años, Cuatrocientos años, Novecientos años, Trescientos años",
+      "opciones": "Novecientos años, Seiscientos años, Cuatrocientos años, Trescientos años",
       "respuestaCorrecta": "Seiscientos años",
       "justificacion": "Génesis 7:6 precisa que Noé tenía seiscientos años cuando el diluvio vino sobre la tierra.",
       "vecesFallada": 0
@@ -723,7 +723,7 @@
       "id": 76,
       "capituloId": 1,
       "enunciado": "¿Cuántas parejas de animales limpios debía llevar Noé al arca; según la instrucción de Génesis 7:2?",
-      "opciones": "Siete parejas de cada especie limpia, Una sola pareja de cada especie, Tres parejas de cada especie, Diez parejas de cada especie",
+      "opciones": "Una sola pareja de cada especie, Siete parejas de cada especie limpia, Diez parejas de cada especie, Tres parejas de cada especie",
       "respuestaCorrecta": "Siete parejas de cada especie limpia",
       "justificacion": "Génesis 7:2 indica que de los animales limpios Noé debía tomar siete parejas de cada especie; y de los inmundos solo una pareja.",
       "vecesFallada": 0
@@ -732,7 +732,7 @@
       "id": 77,
       "capituloId": 1,
       "enunciado": "¿Cuáles eran los nombres de los tres hijos de Noé que entraron con él al arca?",
-      "opciones": "Sem; Cam y Jafet, Rubén; Simeón y Leví, Isaac; Jacob y Esaú, Caín; Abel y Set",
+      "opciones": "Rubén; Simeón y Leví, Isaac; Jacob y Esaú, Caín; Abel y Set, Sem; Cam y Jafet",
       "respuestaCorrecta": "Sem; Cam y Jafet",
       "justificacion": "El relato del diluvio identifica a los tres hijos de Noé como Sem; Cam y Jafet.",
       "vecesFallada": 0
@@ -741,7 +741,7 @@
       "id": 78,
       "capituloId": 1,
       "enunciado": "¿Durante cuántos días y noches llovió continuamente al comenzar el diluvio; según Génesis 7:12?",
-      "opciones": "Cuarenta días y cuarenta noches, Ciento cincuenta días y noches, Diez días y noches, Siete días y noches",
+      "opciones": "Ciento cincuenta días y noches, Diez días y noches, Siete días y noches, Cuarenta días y cuarenta noches",
       "respuestaCorrecta": "Cuarenta días y cuarenta noches",
       "justificacion": "Génesis 7:12 señala que llovió sobre la tierra cuarenta días y cuarenta noches al iniciar el diluvio.",
       "vecesFallada": 0
@@ -750,7 +750,7 @@
       "id": 79,
       "capituloId": 1,
       "enunciado": "¿Qué alimento sobrenatural proveyó Dios diariamente a Israel durante su travesía por el desierto?",
-      "opciones": "El maná, Las codornices únicamente, El pan de la proposición, La miel silvestre",
+      "opciones": "El pan de la proposición, La miel silvestre, Las codornices únicamente, El maná",
       "respuestaCorrecta": "El maná",
       "justificacion": "Éxodo 16 relata que Dios proveyó el maná como alimento diario para Israel durante su peregrinaje por el desierto.",
       "vecesFallada": 0
@@ -759,7 +759,7 @@
       "id": 80,
       "capituloId": 1,
       "enunciado": "¿Qué otro alimento adicional envió Dios a Israel en el desierto; junto con el maná?",
-      "opciones": "Codornices enviadas por el viento del mar, Pan ácimo horneado diariamente, Miel silvestre recogida del desierto, Pescado seco traído de Egipto",
+      "opciones": "Miel silvestre recogida del desierto, Pan ácimo horneado diariamente, Pescado seco traído de Egipto, Codornices enviadas por el viento del mar",
       "respuestaCorrecta": "Codornices enviadas por el viento del mar",
       "justificacion": "Éxodo 16:13 narra que Dios envió codornices que cubrieron el campamento; además del maná que caía cada mañana.",
       "vecesFallada": 0
@@ -768,7 +768,7 @@
       "id": 81,
       "capituloId": 1,
       "enunciado": "¿Qué mar cruzó Israel milagrosamente al huir de la esclavitud en Egipto?",
-      "opciones": "El Mar Rojo, El Mar Muerto, El Mar de Galilea, El río Jordán",
+      "opciones": "El Mar Muerto, El Mar Rojo, El Mar de Galilea, El río Jordán",
       "respuestaCorrecta": "El Mar Rojo",
       "justificacion": "Éxodo 14 relata el cruce milagroso del Mar Rojo; cuyas aguas se dividieron para que Israel pasara en seco.",
       "vecesFallada": 0
@@ -777,7 +777,7 @@
       "id": 82,
       "capituloId": 1,
       "enunciado": "¿Cuántas plagas envió Dios sobre Egipto antes de que el Faraón dejara salir a Israel?",
-      "opciones": "Diez plagas, Siete plagas, Doce plagas, Cinco plagas",
+      "opciones": "Siete plagas, Doce plagas, Cinco plagas, Diez plagas",
       "respuestaCorrecta": "Diez plagas",
       "justificacion": "El relato de Éxodo registra un total de diez plagas enviadas sobre Egipto; siendo la última la muerte de los primogénitos.",
       "vecesFallada": 0
@@ -786,7 +786,7 @@
       "id": 83,
       "capituloId": 1,
       "enunciado": "¿Quién escondió a los espías israelitas en la ciudad de Jericó antes de su caída?",
-      "opciones": "Rahab, Débora, Rut, Ester",
+      "opciones": "Rut, Débora, Ester, Rahab",
       "respuestaCorrecta": "Rahab",
       "justificacion": "Josué 2 relata que Rahab; habitante de Jericó; escondió a los espías enviados por Josué en su propia casa.",
       "vecesFallada": 0
@@ -795,7 +795,7 @@
       "id": 84,
       "capituloId": 1,
       "enunciado": "¿Qué señal usó Rahab para que su casa fuera reconocida y perdonada durante la destrucción de Jericó?",
-      "opciones": "Un cordón de grana atado a su ventana, Una antorcha encendida en el techo, Una rama de olivo en la puerta, Un manto blanco colgado afuera",
+      "opciones": "Una rama de olivo en la puerta, Un manto blanco colgado afuera, Una antorcha encendida en el techo, Un cordón de grana atado a su ventana",
       "respuestaCorrecta": "Un cordón de grana atado a su ventana",
       "justificacion": "Josué 2:18-21 narra que Rahab debía atar un cordón de grana a la ventana como señal para que su familia fuera protegida.",
       "vecesFallada": 0
@@ -804,7 +804,7 @@
       "id": 85,
       "capituloId": 1,
       "enunciado": "¿Qué rey persa decretó el regreso de los judíos tras el cautiverio en Babilonia?",
-      "opciones": "Ciro, Darío el Medo, Nabucodonosor, Asuero",
+      "opciones": "Nabucodonosor, Ciro, Asuero, Darío el Medo",
       "respuestaCorrecta": "Ciro",
       "justificacion": "El decreto de Ciro; registrado en Esdras 1; permitió el regreso de los judíos cautivos a Jerusalén.",
       "vecesFallada": 0
@@ -813,7 +813,7 @@
       "id": 86,
       "capituloId": 1,
       "enunciado": "¿Quiénes eran los padres de Juan el Bautista; según el relato de Lucas 1?",
-      "opciones": "Zacarías y Elisabet, José y María, Simeón y Ana, Elí y Ana",
+      "opciones": "José y María, Simeón y Ana, Elí y Ana, Zacarías y Elisabet",
       "respuestaCorrecta": "Zacarías y Elisabet",
       "justificacion": "Lucas 1:5-13 identifica a Zacarías; sacerdote; y a su esposa Elisabet como los padres de Juan el Bautista.",
       "vecesFallada": 0
@@ -822,7 +822,7 @@
       "id": 87,
       "capituloId": 2,
       "enunciado": "¿En qué lugar atacó Amalec al pueblo de Israel; dando origen a la batalla narrada en Éxodo 17?",
-      "opciones": "En Refidim, En Cades-barnea, En el monte Sinaí, En el desierto de Parán",
+      "opciones": "En el desierto de Parán, En Refidim, En Cades-barnea, En el monte Sinaí",
       "respuestaCorrecta": "En Refidim",
       "justificacion": "Éxodo 17:8 ubica el ataque de Amalec contra Israel en el lugar llamado Refidim.",
       "vecesFallada": 0
@@ -831,7 +831,7 @@
       "id": 88,
       "capituloId": 2,
       "enunciado": "¿Qué hicieron Aarón y Hur cuando los brazos de Moisés se cansaron durante la batalla contra Amalec?",
-      "opciones": "Lo sentaron sobre una piedra y sostuvieron sus manos, Lo reemplazaron al frente del ejército, Le dieron agua y pan de inmediato, Lo enviaron a descansar a su tienda",
+      "opciones": "Lo enviaron a descansar a su tienda, Lo reemplazaron al frente del ejército, Le dieron agua y pan de inmediato, Lo sentaron sobre una piedra y sostuvieron sus manos",
       "respuestaCorrecta": "Lo sentaron sobre una piedra y sostuvieron sus manos",
       "justificacion": "Éxodo 17:12 narra que Aarón y Hur sentaron a Moisés sobre una piedra y sostuvieron sus manos; una a cada lado.",
       "vecesFallada": 0
@@ -840,7 +840,7 @@
       "id": 89,
       "capituloId": 2,
       "enunciado": "¿Qué método usó Dios para seleccionar a los trescientos hombres del ejército de Gedeón; según Jueces 7?",
-      "opciones": "Observar quiénes bebían agua lamiéndola como perros, Observar quiénes bebían más rápido, Observar quiénes rechazaban el agua, Observar quiénes compartían el agua con otros",
+      "opciones": "Observar quiénes rechazaban el agua, Observar quiénes compartían el agua con otros, Observar quiénes bebían agua lamiéndola como perros, Observar quiénes bebían más rápido",
       "respuestaCorrecta": "Observar quiénes bebían agua lamiéndola como perros",
       "justificacion": "Jueces 7:5-7 relata que Dios seleccionó a los hombres que lamieron el agua con la lengua; como lo hace un perro.",
       "vecesFallada": 0
@@ -849,7 +849,7 @@
       "id": 90,
       "capituloId": 2,
       "enunciado": "¿Qué señal pidió Gedeón a Dios usando un vellón de lana antes de enfrentar a Madián?",
-      "opciones": "Que el vellón estuviera mojado mientras el suelo seco; y viceversa, Que el vellón cambiara de color durante la noche, Que el vellón se consumiera por fuego del cielo, Que el vellón desapareciera por completo",
+      "opciones": "Que el vellón se consumiera por fuego del cielo, Que el vellón cambiara de color durante la noche, Que el vellón desapareciera por completo, Que el vellón estuviera mojado mientras el suelo seco; y viceversa",
       "respuestaCorrecta": "Que el vellón estuviera mojado mientras el suelo seco; y viceversa",
       "justificacion": "Jueces 6:36-40 narra que Gedeón pidió como señal que el rocío mojara solo el vellón; y luego al revés; mientras el suelo permanecía seco o mojado respectivamente.",
       "vecesFallada": 0
@@ -858,7 +858,7 @@
       "id": 91,
       "capituloId": 2,
       "enunciado": "¿Con qué tipo de armadura se presentó Goliat de Gat ante el ejército de Israel; según 1 Samuel 17?",
-      "opciones": "Casco de bronce y cota de malla, Túnica de lino y sandalias simples, Manto de piel y bastón de pastor, Armadura de cuero sin protección metálica",
+      "opciones": "Manto de piel y bastón de pastor, Túnica de lino y sandalias simples, Casco de bronce y cota de malla, Armadura de cuero sin protección metálica",
       "respuestaCorrecta": "Casco de bronce y cota de malla",
       "justificacion": "1 Samuel 17:5-6 describe a Goliat vestido con un casco de bronce y una cota de malla de gran peso.",
       "vecesFallada": 0
@@ -867,7 +867,7 @@
       "id": 92,
       "capituloId": 2,
       "enunciado": "¿En qué valle se desarrolló el enfrentamiento entre David y Goliat?",
-      "opciones": "El valle de Ela, El valle de Jezreel, El valle de Josafat, El valle del Jordán",
+      "opciones": "El valle de Jezreel, El valle de Josafat, El valle del Jordán, El valle de Ela",
       "respuestaCorrecta": "El valle de Ela",
       "justificacion": "1 Samuel 17:2 ubica el campamento israelita y el enfrentamiento con los filisteos en el valle de Ela.",
       "vecesFallada": 0
@@ -876,7 +876,7 @@
       "id": 93,
       "capituloId": 2,
       "enunciado": "¿Qué hizo David inmediatamente después de derribar a Goliat con una piedra de su honda?",
-      "opciones": "Le cortó la cabeza con la propia espada del gigante, Lo dejó inconsciente y se retiró, Lo llevó prisionero ante el rey Saúl, Esperó la orden del rey para actuar",
+      "opciones": "Lo llevó prisionero ante el rey Saúl, Esperó la orden del rey para actuar, Le cortó la cabeza con la propia espada del gigante, Lo dejó inconsciente y se retiró",
       "respuestaCorrecta": "Le cortó la cabeza con la propia espada del gigante",
       "justificacion": "1 Samuel 17:51 narra que David corrió; tomó la espada de Goliat y le cortó la cabeza con ella.",
       "vecesFallada": 0
@@ -885,7 +885,7 @@
       "id": 94,
       "capituloId": 2,
       "enunciado": "¿Por qué decidió Josué proteger a los habitantes de Gabaón en la batalla narrada en Josué 10?",
-      "opciones": "Por un pacto de paz obtenido mediante engaño, Por ser parientes cercanos de Israel, Por orden directa recibida de Moisés, Por temor a su gran ejército",
+      "opciones": "Por ser parientes cercanos de Israel, Por temor a su gran ejército, Por orden directa recibida de Moisés, Por un pacto de paz obtenido mediante engaño",
       "respuestaCorrecta": "Por un pacto de paz obtenido mediante engaño",
       "justificacion": "Josué 9 relata que los gabaonitas engañaron a Israel para obtener un pacto de paz; el cual Josué respetó al ser atacados.",
       "vecesFallada": 0
@@ -894,7 +894,7 @@
       "id": 95,
       "capituloId": 2,
       "enunciado": "¿Cómo se llamaban los dos reyes madianitas que Gedeón persiguió y capturó personalmente tras la batalla?",
-      "opciones": "Zebah y Zalmunna, Oreb y Zeeb, Sísara y Jabín, Agag y Balac",
+      "opciones": "Oreb y Zeeb, Agag y Balac, Zebah y Zalmunna, Sísara y Jabín",
       "respuestaCorrecta": "Zebah y Zalmunna",
       "justificacion": "Jueces 8 narra que Gedeón persiguió y capturó personalmente a los reyes madianitas Zebah y Zalmunna.",
       "vecesFallada": 0
@@ -903,7 +903,7 @@
       "id": 96,
       "capituloId": 2,
       "enunciado": "¿De qué pueblos vecinos provenía el ejército que atacó a Judá en la victoria dirigida por Josafat?",
-      "opciones": "Moab; Amón y los montes de Seir, Egipto; Asiria y Babilonia, Filistea; Edom y Madián, Siria; Fenicia y Tiro",
+      "opciones": "Egipto; Asiria y Babilonia, Moab; Amón y los montes de Seir, Filistea; Edom y Madián, Siria; Fenicia y Tiro",
       "respuestaCorrecta": "Moab; Amón y los montes de Seir",
       "justificacion": "2 Crónicas 20:1-2 identifica a los atacantes de Judá como ejércitos de Moab; Amón y de los montes de Seir.",
       "vecesFallada": 0
@@ -912,7 +912,7 @@
       "id": 97,
       "capituloId": 2,
       "enunciado": "¿En qué región se ubicó el ejército de Judá antes de la victoria dirigida por el rey Josafat?",
-      "opciones": "El desierto de Tecoa, El desierto de Judea, El monte de los Olivos, El valle de Siquem",
+      "opciones": "El valle de Siquem, El desierto de Tecoa, El desierto de Judea, El monte de los Olivos",
       "respuestaCorrecta": "El desierto de Tecoa",
       "justificacion": "2 Crónicas 20:20 señala que el ejército de Judá salió hacia el desierto de Tecoa antes de la batalla.",
       "vecesFallada": 0
@@ -921,7 +921,7 @@
       "id": 98,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Adán'; el primer hombre creado por Dios?",
-      "opciones": "Hombre; tomado de la tierra, Padre de toda la humanidad, Imagen y semejanza divina, Primogénito de la creación",
+      "opciones": "Primogénito de la creación, Imagen y semejanza divina, Hombre; tomado de la tierra, Padre de toda la humanidad",
       "respuestaCorrecta": "Hombre; tomado de la tierra",
       "justificacion": "El nombre Adán está relacionado con la palabra hebrea para tierra; en referencia a su origen; tomado del polvo de la tierra.",
       "vecesFallada": 0
@@ -930,7 +930,7 @@
       "id": 99,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Eva'; dado a la primera mujer según Génesis 3:20?",
-      "opciones": "Madre de todos los vivientes, Compañera del primer hombre, Hecha de una costilla, Tentada por la serpiente",
+      "opciones": "Hecha de una costilla, Tentada por la serpiente, Madre de todos los vivientes, Compañera del primer hombre",
       "respuestaCorrecta": "Madre de todos los vivientes",
       "justificacion": "Génesis 3:20 explica que Eva recibió ese nombre por ser la madre de todos los vivientes.",
       "vecesFallada": 0
@@ -939,7 +939,7 @@
       "id": 100,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Noé'; según la explicación dada en Génesis 5:29?",
-      "opciones": "Descanso; consuelo, Fiel entre los perversos, Constructor del arca, Padre de tres naciones",
+      "opciones": "Fiel entre los perversos, Descanso; consuelo, Constructor del arca, Padre de tres naciones",
       "respuestaCorrecta": "Descanso; consuelo",
       "justificacion": "Génesis 5:29 explica que el nombre Noé está relacionado con el descanso o consuelo que traería a su generación.",
       "vecesFallada": 0
@@ -948,7 +948,7 @@
       "id": 101,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Isaac'; el hijo de la promesa dado a Abraham y Sara?",
-      "opciones": "Risa, Heredero prometido, Bendición del pacto, Hijo del milagro",
+      "opciones": "Hijo del milagro, Heredero prometido, Bendición del pacto, Risa",
       "respuestaCorrecta": "Risa",
       "justificacion": "El nombre Isaac significa risa; en referencia a la reacción de sus padres ante la promesa de Dios en su vejez.",
       "vecesFallada": 0
@@ -957,7 +957,7 @@
       "id": 102,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Benjamín'; el menor de los doce hijos de Jacob?",
-      "opciones": "Hijo de mi mano derecha, Hijo de mi dolor y tristeza, El más amado de su padre, El último de los hermanos",
+      "opciones": "El más amado de su padre, El último de los hermanos, Hijo de mi mano derecha, Hijo de mi dolor y tristeza",
       "respuestaCorrecta": "Hijo de mi mano derecha",
       "justificacion": "Génesis 35:18 relata que Jacob cambió el nombre que Raquel moribunda le había dado por el de Benjamín; hijo de mi mano derecha.",
       "vecesFallada": 0
@@ -966,7 +966,7 @@
       "id": 103,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Salomón'; hijo de David conocido por su sabiduría?",
-      "opciones": "Paz, Sabiduría del cielo, Rey de Israel unido, Constructor del templo",
+      "opciones": "Constructor del templo, Sabiduría del cielo, Rey de Israel unido, Paz",
       "respuestaCorrecta": "Paz",
       "justificacion": "El nombre Salomón proviene de la raíz hebrea relacionada con la paz; shalom.",
       "vecesFallada": 0
@@ -975,7 +975,7 @@
       "id": 104,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Elías'; el profeta que enfrentó a los profetas de Baal en el monte Carmelo?",
-      "opciones": "Jehová es mi Dios, Jehová es mi fortaleza, Jehová es mi pastor, Jehová es mi refugio",
+      "opciones": "Jehová es mi refugio, Jehová es mi pastor, Jehová es mi Dios, Jehová es mi fortaleza",
       "respuestaCorrecta": "Jehová es mi Dios",
       "justificacion": "El nombre Elías significa Jehová es mi Dios; declaración central del mensaje de este profeta.",
       "vecesFallada": 0
@@ -984,7 +984,7 @@
       "id": 105,
       "capituloId": 3,
       "enunciado": "¿Qué significa el nombre 'Josué'; el sucesor de Moisés y conquistador de Canaán?",
-      "opciones": "Jehová es salvación, Jehová es mi guía, Jehová es poderoso, Jehová es mi roca",
+      "opciones": "Jehová es mi roca, Jehová es poderoso, Jehová es salvación, Jehová es mi guía",
       "respuestaCorrecta": "Jehová es salvación",
       "justificacion": "El nombre Josué comparte raíz con el nombre Jesús; y significa Jehová es salvación.",
       "vecesFallada": 0
@@ -993,7 +993,7 @@
       "id": 106,
       "capituloId": 4,
       "enunciado": "Según Proverbios 17:22; ¿qué efecto tiene un corazón alegre sobre la salud de una persona?",
-      "opciones": "Constituye un buen remedio para el cuerpo, No tiene ningún efecto comprobable, Solo beneficia el estado de ánimo, Acelera la curación de heridas físicas",
+      "opciones": "No tiene ningún efecto comprobable, Solo beneficia el estado de ánimo, Constituye un buen remedio para el cuerpo, Acelera la curación de heridas físicas",
       "respuestaCorrecta": "Constituye un buen remedio para el cuerpo",
       "justificacion": "Proverbios 17:22 declara que el corazón alegre constituye buen remedio; mientras que el espíritu triste seca los huesos.",
       "vecesFallada": 0
@@ -1002,7 +1002,7 @@
       "id": 107,
       "capituloId": 4,
       "enunciado": "Según Proverbios 17:22; ¿qué efecto produce el espíritu triste sobre los huesos?",
-      "opciones": "Seca los huesos, Fortalece los huesos con el tiempo, No afecta en nada al cuerpo, Produce dolor temporal únicamente",
+      "opciones": "No afecta en nada al cuerpo, Seca los huesos, Produce dolor temporal únicamente, Fortalece los huesos con el tiempo",
       "respuestaCorrecta": "Seca los huesos",
       "justificacion": "El mismo versículo contrasta el corazón alegre con el espíritu triste; que seca los huesos.",
       "vecesFallada": 0
@@ -1011,7 +1011,7 @@
       "id": 108,
       "capituloId": 4,
       "enunciado": "Según Proverbios 18:24; ¿qué cualidad especial del amigo se destaca en este proverbio?",
-      "opciones": "Hay amigo más unido que un hermano, El amigo nunca iguala al hermano, El amigo es menos leal que un hermano, El amigo solo ayuda en tiempos fáciles",
+      "opciones": "El amigo solo ayuda en tiempos fáciles, El amigo es menos leal que un hermano, Hay amigo más unido que un hermano, El amigo nunca iguala al hermano",
       "respuestaCorrecta": "Hay amigo más unido que un hermano",
       "justificacion": "Proverbios 18:24 declara que hay amigo más unido que un hermano; resaltando el valor de la verdadera amistad.",
       "vecesFallada": 0
@@ -1020,7 +1020,7 @@
       "id": 109,
       "capituloId": 4,
       "enunciado": "Según Proverbios 27:17; ¿con qué se compara la influencia mutua entre dos buenos amigos?",
-      "opciones": "Hierro que aguza a otro hierro, Agua que apaga el fuego, Piedra que pule a otra piedra, Fuego que templa el metal",
+      "opciones": "Agua que apaga el fuego, Fuego que templa el metal, Piedra que pule a otra piedra, Hierro que aguza a otro hierro",
       "respuestaCorrecta": "Hierro que aguza a otro hierro",
       "justificacion": "Proverbios 27:17 declara que hierro con hierro se aguza; así el hombre aguza el rostro de su amigo.",
       "vecesFallada": 0
@@ -1029,7 +1029,7 @@
       "id": 110,
       "capituloId": 4,
       "enunciado": "Según Proverbios 4:23; ¿qué se nos exhorta a guardar sobre todas las cosas?",
-      "opciones": "El corazón; porque de él mana la vida, Las riquezas; porque de ellas viene el poder, La lengua; porque de ella viene el honor, Los ojos; porque de ellos viene la luz",
+      "opciones": "Los ojos; porque de ellos viene la luz, Las riquezas; porque de ellas viene el poder, El corazón; porque de él mana la vida, La lengua; porque de ella viene el honor",
       "respuestaCorrecta": "El corazón; porque de él mana la vida",
       "justificacion": "Proverbios 4:23 exhorta a guardar el corazón sobre toda cosa guardada; porque de él mana la vida.",
       "vecesFallada": 0
@@ -1038,7 +1038,7 @@
       "id": 111,
       "capituloId": 4,
       "enunciado": "Según Proverbios 31:30; ¿qué cualidad de la mujer es digna de alabanza; por encima de la hermosura?",
-      "opciones": "El temor de Jehová, La sabiduría acumulada, La riqueza heredada, La belleza física notable",
+      "opciones": "La riqueza heredada, El temor de Jehová, La sabiduría acumulada, La belleza física notable",
       "respuestaCorrecta": "El temor de Jehová",
       "justificacion": "Proverbios 31:30 declara que engañosa es la gracia y vana la hermosura; pero la mujer que teme a Jehová será alabada.",
       "vecesFallada": 0
@@ -1047,7 +1047,7 @@
       "id": 112,
       "capituloId": 4,
       "enunciado": "Según Proverbios 29:18; ¿qué le ocurre al pueblo cuando no hay profecía ni visión?",
-      "opciones": "El pueblo se desenfrena, El pueblo prospera sin límites, El pueblo se vuelve más sabio, El pueblo permanece sin cambios",
+      "opciones": "El pueblo permanece sin cambios, El pueblo prospera sin límites, El pueblo se desenfrena, El pueblo se vuelve más sabio",
       "respuestaCorrecta": "El pueblo se desenfrena",
       "justificacion": "Proverbios 29:18 declara que sin profecía el pueblo se desenfrena; pero el que guarda la ley es bienaventurado.",
       "vecesFallada": 0
@@ -1056,7 +1056,7 @@
       "id": 113,
       "capituloId": 4,
       "enunciado": "Según Proverbios 18:10; ¿con qué se compara el nombre de Jehová para el justo?",
-      "opciones": "Una torre fuerte a la cual el justo corre y está seguro, Un escudo inquebrantable en la batalla, Una lámpara que nunca se apaga, Un río que nunca se seca",
+      "opciones": "Una lámpara que nunca se apaga, Una torre fuerte a la cual el justo corre y está seguro, Un escudo inquebrantable en la batalla, Un río que nunca se seca",
       "respuestaCorrecta": "Una torre fuerte a la cual el justo corre y está seguro",
       "justificacion": "Proverbios 18:10 declara que torre fuerte es el nombre de Jehová; a él correrá el justo y será levantado.",
       "vecesFallada": 0
@@ -1065,7 +1065,7 @@
       "id": 114,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola de la Moneda Perdida; narrada en Lucas 15:8-10?",
-      "opciones": "Hay gozo en el cielo por un pecador que se arrepiente, El dinero perdido nunca se recupera, Las monedas representan las doce tribus, La mujer representa al pueblo infiel",
+      "opciones": "La mujer representa al pueblo infiel, Las monedas representan las doce tribus, El dinero perdido nunca se recupera, Hay gozo en el cielo por un pecador que se arrepiente",
       "respuestaCorrecta": "Hay gozo en el cielo por un pecador que se arrepiente",
       "justificacion": "Lucas 15:8-10 narra la parábola de la moneda perdida; que concluye enseñando el gozo celestial por un pecador arrepentido.",
       "vecesFallada": 0
@@ -1074,7 +1074,7 @@
       "id": 115,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de la Moneda Perdida?",
-      "opciones": "Lucas 15:8-10, Lucas 15:11-32, Mateo 13:3-23, Lucas 10:25-37",
+      "opciones": "Lucas 10:25-37, Lucas 15:8-10, Mateo 13:3-23, Lucas 15:11-32",
       "respuestaCorrecta": "Lucas 15:8-10",
       "justificacion": "La parábola de la Moneda Perdida se encuentra en Lucas 15:8-10; en el mismo capítulo que la Oveja Perdida y el Hijo Pródigo.",
       "vecesFallada": 0
@@ -1083,7 +1083,7 @@
       "id": 116,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola del Rico y Lázaro; registrada en Lucas 16:19-31?",
-      "opciones": "Las decisiones de esta vida tienen consecuencias eternas, La riqueza siempre lleva a la condenación, La pobreza garantiza la salvación eterna, Los ricos nunca pueden arrepentirse",
+      "opciones": "La riqueza siempre lleva a la condenación, Los ricos nunca pueden arrepentirse, Las decisiones de esta vida tienen consecuencias eternas, La pobreza garantiza la salvación eterna",
       "respuestaCorrecta": "Las decisiones de esta vida tienen consecuencias eternas",
       "justificacion": "Lucas 16:19-31 narra la parábola del rico y Lázaro; que ilustra que las decisiones tomadas en esta vida tienen consecuencias eternas.",
       "vecesFallada": 0
@@ -1092,7 +1092,7 @@
       "id": 117,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Rico y Lázaro?",
-      "opciones": "Lucas 16:19-31, Lucas 15:1-7, Mateo 25:14-30, Lucas 18:9-14",
+      "opciones": "Lucas 15:1-7, Lucas 16:19-31, Lucas 18:9-14, Mateo 25:14-30",
       "respuestaCorrecta": "Lucas 16:19-31",
       "justificacion": "La parábola del Rico y Lázaro se encuentra registrada exactamente en Lucas 16:19-31.",
       "vecesFallada": 0
@@ -1101,7 +1101,7 @@
       "id": 118,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola de la Semilla de Mostaza; narrada en Mateo 13:31-32?",
-      "opciones": "El reino de los cielos crece desde comienzos muy pequeños, Las semillas pequeñas nunca llegan a crecer, El reino de los cielos es visible desde el inicio, Solo las grandes semillas producen buenos frutos",
+      "opciones": "Las semillas pequeñas nunca llegan a crecer, Solo las grandes semillas producen buenos frutos, El reino de los cielos es visible desde el inicio, El reino de los cielos crece desde comienzos muy pequeños",
       "respuestaCorrecta": "El reino de los cielos crece desde comienzos muy pequeños",
       "justificacion": "Mateo 13:31-32 compara el reino de los cielos con la semilla de mostaza; que crece desde un comienzo diminuto hasta hacerse un gran árbol.",
       "vecesFallada": 0
@@ -1110,7 +1110,7 @@
       "id": 119,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de la Semilla de Mostaza?",
-      "opciones": "Mateo 13:31-32, Mateo 13:33, Lucas 13:18-19, Marcos 4:30-32",
+      "opciones": "Marcos 4:30-32, Mateo 13:33, Mateo 13:31-32, Lucas 13:18-19",
       "respuestaCorrecta": "Mateo 13:31-32",
       "justificacion": "La parábola de la Semilla de Mostaza se encuentra registrada exactamente en Mateo 13:31-32.",
       "vecesFallada": 0
@@ -1119,7 +1119,7 @@
       "id": 120,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola del Fariseo y el Publicano; narrada en Lucas 18:9-14?",
-      "opciones": "La humildad ante Dios vale más que la justicia propia, El orgullo religioso siempre es recompensado, Los publicanos nunca pueden ser justificados, Las oraciones largas agradan más a Dios",
+      "opciones": "Las oraciones largas agradan más a Dios, El orgullo religioso siempre es recompensado, La humildad ante Dios vale más que la justicia propia, Los publicanos nunca pueden ser justificados",
       "respuestaCorrecta": "La humildad ante Dios vale más que la justicia propia",
       "justificacion": "Lucas 18:9-14 contrasta la oración orgullosa del fariseo con la humilde del publicano; enseñando el valor de la humildad ante Dios.",
       "vecesFallada": 0
@@ -1128,7 +1128,7 @@
       "id": 121,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Fariseo y el Publicano?",
-      "opciones": "Lucas 18:9-14, Lucas 15:11-32, Mateo 25:14-30, Lucas 10:25-37",
+      "opciones": "Mateo 25:14-30, Lucas 15:11-32, Lucas 18:9-14, Lucas 10:25-37",
       "respuestaCorrecta": "Lucas 18:9-14",
       "justificacion": "La parábola del Fariseo y el Publicano se encuentra registrada exactamente en Lucas 18:9-14.",
       "vecesFallada": 0
@@ -1137,7 +1137,7 @@
       "id": 122,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola de las Diez Vírgenes; registrada en Mateo 25:1-13?",
-      "opciones": "La necesidad de estar siempre preparados para la venida de Cristo, Solo cinco personas se salvarán al final, El aceite representa las riquezas materiales, La boda simboliza la vida terrenal completa",
+      "opciones": "El aceite representa las riquezas materiales, La necesidad de estar siempre preparados para la venida de Cristo, La boda simboliza la vida terrenal completa, Solo cinco personas se salvarán al final",
       "respuestaCorrecta": "La necesidad de estar siempre preparados para la venida de Cristo",
       "justificacion": "Mateo 25:1-13 narra la parábola de las diez vírgenes; que enseña la necesidad de estar siempre preparados para la venida del Señor.",
       "vecesFallada": 0
@@ -1146,7 +1146,7 @@
       "id": 123,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola de las Diez Vírgenes?",
-      "opciones": "Mateo 25:1-13, Mateo 25:14-30, Lucas 15:8-10, Lucas 18:9-14",
+      "opciones": "Lucas 15:8-10, Mateo 25:14-30, Lucas 18:9-14, Mateo 25:1-13",
       "respuestaCorrecta": "Mateo 25:1-13",
       "justificacion": "La parábola de las Diez Vírgenes se encuentra registrada exactamente en Mateo 25:1-13; justo antes de la parábola de los Talentos.",
       "vecesFallada": 0
@@ -1155,7 +1155,7 @@
       "id": 124,
       "capituloId": 5,
       "enunciado": "¿Qué enseña la parábola del Trigo y la Cizaña; narrada en Mateo 13:24-30?",
-      "opciones": "Dios separará a los justos de los impíos en el juicio final, Toda mala hierba debe arrancarse de inmediato, El trigo y la cizaña nunca pueden coexistir, El labrador representa a los ángeles únicamente",
+      "opciones": "Toda mala hierba debe arrancarse de inmediato, El trigo y la cizaña nunca pueden coexistir, Dios separará a los justos de los impíos en el juicio final, El labrador representa a los ángeles únicamente",
       "respuestaCorrecta": "Dios separará a los justos de los impíos en el juicio final",
       "justificacion": "Mateo 13:24-30 enseña que; al igual que el trigo y la cizaña crecen juntos hasta la siega; Dios separará a los justos de los impíos en el juicio final.",
       "vecesFallada": 0
@@ -1164,7 +1164,7 @@
       "id": 125,
       "capituloId": 5,
       "enunciado": "¿En qué cita bíblica exacta se encuentra la parábola del Trigo y la Cizaña?",
-      "opciones": "Mateo 13:24-30, Mateo 13:31-32, Mateo 13:33, Lucas 8:4-15",
+      "opciones": "Mateo 13:31-32, Mateo 13:33, Lucas 8:4-15, Mateo 13:24-30",
       "respuestaCorrecta": "Mateo 13:24-30",
       "justificacion": "La parábola del Trigo y la Cizaña se encuentra registrada exactamente en Mateo 13:24-30.",
       "vecesFallada": 0
@@ -1173,7 +1173,7 @@
       "id": 126,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el término 'Santuario' en el vocabulario bíblico fundamental?",
-      "opciones": "El lugar simbólico de morada de Dios y centro del sistema de sacrificios, El edificio administrativo del sacerdocio, La residencia privada de los profetas, El mercado principal del templo",
+      "opciones": "La residencia privada de los profetas, El edificio administrativo del sacerdocio, El lugar simbólico de morada de Dios y centro del sistema de sacrificios, El mercado principal del templo",
       "respuestaCorrecta": "El lugar simbólico de morada de Dios y centro del sistema de sacrificios",
       "justificacion": "El Santuario se define como el lugar simbólico de la morada de Dios entre su pueblo y el centro del sistema de sacrificios del Antiguo Testamento.",
       "vecesFallada": 0
@@ -1182,7 +1182,7 @@
       "id": 127,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el término 'Advenimiento' en este contexto bíblico?",
-      "opciones": "La venida de Cristo; especialmente su segunda venida gloriosa, El nacimiento de cualquier profeta importante, La fundación de una nueva nación, El comienzo del año litúrgico judío",
+      "opciones": "La fundación de una nueva nación, El comienzo del año litúrgico judío, El nacimiento de cualquier profeta importante, La venida de Cristo; especialmente su segunda venida gloriosa",
       "respuestaCorrecta": "La venida de Cristo; especialmente su segunda venida gloriosa",
       "justificacion": "El Advenimiento se refiere principalmente a la venida de Cristo; con especial énfasis en su esperada segunda venida gloriosa.",
       "vecesFallada": 0
@@ -1191,7 +1191,7 @@
       "id": 128,
       "capituloId": 6,
       "enunciado": "¿Qué significa el título 'Mesías' o 'Cristo' aplicado a Jesús?",
-      "opciones": "El Ungido; libertador prometido por Dios, El maestro de la ley judía, El sumo sacerdote del templo, El rey terrenal de Israel",
+      "opciones": "El sumo sacerdote del templo, El Ungido; libertador prometido por Dios, El maestro de la ley judía, El rey terrenal de Israel",
       "respuestaCorrecta": "El Ungido; libertador prometido por Dios",
       "justificacion": "Mesías y Cristo significan literalmente el Ungido; título que identifica al libertador prometido por Dios a su pueblo.",
       "vecesFallada": 0
@@ -1200,7 +1200,7 @@
       "id": 129,
       "capituloId": 6,
       "enunciado": "¿Cómo se define el 'Sábado' dentro de este vocabulario bíblico fundamental?",
-      "opciones": "El día de reposo santificado por Dios desde la creación, Un día de ayuno obligatorio semanal, El día de reunión del sanedrín, El día dedicado al pago de diezmos",
+      "opciones": "El día de reunión del sanedrín, Un día de ayuno obligatorio semanal, El día de reposo santificado por Dios desde la creación, El día dedicado al pago de diezmos",
       "respuestaCorrecta": "El día de reposo santificado por Dios desde la creación",
       "justificacion": "El Sábado se define como el día de reposo que Dios bendijo y santificó desde la creación del mundo.",
       "vecesFallada": 0
@@ -1209,7 +1209,7 @@
       "id": 130,
       "capituloId": 6,
       "enunciado": "¿Qué es la 'Profecía' según su definición teológica básica?",
-      "opciones": "Un mensaje revelado por Dios a través de un profeta, Una tradición transmitida oralmente, Una interpretación humana de sueños, Una ley civil dictada por los reyes",
+      "opciones": "Una tradición transmitida oralmente, Un mensaje revelado por Dios a través de un profeta, Una interpretación humana de sueños, Una ley civil dictada por los reyes",
       "respuestaCorrecta": "Un mensaje revelado por Dios a través de un profeta",
       "justificacion": "La Profecía se define como un mensaje revelado directamente por Dios a su pueblo a través de un profeta elegido.",
       "vecesFallada": 0
@@ -1218,7 +1218,7 @@
       "id": 131,
       "capituloId": 6,
       "enunciado": "¿Qué es el 'Diezmo' según su definición en el vocabulario bíblico fundamental?",
-      "opciones": "La décima parte de los ingresos dedicada a Dios, Una ofrenda voluntaria sin porcentaje fijo, Un impuesto exigido por el estado romano, Una limosna dada solo a los pobres",
+      "opciones": "Una limosna dada solo a los pobres, Un impuesto exigido por el estado romano, La décima parte de los ingresos dedicada a Dios, Una ofrenda voluntaria sin porcentaje fijo",
       "respuestaCorrecta": "La décima parte de los ingresos dedicada a Dios",
       "justificacion": "El Diezmo se define como la décima parte de los ingresos de una persona; devuelta a Dios como reconocimiento de su provisión.",
       "vecesFallada": 0
@@ -1227,7 +1227,7 @@
       "id": 132,
       "capituloId": 6,
       "enunciado": "¿Qué simboliza el 'Bautismo' según su definición teológica básica?",
-      "opciones": "La muerte y resurrección del creyente con Cristo, Solo la limpieza física del cuerpo, La entrada formal al sacerdocio levítico, Un rito exclusivo para los líderes religiosos",
+      "opciones": "Un rito exclusivo para los líderes religiosos, La entrada formal al sacerdocio levítico, La muerte y resurrección del creyente con Cristo, Solo la limpieza física del cuerpo",
       "respuestaCorrecta": "La muerte y resurrección del creyente con Cristo",
       "justificacion": "El Bautismo simboliza la muerte al pecado y la resurrección a una nueva vida en unión con Cristo.",
       "vecesFallada": 0
@@ -1236,7 +1236,7 @@
       "id": 133,
       "capituloId": 7,
       "enunciado": "¿Para qué rango de edad está diseñado el programa del Club de Conquistadores?",
-      "opciones": "Menores y adolescentes de 10 a 15 años de edad, Niños de 5 a 9 años de edad, Jóvenes de 16 a 21 años de edad, Personas de todas las edades",
+      "opciones": "Personas de todas las edades, Niños de 5 a 9 años de edad, Jóvenes de 16 a 21 años de edad, Menores y adolescentes de 10 a 15 años de edad",
       "respuestaCorrecta": "Menores y adolescentes de 10 a 15 años de edad",
       "justificacion": "El Club de Conquistadores es un programa diseñado para menores y adolescentes de 10 a 15 años de edad[cite: 1].",
       "vecesFallada": 0
@@ -1245,8 +1245,8 @@
       "id": 134,
       "capituloId": 7,
       "enunciado": "¿Qué simboliza la 'Espada' en el logo de los Conquistadores?",
-      "opciones": "La Biblia, la Palabra de Dios, La lucha contra el enemigo, La autoridad del director del club, La preparación física",
-      "respuestaCorrecta": "La Biblia, la Palabra de Dios",
+      "opciones": "La autoridad del director del club, La Biblia: la Palabra de Dios, La lucha contra el enemigo, La preparación física",
+      "respuestaCorrecta": "La Biblia: la Palabra de Dios",
       "justificacion": "En el significado del logo, la espada representa La Biblia, la Palabra de Dios[cite: 1].",
       "vecesFallada": 0
     },
@@ -1254,8 +1254,8 @@
       "id": 135,
       "capituloId": 7,
       "enunciado": "¿Qué representa el 'Escudo' en el emblema del club?",
-      "opciones": "Protección, escudo de la fe, La unidad de la iglesia, La defensa personal, El cuidado de la naturaleza",
-      "respuestaCorrecta": "Protección, escudo de la fe",
+      "opciones": "El cuidado de la naturaleza, Protección: escudo de la fe, La unidad de la iglesia, La defensa personal",
+      "respuestaCorrecta": "Protección: escudo de la fe",
       "justificacion": "El escudo simboliza la protección, específicamente el escudo de la fe[cite: 1].",
       "vecesFallada": 0
     },
@@ -1263,7 +1263,7 @@
       "id": 136,
       "capituloId": 7,
       "enunciado": "¿Cuál es el significado del 'Triángulo invertido' en el logo?",
-      "opciones": "Humildad y espíritu de servicio, La jerarquía del club, El enfoque en las cosas terrenales, La caída del pecado",
+      "opciones": "El enfoque en las cosas terrenales, La caída del pecado, Humildad y espíritu de servicio, La jerarquía del club",
       "respuestaCorrecta": "Humildad y espíritu de servicio",
       "justificacion": "El triángulo invertido es el símbolo de la humildad y el espíritu de servicio[cite: 1].",
       "vecesFallada": 0
@@ -1272,8 +1272,8 @@
       "id": 137,
       "capituloId": 7,
       "enunciado": "¿Qué representan los 'Tres lados' del triángulo del logo?",
-      "opciones": "Trinidad (Padre, Hijo y Espíritu Santo) y el trípode educativo (físico, mental y espiritual), Iglesia, hogar y escuela, Pasado, presente y futuro, Liderazgo, obediencia y reverencia",
-      "respuestaCorrecta": "Trinidad (Padre, Hijo y Espíritu Santo) y el trípode educativo (físico, mental y espiritual)",
+      "opciones": "Liderazgo; obediencia y reverencia, Trinidad (Padre; Hijo y Espíritu Santo) y el trípode educativo (físico; mental y espiritual), Iglesia; hogar y escuela, Pasado; presente y futuro",
+      "respuestaCorrecta": "Trinidad (Padre; Hijo y Espíritu Santo) y el trípode educativo (físico; mental y espiritual)",
       "justificacion": "Los tres lados representan la Trinidad y el trípode educativo: físico, mental y espiritual[cite: 1].",
       "vecesFallada": 0
     },
@@ -1281,7 +1281,7 @@
       "id": 138,
       "capituloId": 7,
       "enunciado": "¿Qué significado tiene el color 'Rojo' en la paleta de colores de los Conquistadores?",
-      "opciones": "El sacrificio de Cristo, El fuego del Espíritu Santo, El amor entre los hermanos, La sangre de los mártires",
+      "opciones": "El amor entre los hermanos, La sangre de los mártires, El fuego del Espíritu Santo, El sacrificio de Cristo",
       "respuestaCorrecta": "El sacrificio de Cristo",
       "justificacion": "El color rojo simboliza el sacrificio de Cristo[cite: 1].",
       "vecesFallada": 0
@@ -1290,7 +1290,7 @@
       "id": 139,
       "capituloId": 7,
       "enunciado": "¿Qué simboliza el color 'Dorado' en el club?",
-      "opciones": "Excelencia del carácter, Las calles de oro del cielo, El valor de la amistad, La corona de la vida",
+      "opciones": "El valor de la amistad, Las calles de oro del cielo, Excelencia del carácter, La corona de la vida",
       "respuestaCorrecta": "Excelencia del carácter",
       "justificacion": "El color dorado representa la excelencia del carácter[cite: 1].",
       "vecesFallada": 0
@@ -1299,7 +1299,7 @@
       "id": 140,
       "capituloId": 7,
       "enunciado": "¿Qué representa el color 'Blanco' en el emblema?",
-      "opciones": "Pureza y justicia de Cristo, La paz mundial, La rendición total a Dios, Las vestiduras de los salvos",
+      "opciones": "La rendición total a Dios, Pureza y justicia de Cristo, La paz mundial, Las vestiduras de los salvos",
       "respuestaCorrecta": "Pureza y justicia de Cristo",
       "justificacion": "El color blanco es símbolo de la pureza y la justicia de Cristo[cite: 1].",
       "vecesFallada": 0
@@ -1308,7 +1308,7 @@
       "id": 141,
       "capituloId": 7,
       "enunciado": "¿Cuál es el significado del color 'Azul'?",
-      "opciones": "Lealtad del Conquistador, El cielo donde mora Dios, La inmensidad de la creación, La obediencia a la ley",
+      "opciones": "La inmensidad de la creación, Lealtad del Conquistador, El cielo donde mora Dios, La obediencia a la ley",
       "respuestaCorrecta": "Lealtad del Conquistador",
       "justificacion": "El color azul representa la lealtad del Conquistador[cite: 1].",
       "vecesFallada": 0
