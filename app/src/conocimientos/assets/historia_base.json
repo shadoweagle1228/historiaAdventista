@@ -1,4 +1,4 @@
-{
+﻿{
   "capitulos": [
     {
       "id": 1,
@@ -1238,7 +1238,7 @@
       "enunciado": "¿Para qué rango de edad está diseñado el programa del Club de Conquistadores?",
       "opciones": "Personas de todas las edades, Niños de 5 a 9 años de edad, Jóvenes de 16 a 21 años de edad, Menores y adolescentes de 10 a 15 años de edad",
       "respuestaCorrecta": "Menores y adolescentes de 10 a 15 años de edad",
-      "justificacion": "El Club de Conquistadores es un programa diseñado para menores y adolescentes de 10 a 15 años de edad[cite: 1].",
+      "justificacion": "El Club de Conquistadores es un programa diseñado para menores y adolescentes de 10 a 15 años de edad.",
       "vecesFallada": 0
     },
     {
@@ -1247,7 +1247,7 @@
       "enunciado": "¿Qué simboliza la 'Espada' en el logo de los Conquistadores?",
       "opciones": "La autoridad del director del club, La Biblia: la Palabra de Dios, La lucha contra el enemigo, La preparación física",
       "respuestaCorrecta": "La Biblia: la Palabra de Dios",
-      "justificacion": "En el significado del logo, la espada representa La Biblia, la Palabra de Dios[cite: 1].",
+      "justificacion": "En el significado del logo, la espada representa La Biblia, la Palabra de Dios.",
       "vecesFallada": 0
     },
     {
@@ -1256,7 +1256,7 @@
       "enunciado": "¿Qué representa el 'Escudo' en el emblema del club?",
       "opciones": "El cuidado de la naturaleza, Protección: escudo de la fe, La unidad de la iglesia, La defensa personal",
       "respuestaCorrecta": "Protección: escudo de la fe",
-      "justificacion": "El escudo simboliza la protección, específicamente el escudo de la fe[cite: 1].",
+      "justificacion": "El escudo simboliza la protección, específicamente el escudo de la fe.",
       "vecesFallada": 0
     },
     {
@@ -1265,7 +1265,7 @@
       "enunciado": "¿Cuál es el significado del 'Triángulo invertido' en el logo?",
       "opciones": "El enfoque en las cosas terrenales, La caída del pecado, Humildad y espíritu de servicio, La jerarquía del club",
       "respuestaCorrecta": "Humildad y espíritu de servicio",
-      "justificacion": "El triángulo invertido es el símbolo de la humildad y el espíritu de servicio[cite: 1].",
+      "justificacion": "El triángulo invertido es el símbolo de la humildad y el espíritu de servicio.",
       "vecesFallada": 0
     },
     {
@@ -1274,7 +1274,7 @@
       "enunciado": "¿Qué representan los 'Tres lados' del triángulo del logo?",
       "opciones": "Liderazgo; obediencia y reverencia, Trinidad (Padre; Hijo y Espíritu Santo) y el trípode educativo (físico; mental y espiritual), Iglesia; hogar y escuela, Pasado; presente y futuro",
       "respuestaCorrecta": "Trinidad (Padre; Hijo y Espíritu Santo) y el trípode educativo (físico; mental y espiritual)",
-      "justificacion": "Los tres lados representan la Trinidad y el trípode educativo: físico, mental y espiritual[cite: 1].",
+      "justificacion": "Los tres lados representan la Trinidad y el trípode educativo: físico, mental y espiritual.",
       "vecesFallada": 0
     },
     {
@@ -1283,7 +1283,7 @@
       "enunciado": "¿Qué significado tiene el color 'Rojo' en la paleta de colores de los Conquistadores?",
       "opciones": "El amor entre los hermanos, La sangre de los mártires, El fuego del Espíritu Santo, El sacrificio de Cristo",
       "respuestaCorrecta": "El sacrificio de Cristo",
-      "justificacion": "El color rojo simboliza el sacrificio de Cristo[cite: 1].",
+      "justificacion": "El color rojo simboliza el sacrificio de Cristo.",
       "vecesFallada": 0
     },
     {
@@ -1292,7 +1292,7 @@
       "enunciado": "¿Qué simboliza el color 'Dorado' en el club?",
       "opciones": "El valor de la amistad, Las calles de oro del cielo, Excelencia del carácter, La corona de la vida",
       "respuestaCorrecta": "Excelencia del carácter",
-      "justificacion": "El color dorado representa la excelencia del carácter[cite: 1].",
+      "justificacion": "El color dorado representa la excelencia del carácter.",
       "vecesFallada": 0
     },
     {
@@ -1301,7 +1301,7 @@
       "enunciado": "¿Qué representa el color 'Blanco' en el emblema?",
       "opciones": "La rendición total a Dios, Pureza y justicia de Cristo, La paz mundial, Las vestiduras de los salvos",
       "respuestaCorrecta": "Pureza y justicia de Cristo",
-      "justificacion": "El color blanco es símbolo de la pureza y la justicia de Cristo[cite: 1].",
+      "justificacion": "El color blanco es símbolo de la pureza y la justicia de Cristo.",
       "vecesFallada": 0
     },
     {
@@ -1310,7 +1310,7 @@
       "enunciado": "¿Cuál es el significado del color 'Azul'?",
       "opciones": "La inmensidad de la creación, Lealtad del Conquistador, El cielo donde mora Dios, La obediencia a la ley",
       "respuestaCorrecta": "Lealtad del Conquistador",
-      "justificacion": "El color azul representa la lealtad del Conquistador[cite: 1].",
+      "justificacion": "El color azul representa la lealtad del Conquistador.",
       "vecesFallada": 0
     }
   ]
