@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [Capitulo::class, Pregunta::class], version = 11, exportSchema = false)
+@Database(entities = [Capitulo::class, Pregunta::class], version = 12, exportSchema = false)
 abstract class HistoriaDatabase : RoomDatabase() {
 
     abstract fun historiaDao(): HistoriaDao

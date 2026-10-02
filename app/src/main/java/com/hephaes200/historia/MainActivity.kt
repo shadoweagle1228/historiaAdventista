@@ -5,34 +5,28 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.hephaes200.historia.ui.HistoriaViewModel
-import com.hephaes200.historia.ui.theme.HistoriaTheme
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.material3.TextButton
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.ui.res.stringResource
+import com.hephaes200.historia.ui.HistoriaViewModel
+import com.hephaes200.historia.ui.NavEstado
+import com.hephaes200.historia.ui.theme.HistoriaTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -53,149 +47,167 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Orquestador de pantallas
+// Orquestador de pantallas usando NavEstado tipado (sin numeros magicos)
 @Composable
 fun AppNavegacion(viewModel: HistoriaViewModel) {
-    val estadoNavegacion = viewModel.estadoNavegacion.collectAsState().value
+    val navEstado by viewModel.navEstado.collectAsState()
 
-    when (estadoNavegacion) {
-        0 -> PantallaMenu(viewModel)
-        1, 2 -> PantallaTrivia(viewModel)
-        3 -> PantallaResumen(viewModel)
+    when (navEstado) {
+        is NavEstado.Menu      -> PantallaMenu(viewModel)
+        is NavEstado.Trivia    -> PantallaTrivia(viewModel)
+        is NavEstado.Resultados -> PantallaResultados(viewModel)
     }
 }
 
 @Composable
 fun PantallaMenu(viewModel: HistoriaViewModel) {
-    val rango = viewModel.obtenerRangoActual()
-    val racha = viewModel.rachaDias.collectAsState().value
-    // Observamos la lista de capítulos desde la base de datos
+    val racha by viewModel.rachaDias.collectAsState()
+    val rango by viewModel.rangoActual.collectAsState()
     val listaCapitulos by viewModel.capitulos.collectAsState()
 
-    Column(
+    // rememberSaveable: sobrevive a rotaciones de pantalla
+    var textoBusqueda by rememberSaveable { mutableStateOf("") }
+
+    // Filtrado memorizado para no recalcular en cada recomposicion
+    val capitulosFiltrados = remember(listaCapitulos, textoBusqueda) {
+        listaCapitulos.filter { capitulo ->
+            val textoCompleto = "cap ${capitulo.id} capitulo ${capitulo.id} ${capitulo.titulo}"
+            textoCompleto.contains(textoBusqueda.trim(), ignoreCase = true)
+        }
+    }
+
+    // LazyColumn para todo el menu: header como item{}, lista de capitulos con items()
+    LazyColumn(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp)
-            .verticalScroll(rememberScrollState()),
-        horizontalAlignment = Alignment.CenterHorizontally
+            .padding(horizontal = 24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        contentPadding = PaddingValues(vertical = 24.dp)
     ) {
-        Spacer(modifier = Modifier.height(32.dp))
-        Text(text = stringResource(R.string.app_name), fontSize = 36.sp, fontWeight = FontWeight.Black, color = MaterialTheme.colorScheme.primary, textAlign = TextAlign.Center)
-        Text(text = stringResource(R.string.app_subtitle), fontSize = 20.sp, color = MaterialTheme.colorScheme.secondary)
-
-        Spacer(modifier = Modifier.height(48.dp))
-        Text(text = "Selecciona un Modo de Juego", fontSize = 18.sp, fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Button(
-            onClick = { viewModel.iniciarJuego(0) },
-            modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
-            contentPadding = PaddingValues(16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
-        ) {
-            Text(text = "🎲 Desafío Aleatorio (Global)", fontSize = 18.sp)
-        }
-
-        Button(
-            onClick = { viewModel.iniciarJuego(2) },
-            modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
-            contentPadding = PaddingValues(16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
-        ) {
-            Text(text = "🛠️ Banco de Errores (Repaso)", fontSize = 18.sp)
-        }
-
-        Spacer(modifier = Modifier.height(24.dp))
-        HorizontalDivider()
-        Spacer(modifier = Modifier.height(24.dp))
-        Text(text = "Estudio por Capítulos", fontSize = 18.sp, fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // DIBUJADO DINÁMICO DE BOTONES
-        if (listaCapitulos.isEmpty()) {
-            CircularProgressIndicator() // Muestra un indicador mientras lee la BD
-        } else {
-            // 1. Estado de memoria (Solo necesitamos el de la búsqueda)
-            var textoBusqueda by remember { mutableStateOf("") }
-
-            // 2. LA BARRA DE BÚSQUEDA
-            OutlinedTextField(
-                value = textoBusqueda,
-                onValueChange = { textoBusqueda = it },
-                label = { Text("Buscar capítulo...") },
-                leadingIcon = {
-                    Icon(imageVector = Icons.Default.Search, contentDescription = "Buscar")
-                },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 24.dp),
-                singleLine = true,
-                shape = MaterialTheme.shapes.medium
+        item {
+            Text(
+                text = stringResource(R.string.app_name),
+                fontSize = 36.sp,
+                fontWeight = FontWeight.Black,
+                color = MaterialTheme.colorScheme.primary,
+                textAlign = TextAlign.Center
+            )
+            Text(
+                text = stringResource(R.string.app_subtitle),
+                fontSize = 20.sp,
+                color = MaterialTheme.colorScheme.secondary
             )
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // 3. LÓGICA DE FILTRADO (Con la búsqueda a prueba de balas)
-            val capitulosFiltrados = listaCapitulos.filter { capitulo ->
-                val textoCompleto = "cap ${capitulo.id} capitulo ${capitulo.id} ${capitulo.titulo}"
-                textoCompleto.contains(textoBusqueda.trim(), ignoreCase = true)
+            // Tarjeta de rango y racha visible desde el menu principal
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth().padding(12.dp),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Rango: $rango", fontWeight = FontWeight.Bold)
+                    Text(text = "Racha: $racha dias", fontWeight = FontWeight.Bold)
+                }
             }
 
-            // 4. LISTA CONTINUA DE RESULTADOS
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 24.dp)
-            ) {
+            Spacer(modifier = Modifier.height(32.dp))
+            Text(text = "Selecciona un Modo de Juego", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+            Spacer(modifier = Modifier.height(16.dp))
 
-                // Mensaje si no hay resultados
+            Button(
+                onClick = { viewModel.iniciarJuego(0) },
+                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                contentPadding = PaddingValues(16.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
+            ) {
+                Text(text = "Desafio Aleatorio (Global)", fontSize = 18.sp)
+            }
+
+            Button(
+                onClick = { viewModel.iniciarJuego(2) },
+                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                contentPadding = PaddingValues(16.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+            ) {
+                Text(text = "Banco de Errores (Repaso)", fontSize = 18.sp)
+            }
+
+            Spacer(modifier = Modifier.height(24.dp))
+            HorizontalDivider()
+            Spacer(modifier = Modifier.height(24.dp))
+            Text(text = "Estudio por Capitulos", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+            Spacer(modifier = Modifier.height(16.dp))
+
+            if (listaCapitulos.isEmpty()) {
+                Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+                    CircularProgressIndicator()
+                }
+                Spacer(modifier = Modifier.height(16.dp))
+            } else {
+                OutlinedTextField(
+                    value = textoBusqueda,
+                    onValueChange = { textoBusqueda = it },
+                    label = { Text("Buscar capitulo...") },
+                    leadingIcon = {
+                        Icon(imageVector = Icons.Default.Search, contentDescription = "Buscar")
+                    },
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true,
+                    shape = MaterialTheme.shapes.medium
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+
                 if (capitulosFiltrados.isEmpty()) {
                     Text(
-                        text = "No encontramos ningún capítulo con ese nombre.",
+                        text = "No encontramos ningun capitulo con ese nombre.",
                         modifier = Modifier.padding(vertical = 16.dp).fillMaxWidth(),
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center
                     )
-                } else {
-                    // Dibujamos todos los capítulos que pasen el filtro
-                    capitulosFiltrados.forEach { capitulo ->
-                        Button(
-                            onClick = { viewModel.iniciarJuego(1, capitulo.id) },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(vertical = 8.dp),
-                            contentPadding = PaddingValues(16.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
-                        ) {
-                            Text(
-                                text = "📖 Cap ${capitulo.id}: ${capitulo.titulo}",
-                                fontSize = 16.sp,
-                                textAlign = TextAlign.Center
-                            )
-                        }
-                    }
+                    Spacer(modifier = Modifier.height(8.dp))
                 }
             }
         }
-        Spacer(modifier = Modifier.height(32.dp))
+
+        // Botones de capitulos renderizados de forma eficiente con LazyColumn
+        if (listaCapitulos.isNotEmpty()) {
+            items(capitulosFiltrados) { capitulo ->
+                Button(
+                    onClick = { viewModel.iniciarJuego(1, capitulo.id) },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 4.dp),
+                    contentPadding = PaddingValues(16.dp),
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
+                ) {
+                    Text(
+                        text = "Cap ${capitulo.id}: ${capitulo.titulo}",
+                        fontSize = 16.sp,
+                        textAlign = TextAlign.Center
+                    )
+                }
+            }
+        }
     }
 }
 
 @Composable
 fun PantallaTrivia(viewModel: HistoriaViewModel) {
-    // Observamos todos los estados del juego
     val preguntas by viewModel.preguntas.collectAsState()
     val indice by viewModel.indiceActual.collectAsState()
     val puntaje by viewModel.puntaje.collectAsState()
-    val terminado by viewModel.juegoTerminado.collectAsState()
     val vidas by viewModel.vidas.collectAsState()
     val feedback by viewModel.feedbackActual.collectAsState()
-    val opcionesOcultas = viewModel.opcionesOcultas.collectAsState().value
-    val comodinUsado = viewModel.comodinUsado.collectAsState().value
+    val opcionesOcultas by viewModel.opcionesOcultas.collectAsState()
+    val comodinUsado by viewModel.comodinUsado.collectAsState()
+    val pasoLibreUsado by viewModel.pasoLibreUsado.collectAsState()
+    val segundaOportUsada by viewModel.segundaOportUsada.collectAsState()
+    val escudoActivo by viewModel.escudoActivo.collectAsState()
     val lottieComposition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.confetti))
-    val pasoLibreUsado = viewModel.pasoLibreUsado.collectAsState().value
-    val segundaOportUsada = viewModel.segundaOportUsada.collectAsState().value
-    val escudoActivo = viewModel.escudoActivo.collectAsState().value
 
     val lottieProgress by animateLottieCompositionAsState(
         composition = lottieComposition,
@@ -203,7 +215,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
         iterations = 1
     )
 
-    // Pantalla de carga inicial
+    // Pantalla de carga: las preguntas aun no estan listas
     if (preguntas.isEmpty()) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             CircularProgressIndicator()
@@ -211,181 +223,172 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
         return
     }
 
-    // Pantalla final (Resultados)
-    if (terminado) {
-        val puntajeMax = viewModel.puntajeMaximo.collectAsState().value
-        val racha = viewModel.rachaDias.collectAsState().value
-        val rango = viewModel.obtenerRangoActual()
+    val preguntaActual = preguntas[indice]
+    val opcionesList = preguntaActual.opciones.split(",").map { it.trim() }
 
-        PantallaResultados(
-            puntaje = puntaje,
-            total = preguntas.size * 10,
-            puntajeMaximo = puntajeMax,
-            rachaDias = racha,
-            rangoJA = rango,
-            vidasRestantes = vidas,
-            onReiniciar = { viewModel.reiniciarJuego() },
-            onVolverMenu = { viewModel.volverAlMenu() }
+    // Pop-up de retroalimentacion (bloquea interaccion hasta tocar "Continuar")
+    feedback?.let { fb ->
+        AlertDialog(
+            onDismissRequest = { /* Vacio: obliga a tocar Continuar */ },
+            title = {
+                Text(
+                    text = if (fb.esCorrecta) "Correcto!" else "Incorrecto",
+                    fontWeight = FontWeight.Bold,
+                    color = if (fb.esCorrecta) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
+                )
+            },
+            text = { Text(text = fb.mensaje, fontSize = 16.sp) },
+            confirmButton = {
+                Button(onClick = { viewModel.avanzarPregunta() }) {
+                    Text("Continuar")
+                }
+            }
         )
-    } else {
-        // Pantalla de la pregunta actual
-        val preguntaActual = preguntas[indice]
-        val opciones = preguntaActual.opciones.split(",")
+    }
 
-        // 1. POP-UP DE RETROALIMENTACIÓN
-        feedback?.let { fb ->
-            AlertDialog(
-                onDismissRequest = { /* Vacio para obligar a tocar "Continuar" */ },
-                title = {
-                    Text(
-                        text = if (fb.esCorrecta) "¡Correcto! 🎉" else "Incorrecto ❌",
-                        fontWeight = FontWeight.Bold,
-                        color = if (fb.esCorrecta) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
-                    )
-                },
-                text = {
-                    Text(text = fb.mensaje, fontSize = 16.sp)
-                },
-                confirmButton = {
-                    Button(onClick = { viewModel.avanzarPregunta() }) {
-                        Text("Continuar")
+    Box(modifier = Modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Cabecera: boton atras, corazones, puntaje
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    IconButton(onClick = { viewModel.volverAlMenu() }) {
+                        Icon(
+                            imageVector = Icons.Default.ArrowBack,
+                            contentDescription = "Volver al Menu",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    Spacer(modifier = Modifier.width(4.dp))
+                    // coerceIn(0,3): evita crash si vidas baja de 0 por edge case
+                    val vidasSeguras = vidas.coerceIn(0, 3)
+                    val corazones = "❤️".repeat(vidasSeguras) + "🤍".repeat(3 - vidasSeguras)
+                    Text(text = corazones, fontSize = 24.sp)
+                }
+                Text(text = "Puntos: $puntaje", fontSize = 20.sp, fontWeight = FontWeight.Bold)
+            }
+
+            Spacer(modifier = Modifier.height(32.dp))
+
+            Text(
+                text = "Pregunta ${indice + 1} de ${preguntas.size}",
+                fontSize = 18.sp,
+                color = MaterialTheme.colorScheme.secondary
+            )
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Text(
+                text = preguntaActual.enunciado,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                textAlign = TextAlign.Center,
+                lineHeight = 32.sp
+            )
+            Spacer(modifier = Modifier.height(48.dp))
+
+            // Botones de opciones (oculta las eliminadas por el comodin 50/50 o el escudo)
+            opcionesList.forEach { opcion ->
+                if (!opcionesOcultas.contains(opcion)) {
+                    Button(
+                        onClick = { viewModel.verificarRespuesta(opcion) },
+                        modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
+                        contentPadding = PaddingValues(16.dp),
+                        enabled = feedback == null
+                    ) {
+                        Text(text = opcion, fontSize = 18.sp, textAlign = TextAlign.Center)
                     }
                 }
-            )
-        }
+            }
 
-        Box(modifier = Modifier.fillMaxSize()) {
-            Column(
-                modifier = Modifier.fillMaxSize().padding(24.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                // 2. CABECERA: VIDAS Y PUNTAJE
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Comodines: solo visibles mientras no hay feedback activo
+            if (feedback == null) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        IconButton(onClick = { viewModel.volverAlMenu() }) {
-                            Icon(
-                                imageVector = Icons.Default.ArrowBack,
-                                contentDescription = "Volver al Menú",
-                                tint = MaterialTheme.colorScheme.primary
-                            )
-                        }
-
-                        Spacer(modifier = Modifier.width(4.dp))
-
-                        val corazones = "❤️".repeat(vidas) + "🤍".repeat(3 - vidas)
-                        Text(text = corazones, fontSize = 24.sp)
-                    }
-                    Text(text = "Puntos: $puntaje", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-                }
-
-                Spacer(modifier = Modifier.height(32.dp))
-
-                Text(
-                    text = "Pregunta ${indice + 1} de ${preguntas.size}",
-                    fontSize = 18.sp,
-                    color = MaterialTheme.colorScheme.secondary
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-
-                Text(
-                    text = preguntaActual.enunciado,
-                    fontSize = 24.sp,
-                    fontWeight = FontWeight.Bold,
-                    textAlign = TextAlign.Center,
-                    lineHeight = 32.sp
-                )
-                Spacer(modifier = Modifier.height(48.dp))
-
-                val opcionesList = preguntas[indice].opciones.split(",").map { it.trim() }
-
-                // Botones de opciones
-                opcionesList.forEach { opcion ->
-                    if (!opcionesOcultas.contains(opcion)) {
-                        Button(
-                            onClick = { viewModel.verificarRespuesta(opcion) },
-                            modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
-                            contentPadding = PaddingValues(16.dp),
-                            enabled = feedback == null
-                        ) {
-                            Text(text = opcion, fontSize = 18.sp, textAlign = TextAlign.Center)
-                        }
-                    }
-                }
-
-                Spacer(modifier = Modifier.height(16.dp))
-                if (feedback == null) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    OutlinedButton(
+                        onClick = { viewModel.usarComodin5050() },
+                        enabled = !comodinUsado,
+                        modifier = Modifier.weight(1f),
+                        contentPadding = PaddingValues(8.dp)
                     ) {
-                        // Comodín 1: 50/50
-                        OutlinedButton(
-                            onClick = { viewModel.usarComodin5050() },
-                            enabled = !comodinUsado,
-                            modifier = Modifier.weight(1f),
-                            contentPadding = PaddingValues(8.dp)
-                        ) {
-                            Text(text = "🪄\n50/50", fontSize = 12.sp, textAlign = TextAlign.Center)
-                        }
+                        Text(text = "50/50", fontSize = 12.sp, textAlign = TextAlign.Center)
+                    }
 
-                        // Comodín 2: Paso Libre
-                        OutlinedButton(
-                            onClick = { viewModel.usarPasoLibre() },
-                            enabled = !pasoLibreUsado,
-                            modifier = Modifier.weight(1f),
-                            contentPadding = PaddingValues(8.dp)
-                        ) {
-                            Text(text = "🏃\nSaltar", fontSize = 12.sp, textAlign = TextAlign.Center)
-                        }
+                    OutlinedButton(
+                        onClick = { viewModel.usarPasoLibre() },
+                        enabled = !pasoLibreUsado,
+                        modifier = Modifier.weight(1f),
+                        contentPadding = PaddingValues(8.dp)
+                    ) {
+                        Text(text = "Saltar", fontSize = 12.sp, textAlign = TextAlign.Center)
+                    }
 
-                        // Comodín 3: Escudo / Segunda Oportunidad
-                        OutlinedButton(
-                            onClick = { viewModel.usarSegundaOportunidad() },
-                            enabled = !segundaOportUsada,
-                            modifier = Modifier.weight(1f),
-                            contentPadding = PaddingValues(8.dp),
-                            // Le damos un color especial si está activo esperando a ser usado
-                            colors = if (escudoActivo) ButtonDefaults.outlinedButtonColors(containerColor = MaterialTheme.colorScheme.primaryContainer) else ButtonDefaults.outlinedButtonColors()
-                        ) {
-                            Text(text = "🛡️\nEscudo", fontSize = 12.sp, textAlign = TextAlign.Center)
-                        }
+                    OutlinedButton(
+                        onClick = { viewModel.usarSegundaOportunidad() },
+                        enabled = !segundaOportUsada,
+                        modifier = Modifier.weight(1f),
+                        contentPadding = PaddingValues(8.dp),
+                        colors = if (escudoActivo)
+                            ButtonDefaults.outlinedButtonColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                        else
+                            ButtonDefaults.outlinedButtonColors()
+                    ) {
+                        Text(text = "Escudo", fontSize = 12.sp, textAlign = TextAlign.Center)
                     }
                 }
+            }
 
-                if (feedback?.esCorrecta == true && lottieProgress < 1f) {
-                    LottieAnimation(
-                        composition = lottieComposition,
-                        progress = { lottieProgress },
-                        modifier = Modifier.fillMaxSize()
-                    )
-                }
+            // Animacion de confetti al acertar
+            if (feedback?.esCorrecta == true && lottieProgress < 1f) {
+                LottieAnimation(
+                    composition = lottieComposition,
+                    progress = { lottieProgress },
+                    modifier = Modifier.fillMaxSize()
+                )
             }
         }
     }
 }
 
+// Pantalla unificada de resultados: muestra rango, racha, puntaje maximo y mensaje motivacional
 @Composable
-fun PantallaResultados(
-    puntaje: Int,
-    total: Int,
-    puntajeMaximo: Int,
-    rachaDias: Int,
-    rangoJA: String,
-    vidasRestantes: Int,
-    onReiniciar: () -> Unit,
-    onVolverMenu: () -> Unit
-) {
+fun PantallaResultados(viewModel: HistoriaViewModel) {
+    val puntaje by viewModel.puntaje.collectAsState()
+    val preguntas by viewModel.preguntas.collectAsState()
+    val puntajeMaximo by viewModel.puntajeMaximo.collectAsState()
+    val rachaDias by viewModel.rachaDias.collectAsState()
+    val rango by viewModel.rangoActual.collectAsState()
+    val vidas by viewModel.vidas.collectAsState()
+
+    val total = preguntas.size * 10
+    val titulo = if (vidas > 0) "Ronda Completada!" else "Sin Vidas!"
+    val mensaje = if (vidas > 0) {
+        "Excelente trabajo. Has demostrado un gran dominio de este tema."
+    } else {
+        "Se agotaron las vidas, pero cada error es un paso mas hacia el dominio del tema."
+    }
+
     Column(
         modifier = Modifier.fillMaxSize().padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        val titulo = if (vidasRestantes > 0) "¡Ronda Completada!" else "¡Sin Vidas!"
-        Text(text = titulo, fontSize = 32.sp, fontWeight = FontWeight.Bold)
+        Text(
+            text = titulo,
+            fontSize = 32.sp,
+            fontWeight = FontWeight.Black,
+            color = if (vidas > 0) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+            textAlign = TextAlign.Center
+        )
         Spacer(modifier = Modifier.height(24.dp))
 
         Card(
@@ -393,25 +396,35 @@ fun PantallaResultados(
             colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
         ) {
             Column(modifier = Modifier.padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(text = "⭐ Rango Actual: $rangoJA", fontSize = 22.sp, fontWeight = FontWeight.Black)
+                Text(text = "Rango Actual: $rango", fontSize = 22.sp, fontWeight = FontWeight.Black)
                 Spacer(modifier = Modifier.height(8.dp))
-                Text(text = "🔥 Racha de Estudio: $rachaDias días", fontSize = 18.sp, fontWeight = FontWeight.Bold)
-                Text(text = "🏆 Puntaje Máximo: $puntajeMaximo", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                Text(text = "Racha de Estudio: $rachaDias dias", fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                Text(text = "Puntaje Maximo: $puntajeMaximo", fontSize = 18.sp, fontWeight = FontWeight.Bold)
             }
         }
 
-        Spacer(modifier = Modifier.height(48.dp))
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Text(
+            text = mensaje,
+            fontSize = 16.sp,
+            textAlign = TextAlign.Center,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
         Text(text = "Tu puntaje en esta ronda:", fontSize = 20.sp)
         Text(
             text = "$puntaje / $total",
             fontSize = 48.sp,
             fontWeight = FontWeight.Black,
-            color = MaterialTheme.colorScheme.primary
+            color = if (vidas > 0) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
         )
-        Spacer(modifier = Modifier.height(48.dp))
+
+        Spacer(modifier = Modifier.height(32.dp))
 
         Button(
-            onClick = onReiniciar,
+            onClick = { viewModel.reiniciarJuego() },
             modifier = Modifier.fillMaxWidth(),
             contentPadding = PaddingValues(16.dp)
         ) {
@@ -421,82 +434,11 @@ fun PantallaResultados(
         Spacer(modifier = Modifier.height(16.dp))
 
         OutlinedButton(
-            onClick = onVolverMenu,
-            modifier = Modifier.fillMaxWidth(),
-            contentPadding = PaddingValues(16.dp)
-        ) {
-            Text(text = "Volver al Menú", fontSize = 18.sp)
-        }
-    }
-}
-
-@Composable
-fun PantallaResumen(viewModel: HistoriaViewModel) {
-    val puntaje = viewModel.puntaje.collectAsState().value
-    val vidas = viewModel.vidas.collectAsState().value
-
-    // Evaluamos el resultado para dar un feedback apropiado
-    val titulo = if (vidas > 0) "¡Capítulo Completado!" else "¡Sigue Intentándolo!"
-    val mensaje = if (vidas > 0) {
-        "Excelente trabajo. Has demostrado un gran dominio de este tema."
-    } else {
-        "Se agotaron las vidas, pero cada error es un paso más hacia el dominio del tema."
-    }
-
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        Text(
-            text = titulo,
-            fontSize = 32.sp,
-            fontWeight = FontWeight.Black,
-            color = MaterialTheme.colorScheme.primary,
-            textAlign = TextAlign.Center
-        )
-
-        Spacer(modifier = Modifier.height(24.dp))
-
-        Card(
-            modifier = Modifier.fillMaxWidth(),
-            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
-        ) {
-            Column(
-                modifier = Modifier.padding(24.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                Text(text = "Puntaje Final", fontSize = 18.sp)
-                Text(
-                    text = "$puntaje",
-                    fontSize = 48.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.secondary
-                )
-                Spacer(modifier = Modifier.height(16.dp))
-                Text(text = "Vidas restantes: $vidas ❤️", fontSize = 16.sp)
-            }
-        }
-
-        Spacer(modifier = Modifier.height(32.dp))
-
-        Text(
-            text = mensaje,
-            fontSize = 16.sp,
-            textAlign = TextAlign.Center,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
-
-        Spacer(modifier = Modifier.height(48.dp))
-
-        Button(
             onClick = { viewModel.volverAlMenu() },
             modifier = Modifier.fillMaxWidth(),
             contentPadding = PaddingValues(16.dp)
         ) {
-            Text(text = "Volver al Menú Principal", fontSize = 18.sp)
+            Text(text = "Volver al Menu", fontSize = 18.sp)
         }
     }
 }

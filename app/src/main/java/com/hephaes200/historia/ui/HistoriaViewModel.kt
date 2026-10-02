@@ -1,9 +1,12 @@
-package com.hephaes200.historia.ui
+﻿package com.hephaes200.historia.ui
 
 import android.app.Application
 import android.content.Context
+import android.media.AudioAttributes
+import android.media.SoundPool
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.hephaes200.historia.R
 import com.hephaes200.historia.data.HistoriaDatabase
 import com.hephaes200.historia.data.HistoriaRepository
 import com.hephaes200.historia.data.Pregunta
@@ -11,12 +14,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import android.media.SoundPool
-import com.hephaes200.historia.R
 
-// Clases auxiliares
+// Resultado de responder una pregunta
 data class Feedback(val esCorrecta: Boolean, val mensaje: String)
-enum class Pantalla { MENU, JUEGO } // Control de navegación
+
+// Navegacion tipada: sin numeros magicos
+sealed class NavEstado {
+    object Menu : NavEstado()
+    object Trivia : NavEstado()
+    object Resultados : NavEstado()
+}
 
 class HistoriaViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -24,9 +31,9 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
     private val dao = HistoriaDatabase.getDatabase(application).historiaDao()
     private val prefs = application.getSharedPreferences("JuegoPrefs", Context.MODE_PRIVATE)
 
-    // Estado de Navegación
-    private val _pantallaActual = MutableStateFlow(Pantalla.MENU)
-    val pantallaActual: StateFlow<Pantalla> = _pantallaActual
+    // Navegacion
+    private val _navEstado = MutableStateFlow<NavEstado>(NavEstado.Menu)
+    val navEstado: StateFlow<NavEstado> = _navEstado
 
     // Estados del Juego
     private val _preguntas = MutableStateFlow<List<Pregunta>>(emptyList())
@@ -44,9 +51,6 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
     private val _puntaje = MutableStateFlow(0)
     val puntaje: StateFlow<Int> = _puntaje
 
-    private val _juegoTerminado = MutableStateFlow(false)
-    val juegoTerminado: StateFlow<Boolean> = _juegoTerminado
-
     // Estados de Logros
     private val _puntajeMaximo = MutableStateFlow(prefs.getInt("puntaje_maximo", 0))
     val puntajeMaximo: StateFlow<Int> = _puntajeMaximo
@@ -54,16 +58,31 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
     private val _rachaDias = MutableStateFlow(prefs.getInt("racha_dias", 0))
     val rachaDias: StateFlow<Int> = _rachaDias
 
-    // Guardamos el último modo jugado para el botón "Jugar otra vez"
+    // Rango precalculado como StateFlow: ya no se lee en el hilo de UI en cada recomposicion
+    private val _rangoActual = MutableStateFlow(calcularRango())
+    val rangoActual: StateFlow<String> = _rangoActual
+
+    // Ultimo modo jugado para el boton "Jugar otra vez"
     private var ultimoModo: Int = 0
     private var ultimoCapitulo: Int = 1
 
     private val _capitulos = MutableStateFlow<List<com.hephaes200.historia.data.Capitulo>>(emptyList())
     val capitulos: StateFlow<List<com.hephaes200.historia.data.Capitulo>> = _capitulos
 
-    private val soundPool = SoundPool.Builder().setMaxStreams(2).build()
-    private val sonidoAcierto = soundPool.load(application, R.raw.acierto, 1)
-    private val sonidoError = soundPool.load(application, R.raw.error, 1)
+    // SoundPool con AudioAttributes y listener para saber cuando los sonidos estan listos
+    private val soundPool = SoundPool.Builder()
+        .setMaxStreams(2)
+        .setAudioAttributes(
+            AudioAttributes.Builder()
+                .setUsage(AudioAttributes.USAGE_GAME)
+                .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                .build()
+        )
+        .build()
+    private val sonidoAcierto: Int
+    private val sonidoError: Int
+    private var soundLoadCount = 0
+    private var sonidosListos = false
 
     private val _comodinUsado = MutableStateFlow(false)
     val comodinUsado: StateFlow<Boolean> = _comodinUsado
@@ -80,54 +99,59 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
     private val _escudoActivo = MutableStateFlow(false)
     val escudoActivo: StateFlow<Boolean> = _escudoActivo
 
-    private val _estadoNavegacion = MutableStateFlow(0)
-
-    val estadoNavegacion: StateFlow<Int> = _estadoNavegacion
-
     init {
+        // El listener detecta cuando AMBOS sonidos terminaron de cargar
+        soundPool.setOnLoadCompleteListener { _, _, status ->
+            if (status == 0) {
+                soundLoadCount++
+                if (soundLoadCount >= 2) sonidosListos = true
+            }
+        }
+        sonidoAcierto = soundPool.load(application, R.raw.acierto, 1)
+        sonidoError = soundPool.load(application, R.raw.error, 1)
+
         repository = HistoriaRepository(dao, application)
         actualizarRachaDiaria()
-        // Solo inicializamos el JSON en background, no arrancamos el juego aún
         viewModelScope.launch(Dispatchers.IO) {
             repository.inicializarDatos()
             _capitulos.value = dao.obtenerTodosLosCapitulos()
         }
     }
 
-    // MODO: 0 = Aleatorio, 1 = Por Capítulo, 2 = Banco de Errores
+    // MODO: 0 = Aleatorio, 1 = Por Capitulo, 2 = Banco de Errores
     fun iniciarJuego(modo: Int, capituloId: Int = 1) {
         ultimoModo = modo
         ultimoCapitulo = capituloId
 
         viewModelScope.launch(Dispatchers.IO) {
-            val ronda = when(modo) {
-                1 -> dao.obtenerRondaPorCapitulo(capituloId)
-                2 -> dao.obtenerRondaDeErrores()
+            val ronda = when (modo) {
+                1    -> dao.obtenerRondaPorCapitulo(capituloId)
+                2    -> dao.obtenerRondaDeErrores()
                 else -> dao.obtenerRondaAleatoria()
             }
 
+            // Cargar preguntas (con fallback si banco de errores esta vacio)
             _preguntas.value = if (ronda.isEmpty() && modo == 2) dao.obtenerRondaAleatoria() else ronda
 
+            // Reiniciar todos los estados ANTES de navegar para evitar pantalla en blanco
             _indiceActual.value = 0
             _puntaje.value = 0
             _vidas.value = 3
-            _juegoTerminado.value = false
             _feedbackActual.value = null
-
             _comodinUsado.value = false
             _opcionesOcultas.value = emptySet()
             _pasoLibreUsado.value = false
             _segundaOportUsada.value = false
             _escudoActivo.value = false
 
-            _estadoNavegacion.value = if (modo == 2) 2 else 1
+            // Navegar a Trivia solo cuando todo esta listo
+            _navEstado.value = NavEstado.Trivia
         }
     }
 
     fun volverAlMenu() {
-        _estadoNavegacion.value = 0
         _feedbackActual.value = null
-        _pantallaActual.value = Pantalla.MENU
+        _navEstado.value = NavEstado.Menu
     }
 
     fun usarComodin5050() {
@@ -135,7 +159,6 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
 
         val pregunta = _preguntas.value[_indiceActual.value]
         val todasLasOpciones = pregunta.opciones.split(",").map { it.trim() }
-
         val incorrectas = todasLasOpciones.filter { it != pregunta.respuestaCorrecta }.shuffled().take(2)
 
         _opcionesOcultas.value = incorrectas.toSet()
@@ -147,10 +170,9 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
         _pasoLibreUsado.value = true
 
         val pregunta = _preguntas.value[_indiceActual.value]
-
         _feedbackActual.value = Feedback(
             esCorrecta = true,
-            mensaje = "¡Paso Libre activado! 🏃💨\n\nLa respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
+            mensaje = "Paso Libre activado! 🏃💨\n\nLa respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
         )
     }
 
@@ -165,23 +187,23 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
 
         if (respuestaSeleccionada == pregunta.respuestaCorrecta) {
             _puntaje.value += 10
-            soundPool.play(sonidoAcierto, 1f, 1f, 0, 0, 1f)
-            _feedbackActual.value = Feedback(true, "¡Correcto!\n\n${pregunta.justificacion}")
+            reproducirSonido(sonidoAcierto)
+            _feedbackActual.value = Feedback(true, "Correcto!\n\n${pregunta.justificacion}")
         } else {
-            // La respuesta es incorrecta
             if (_escudoActivo.value) {
-                // El escudo absorbe el error: oculta la opción incorrecta y desactiva el escudo
+                // El escudo absorbe el error: oculta la opcion incorrecta y se desactiva
                 _escudoActivo.value = false
-                soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f)
-
+                reproducirSonido(sonidoError)
                 val nuevasOcultas = _opcionesOcultas.value.toMutableSet()
                 nuevasOcultas.add(respuestaSeleccionada)
                 _opcionesOcultas.value = nuevasOcultas
             } else {
                 _vidas.value -= 1
-                soundPool.play(sonidoError, 1f, 1f, 0, 0, 1f)
-                _feedbackActual.value = Feedback(false, "Incorrecto. La respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}")
-
+                reproducirSonido(sonidoError)
+                _feedbackActual.value = Feedback(
+                    false,
+                    "Incorrecto. La respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
+                )
                 viewModelScope.launch(Dispatchers.IO) {
                     dao.registrarFalloPregunta(pregunta.id)
                 }
@@ -211,24 +233,26 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
             _puntajeMaximo.value = _puntaje.value
             prefs.edit().putInt("puntaje_maximo", _puntaje.value).apply()
         }
-        _juegoTerminado.value = true
-        _estadoNavegacion.value = 3
+
+        // Recalcular rango despues de guardar el nuevo puntaje historico
+        _rangoActual.value = calcularRango()
+        _navEstado.value = NavEstado.Resultados
     }
 
     fun reiniciarJuego() {
         iniciarJuego(ultimoModo, ultimoCapitulo)
     }
 
-    fun obtenerRangoActual(): String {
+    private fun calcularRango(): String {
         val total = prefs.getInt("puntaje_historico_total", 0)
         return when {
-            total >= 1500 -> "Guía Mayor"
-            total >= 1000 -> "Guía"
-            total >= 700 -> "Viajero"
-            total >= 400 -> "Orientador"
-            total >= 200 -> "Explorador"
-            total >= 100 -> "Compañero"
-            else -> "Amigo"
+            total >= 1500 -> "Guia Mayor"
+            total >= 1000 -> "Guia"
+            total >= 700  -> "Viajero"
+            total >= 400  -> "Orientador"
+            total >= 200  -> "Explorador"
+            total >= 100  -> "Companero"
+            else          -> "Amigo"
         }
     }
 
@@ -247,8 +271,13 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
         prefs.edit().putLong("ultimo_dia", diaActual).putInt("racha_dias", racha).apply()
     }
 
+    // Guarda de seguridad: solo reproduce si los sonidos ya terminaron de cargar
+    private fun reproducirSonido(id: Int) {
+        if (sonidosListos) soundPool.play(id, 1f, 1f, 0, 0, 1f)
+    }
+
     override fun onCleared() {
         super.onCleared()
-        soundPool.release() // Liberamos la memoria del audio
+        soundPool.release()
     }
 }

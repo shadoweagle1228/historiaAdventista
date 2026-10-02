@@ -1,17 +1,18 @@
 package com.hephaes200.historia.data
 
+import android.app.Application
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.InputStreamReader
 
-// Simplificamos el Wrapper para que lea el JSON plano tal como está
+// Wrapper para parsear el JSON de assets
 data class HistoriaDataWrapper(
     val capitulos: List<Capitulo>,
     val preguntas: List<Pregunta>
 )
 
-class HistoriaRepository(private val historiaDao: HistoriaDao, private val context: Context) {
+class HistoriaRepository(private val historiaDao: HistoriaDao, private val context: Application) {
 
     suspend fun inicializarDatos() {
         // Verificamos si la base de datos ya tiene información

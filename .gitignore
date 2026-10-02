@@ -1,20 +1,41 @@
-# Created by https://www.toptal.com/developers/gitignore/api/kotlin,gradle
-# Edit at https://www.toptal.com/developers/gitignore?templates=kotlin,gradle
-
-### Kotlin ###
-# Compiled class file
+﻿# ==== Android ====
 *.class
-
-# Log file
 *.log
+*.apk
+*.aab
+*.ap_
+*.dex
 
-# BlueJ files
-*.ctxt
+# Android Studio generated files and folders
+**/build/
+!src/**/build/
+.idea/
+*.iml
+.kotlin/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IntelliJ
+out/
+.idea_modules/
 
-# Package Files #
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+# Secrets / local config (NUNCA subir al repo)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Logs and crash dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Package files
 *.jar
 *.war
 *.nar
@@ -23,35 +44,7 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-### Gradle ###
-.gradle
-**/build/
-!src/**/build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-### Gradle Patch ###
-# Java heap dump
-*.hprof
-
-# End of https://www.toptal.com/developers/gitignore/api/kotlin,gradle
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
