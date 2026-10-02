@@ -236,7 +236,7 @@ fun PantallaTrivia(viewModel: HistoriaViewModel) {
             onDismissRequest = { /* Vacio: obliga a tocar Continuar */ },
             title = {
                 Text(
-                    text = if (fb.esCorrecta) "Correcto!" else "Incorrecto",
+                    text = if (fb.esCorrecta) "¡Correcto! 🎉" else "Incorrecto ❌",
                     fontWeight = FontWeight.Bold,
                     color = if (fb.esCorrecta) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
                 )

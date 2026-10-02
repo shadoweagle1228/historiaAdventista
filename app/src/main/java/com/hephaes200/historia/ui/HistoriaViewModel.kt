@@ -1,4 +1,4 @@
-﻿package com.hephaes200.historia.ui
+package com.hephaes200.historia.ui
 
 import android.app.Application
 import android.content.Context
@@ -172,7 +172,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
         val pregunta = _preguntas.value[_indiceActual.value]
         _feedbackActual.value = Feedback(
             esCorrecta = true,
-            mensaje = "Paso Libre activado! 🏃💨\n\nLa respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
+            mensaje = "¡Paso Libre activado! 🏃💨\n\nLa respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
         )
     }
 
@@ -188,7 +188,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
         if (respuestaSeleccionada == pregunta.respuestaCorrecta) {
             _puntaje.value += 10
             reproducirSonido(sonidoAcierto)
-            _feedbackActual.value = Feedback(true, "Correcto!\n\n${pregunta.justificacion}")
+            _feedbackActual.value = Feedback(true, "¡Correcto! ✅\n\n${pregunta.justificacion}")
         } else {
             if (_escudoActivo.value) {
                 // El escudo absorbe el error: oculta la opcion incorrecta y se desactiva
@@ -202,7 +202,7 @@ class HistoriaViewModel(application: Application) : AndroidViewModel(application
                 reproducirSonido(sonidoError)
                 _feedbackActual.value = Feedback(
                     false,
-                    "Incorrecto. La respuesta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
+                    "Incorrecto ❌\n\nLa respuesta correcta era: ${pregunta.respuestaCorrecta}.\n\n${pregunta.justificacion}"
                 )
                 viewModelScope.launch(Dispatchers.IO) {
                     dao.registrarFalloPregunta(pregunta.id)
