@@ -1,4 +1,4 @@
-﻿{
+{
   "capitulos": [
     {
       "id": 1,
@@ -20,8 +20,8 @@
     },
     {
       "id": 4,
-      "titulo": "Proverbios famosos y citas biblicas exactas",
-      "contenido": "Proverbios 1:7; 3:5-6; 15:1; 16:3; 16:18 y 22:6 en version RVR1995.",
+      "titulo": "Proverbios seleccionados (RVR1995)",
+      "contenido": "Proverbios 1:7; 3:5-6; 15:1; 16:3; 16:18 y 22:6 en versión Reina-Valera 1995.",
       "completado": false
     },
     {
@@ -425,16 +425,16 @@
     {
       "id": 43,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 1:7 (RVR1995); ¿qué constituye 'el principio de la sabiduría'?",
-      "opciones": "La obediencia a los padres, El temor de Jehová, El estudio constante, El consejo de los ancianos",
+      "enunciado": "Según Proverbios 1:7 (RVR1995), ¿qué constituye 'el principio de la sabiduría'?",
+      "opciones": "La riqueza abundante, La fuerza física, El temor de Jehová, La elocuencia humana",
       "respuestaCorrecta": "El temor de Jehová",
-      "justificacion": "Proverbios 1:7 declara: el principio de la sabiduría es el temor de Jehová.",
+      "justificacion": "Proverbios 1:7 declara: El principio de la sabiduría es el temor de Jehová.",
       "vecesFallada": 0
     },
     {
       "id": 44,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 1:7 (RVR1995); ¿qué actitud tienen los insensatos hacia la sabiduría y la enseñanza?",
+      "enunciado": "Según Proverbios 1:7 (RVR1995), ¿qué actitud tienen los insensatos hacia la sabiduría y la enseñanza?",
       "opciones": "La ignoran sin saberlo, La aceptan a medias, La desprecian por completo, La buscan con afán",
       "respuestaCorrecta": "La desprecian por completo",
       "justificacion": "El mismo versículo añade que los insensatos desprecian la sabiduría y la enseñanza.",
@@ -443,25 +443,25 @@
     {
       "id": 45,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 3:5 (RVR1995); ¿en qué no debemos apoyarnos al fiarnos de Jehová de todo corazón?",
+      "enunciado": "Según Proverbios 3:5 (RVR1995), ¿en qué no debemos apoyarnos al fiarnos de Jehová de todo corazón?",
       "opciones": "En nuestra propia familia, En nuestra propia fuerza, En nuestras propias riquezas, En nuestra propia prudencia",
       "respuestaCorrecta": "En nuestra propia prudencia",
-      "justificacion": "Proverbios 3:5 exhorta a fiarnos de Jehová de todo corazón; y no apoyarnos en nuestra propia prudencia.",
+      "justificacion": "Proverbios 3:5 exhorta a fiarnos de Jehová de todo corazón, y no apoyarnos en nuestra propia prudencia.",
       "vecesFallada": 0
     },
     {
       "id": 46,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 3:6 (RVR1995); ¿qué promete Dios a quien lo reconoce en todos sus caminos?",
+      "enunciado": "Según Proverbios 3:6 (RVR1995), ¿qué promete Dios a quien lo reconoce en todos sus caminos?",
       "opciones": "Que le dará riquezas abundantes, Que le dará muchos hijos, Que le concederá larga vida, Que él enderezará sus veredas",
       "respuestaCorrecta": "Que él enderezará sus veredas",
-      "justificacion": "Proverbios 3:6 promete que al reconocer a Jehová en todos nuestros caminos; él enderezará nuestras veredas.",
+      "justificacion": "Proverbios 3:6 promete que al reconocer a Jehová en todos nuestros caminos, él enderezará nuestras veredas.",
       "vecesFallada": 0
     },
     {
       "id": 47,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 15:1 (RVR1995); ¿qué efecto tiene la blanda respuesta sobre la ira?",
+      "enunciado": "Según Proverbios 15:1 (RVR1995), ¿qué efecto tiene la blanda respuesta sobre la ira?",
       "opciones": "La blanda respuesta aumenta la ira, La blanda respuesta retrasa la ira, La blanda respuesta quita la ira, La blanda respuesta ignora la ira",
       "respuestaCorrecta": "La blanda respuesta quita la ira",
       "justificacion": "Proverbios 15:1 declara: la blanda respuesta quita la ira; mas la palabra áspera hace subir el furor.",
@@ -470,34 +470,34 @@
     {
       "id": 48,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 15:1 (RVR1995); ¿qué efecto produce la palabra áspera?",
+      "enunciado": "Según Proverbios 15:1 (RVR1995), ¿qué efecto produce la palabra áspera?",
       "opciones": "Calma toda discusión, Hace subir el furor, Genera arrepentimiento inmediato, No produce ningún efecto",
       "respuestaCorrecta": "Hace subir el furor",
-      "justificacion": "El mismo versículo contrasta la blanda respuesta con la palabra áspera; que hace subir el furor.",
+      "justificacion": "El mismo versículo contrasta la blanda respuesta con la palabra áspera, que hace subir el furor.",
       "vecesFallada": 0
     },
     {
       "id": 49,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 16:3 (RVR1995); ¿qué sucede si encomendamos a Jehová nuestras obras?",
+      "enunciado": "Según Proverbios 16:3 (RVR1995), ¿qué sucede si encomendamos a Jehová nuestras obras?",
       "opciones": "Nuestras riquezas se multiplicarán, Nuestros enemigos huirán de inmediato, Nuestros pensamientos serán afirmados, Nuestros días se alargarán siempre",
       "respuestaCorrecta": "Nuestros pensamientos serán afirmados",
-      "justificacion": "Proverbios 16:3 declara: encomienda a Jehová tus obras; y tus pensamientos serán afirmados.",
+      "justificacion": "Proverbios 16:3 declara: encomienda a Jehová tus obras, y tus pensamientos serán afirmados.",
       "vecesFallada": 0
     },
     {
       "id": 50,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 16:18 (RVR1995); ¿qué precede a la caída?",
+      "enunciado": "Según Proverbios 16:18 (RVR1995), ¿qué precede a la caída?",
       "opciones": "La pereza constante, La avaricia desmedida, La ignorancia voluntaria, La altivez de espíritu",
       "respuestaCorrecta": "La altivez de espíritu",
-      "justificacion": "Proverbios 16:18 declara: antes del quebrantamiento es la soberbia; y antes de la caída la altivez de espíritu.",
+      "justificacion": "Proverbios 16:18 declara: antes del quebrantamiento es la soberbia, y antes de la caída la altivez de espíritu.",
       "vecesFallada": 0
     },
     {
       "id": 51,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 16:18 (RVR1995); ¿qué antecede específicamente al quebrantamiento?",
+      "enunciado": "Según Proverbios 16:18 (RVR1995), ¿qué antecede específicamente al quebrantamiento?",
       "opciones": "La envidia, La avaricia, La soberbia, La pereza",
       "respuestaCorrecta": "La soberbia",
       "justificacion": "El mismo versículo señala que antes del quebrantamiento está la soberbia.",
@@ -506,16 +506,16 @@
     {
       "id": 52,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 22:6 (RVR1995); ¿qué ocurrirá cuando el niño instruido en su camino llegue a ser viejo?",
+      "enunciado": "Según Proverbios 22:6 (RVR1995), ¿qué ocurrirá cuando el niño instruido en su camino llegue a ser viejo?",
       "opciones": "Buscará nuevos caminos propios, No se apartará de ese camino, Dudará de su instrucción, Olvidará todo lo aprendido",
       "respuestaCorrecta": "No se apartará de ese camino",
-      "justificacion": "Proverbios 22:6 declara: instruye al niño en su camino; y aun cuando fuere viejo no se apartará de él.",
+      "justificacion": "Proverbios 22:6 declara: instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.",
       "vecesFallada": 0
     },
     {
       "id": 53,
       "capituloId": 4,
-      "enunciado": "¿En qué cita bíblica exacta se encuentra la frase 'la blanda respuesta quita la ira'?",
+      "enunciado": "¿En qué cita bíblica exacta se encuentra la frase: 'la blanda respuesta quita la ira'?",
       "opciones": "Proverbios 16:18, Proverbios 15:1, Proverbios 3:5-6, Proverbios 22:6",
       "respuestaCorrecta": "Proverbios 15:1",
       "justificacion": "Esta frase corresponde exactamente a Proverbios 15:1.",
@@ -524,7 +524,7 @@
     {
       "id": 54,
       "capituloId": 4,
-      "enunciado": "¿En qué cita bíblica exacta se encuentra la frase 'antes de la caída la altivez de espíritu'?",
+      "enunciado": "¿En qué cita bíblica exacta se encuentra la frase: 'antes de la caída la altivez de espíritu'?",
       "opciones": "Proverbios 1:7, Proverbios 15:1, Proverbios 16:18, Proverbios 16:3",
       "respuestaCorrecta": "Proverbios 16:18",
       "justificacion": "Esta frase corresponde exactamente a Proverbios 16:18.",
@@ -992,73 +992,73 @@
     {
       "id": 106,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 17:22; ¿qué efecto tiene un corazón alegre sobre la salud de una persona?",
-      "opciones": "No tiene ningún efecto comprobable, Solo beneficia el estado de ánimo, Constituye un buen remedio para el cuerpo, Acelera la curación de heridas físicas",
-      "respuestaCorrecta": "Constituye un buen remedio para el cuerpo",
-      "justificacion": "Proverbios 17:22 declara que el corazón alegre constituye buen remedio; mientras que el espíritu triste seca los huesos.",
+      "enunciado": "Según Proverbios 3:5 (RVR1995), ¿con cuánta entrega se nos exhorta a fiarnos de Jehová?",
+      "opciones": "Solo en tiempos de dificultad, Con parte de nuestras fuerzas, De todo nuestro corazón, Únicamente al tomar decisiones",
+      "respuestaCorrecta": "De todo nuestro corazón",
+      "justificacion": "Proverbios 3:5 aconseja: Fíate de Jehová de todo tu corazón, y no te apoyes en tu propia prudencia.",
       "vecesFallada": 0
     },
     {
       "id": 107,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 17:22; ¿qué efecto produce el espíritu triste sobre los huesos?",
-      "opciones": "No afecta en nada al cuerpo, Seca los huesos, Produce dolor temporal únicamente, Fortalece los huesos con el tiempo",
-      "respuestaCorrecta": "Seca los huesos",
-      "justificacion": "El mismo versículo contrasta el corazón alegre con el espíritu triste; que seca los huesos.",
+      "enunciado": "Según Proverbios 22:6 (RVR1995), ¿a quién se nos manda instruir en su camino?",
+      "opciones": "Al gobernante, Al anciano, Al niño, Al extranjero",
+      "respuestaCorrecta": "Al niño",
+      "justificacion": "Proverbios 22:6 instruye: Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él.",
       "vecesFallada": 0
     },
     {
       "id": 108,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 18:24; ¿qué cualidad especial del amigo se destaca en este proverbio?",
-      "opciones": "El amigo solo ayuda en tiempos fáciles, El amigo es menos leal que un hermano, Hay amigo más unido que un hermano, El amigo nunca iguala al hermano",
-      "respuestaCorrecta": "Hay amigo más unido que un hermano",
-      "justificacion": "Proverbios 18:24 declara que hay amigo más unido que un hermano; resaltando el valor de la verdadera amistad.",
+      "enunciado": "Según Proverbios 16:3 (RVR1995), ¿qué debemos encomendar a Jehová para que nuestros pensamientos sean afirmados?",
+      "opciones": "Nuestras posesiones, Nuestras obras, Nuestras quejas, Nuestras dudas",
+      "respuestaCorrecta": "Nuestras obras",
+      "justificacion": "Proverbios 16:3 declara: Encomienda a Jehová tus obras, y tus pensamientos serán afirmados.",
       "vecesFallada": 0
     },
     {
       "id": 109,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 27:17; ¿con qué se compara la influencia mutua entre dos buenos amigos?",
-      "opciones": "Agua que apaga el fuego, Fuego que templa el metal, Piedra que pule a otra piedra, Hierro que aguza a otro hierro",
-      "respuestaCorrecta": "Hierro que aguza a otro hierro",
-      "justificacion": "Proverbios 27:17 declara que hierro con hierro se aguza; así el hombre aguza el rostro de su amigo.",
+      "enunciado": "¿En qué cita bíblica exacta encontramos la declaración: 'El principio de la sabiduría es el temor de Jehová'?",
+      "opciones": "Proverbios 22:6, Proverbios 15:1, Proverbios 16:3, Proverbios 1:7",
+      "respuestaCorrecta": "Proverbios 1:7",
+      "justificacion": "Proverbios 1:7 inicia afirmando que el principio de la sabiduría es el temor de Jehová.",
       "vecesFallada": 0
     },
     {
       "id": 110,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 4:23; ¿qué se nos exhorta a guardar sobre todas las cosas?",
-      "opciones": "Los ojos; porque de ellos viene la luz, Las riquezas; porque de ellas viene el poder, El corazón; porque de él mana la vida, La lengua; porque de ella viene el honor",
-      "respuestaCorrecta": "El corazón; porque de él mana la vida",
-      "justificacion": "Proverbios 4:23 exhorta a guardar el corazón sobre toda cosa guardada; porque de él mana la vida.",
+      "enunciado": "¿En qué pasaje bíblico se nos promete: 'Reconócelo en todos tus caminos, y él enderezará tus veredas'?",
+      "opciones": "Proverbios 16:18, Proverbios 3:5-6, Proverbios 1:7, Proverbios 15:1",
+      "respuestaCorrecta": "Proverbios 3:5-6",
+      "justificacion": "Esta promesa de guía divina se encuentra en Proverbios 3:6.",
       "vecesFallada": 0
     },
     {
       "id": 111,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 31:30; ¿qué cualidad de la mujer es digna de alabanza; por encima de la hermosura?",
-      "opciones": "La riqueza heredada, El temor de Jehová, La sabiduría acumulada, La belleza física notable",
-      "respuestaCorrecta": "El temor de Jehová",
-      "justificacion": "Proverbios 31:30 declara que engañosa es la gracia y vana la hermosura; pero la mujer que teme a Jehová será alabada.",
+      "enunciado": "¿Qué cita bíblica declara: 'Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él'?",
+      "opciones": "Proverbios 3:5-6, Proverbios 1:7, Proverbios 22:6, Proverbios 16:3",
+      "respuestaCorrecta": "Proverbios 22:6",
+      "justificacion": "Este principio fundamental sobre la formación en la fe corresponde a Proverbios 22:6.",
       "vecesFallada": 0
     },
     {
       "id": 112,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 29:18; ¿qué le ocurre al pueblo cuando no hay profecía ni visión?",
-      "opciones": "El pueblo permanece sin cambios, El pueblo prospera sin límites, El pueblo se desenfrena, El pueblo se vuelve más sabio",
-      "respuestaCorrecta": "El pueblo se desenfrena",
-      "justificacion": "Proverbios 29:18 declara que sin profecía el pueblo se desenfrena; pero el que guarda la ley es bienaventurado.",
+      "enunciado": "¿En qué cita bíblica exacta se nos enseña: 'Encomienda a Jehová tus obras, y tus pensamientos serán afirmados'?",
+      "opciones": "Proverbios 16:3, Proverbios 16:18, Proverbios 22:6, Proverbios 15:1",
+      "respuestaCorrecta": "Proverbios 16:3",
+      "justificacion": "Esta exhortación a poner nuestras obras en las manos de Dios está en Proverbios 16:3.",
       "vecesFallada": 0
     },
     {
       "id": 113,
       "capituloId": 4,
-      "enunciado": "Según Proverbios 18:10; ¿con qué se compara el nombre de Jehová para el justo?",
-      "opciones": "Una lámpara que nunca se apaga, Una torre fuerte a la cual el justo corre y está seguro, Un escudo inquebrantable en la batalla, Un río que nunca se seca",
-      "respuestaCorrecta": "Una torre fuerte a la cual el justo corre y está seguro",
-      "justificacion": "Proverbios 18:10 declara que torre fuerte es el nombre de Jehová; a él correrá el justo y será levantado.",
+      "enunciado": "Completando el texto de Proverbios 15:1 (RVR1995): 'La blanda respuesta quita la ira; mas la palabra áspera hace subir...'",
+      "opciones": "La contienda, El furor, La tristeza, El rencor",
+      "respuestaCorrecta": "El furor",
+      "justificacion": "Proverbios 15:1 dice textualmente: La blanda respuesta quita la ira; mas la palabra áspera hace subir el furor.",
       "vecesFallada": 0
     },
     {
