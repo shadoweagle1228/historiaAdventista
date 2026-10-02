@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Trivias Bíblicas - Conquistadores</title>
-  <meta name="theme-color" content="#1C1B1F">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#121214">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="conocimientos/icon-192.png">
   <style>
     :root {
       --bg: #121214;
@@ -168,8 +172,16 @@
     <div class="install-guide">
       📱 <strong>¿Cómo instalar en tu celular?</strong><br>
       • <strong>iPhone (iOS):</strong> Abre en Safari, pulsa <strong>Compartir</strong> (icono de cuadrito con flecha) y selecciona <strong>"Agregar a pantalla de inicio"</strong>.<br>
-      • <strong>Android:</strong> Abre en Chrome y pulsa <strong>"Instalar aplicación"</strong> en la barra inferior.
+      • <strong>Android:</strong> Entra a cualquiera de las dos trivias y pulsa el botón verde <strong>"Instalar aplicación"</strong> (o desde el menú de 3 puntos de Chrome).
     </div>
   </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(err => console.log('SW error:', err));
+      });
+    }
+  </script>
 </body>
 </html>

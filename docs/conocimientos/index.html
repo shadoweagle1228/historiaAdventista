@@ -338,6 +338,15 @@
       <h1>Conocimientos Bíblicos</h1>
       <div class="subtitle">Campamento de Conquistadores 2026</div>
 
+      <!-- Boton de instalacion PWA (Android / Chrome) -->
+      <button id="pwa-install-btn" class="btn" style="display:none; background: #00796B; color: #FFFFFF; font-size: 15px; margin-bottom: 16px;">
+        📲 Instalar aplicación en tu teléfono
+      </button>
+
+      <div id="ios-install-hint" style="display:none; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 12px; font-size: 13px; text-align: center; color: var(--secondary); margin-bottom: 16px;">
+        📲 Para instalar en iPhone: toca <strong>Compartir</strong> ⎋ y luego <strong>"Agregar a pantalla de inicio"</strong> ➕
+      </div>
+
       <!-- Stats Card -->
       <div class="card" style="display: flex; justify-content: space-around; text-align: center;">
         <div>
@@ -421,10 +430,47 @@
   </div>
 
   <!-- Audio Elements -->
-  <audio id="audio-acierto" src="../assets/acierto.mp3" preload="auto"></audio>
-  <audio id="audio-error" src="../assets/error.mp3" preload="auto"></audio>
+  <audio id="audio-acierto" src="acierto.mp3" preload="auto"></audio>
+  <audio id="audio-error" src="error.mp3" preload="auto"></audio>
 
   <script>
+    // Manejo de Instalación PWA (Android / Chrome)
+    let deferredPrompt;
+    const installBtn = document.getElementById('pwa-install-btn');
+    const iosHint = document.getElementById('ios-install-hint');
+
+    // Detectar iOS sin standalone
+    const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+    if (isIos && !isStandalone && iosHint) {
+      iosHint.style.display = 'block';
+    }
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (installBtn && !isStandalone) {
+        installBtn.style.display = 'flex';
+      }
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener('click', async () => {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          const { outcome } = await deferredPrompt.userChoice;
+          if (outcome === 'accepted') {
+            installBtn.style.display = 'none';
+          }
+          deferredPrompt = null;
+        }
+      });
+    }
+
+    window.addEventListener('appinstalled', () => {
+      if (installBtn) installBtn.style.display = 'none';
+    });
+
     // Register Service Worker for offline play
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

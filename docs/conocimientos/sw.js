@@ -1,4 +1,4 @@
-const CACHE_NAME = 'conocimientos-trivia-v1';
+const CACHE_NAME = 'conocimientos-trivia-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -6,15 +6,16 @@ const ASSETS = [
   './historia_base.json',
   './icon-192.png',
   './icon-512.png',
-  '../assets/acierto.mp3',
-  '../assets/error.mp3',
-  'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js'
+  './acierto.mp3',
+  './error.mp3'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS).catch((err) => console.warn('Cache addAll error:', err));
+      return Promise.allSettled(
+        ASSETS.map((url) => cache.add(url).catch((err) => console.warn('Cache error for:', url, err)))
+      );
     }).then(() => self.skipWaiting())
   );
 });
@@ -34,23 +35,24 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  if (event.request.method !== 'GET') return;
   event.respondWith(
-    caches.match(event.request).then((response) => {
-      if (response) {
-        return response;
+    caches.match(event.request).then((cachedResponse) => {
+      if (cachedResponse) {
+        return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
         if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
           return networkResponse;
         }
-        const responseToCache = networkResponse.clone();
+        const toCache = networkResponse.clone();
         caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
+          cache.put(event.request, toCache);
         });
         return networkResponse;
       }).catch(() => {
         if (event.request.mode === 'navigate') {
-          return caches.match('./index.html');
+          return caches.match('./index.html') || caches.match('./');
         }
       });
     })
