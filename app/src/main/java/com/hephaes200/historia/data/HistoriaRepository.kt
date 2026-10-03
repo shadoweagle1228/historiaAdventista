@@ -20,6 +20,9 @@ class HistoriaRepository(private val historiaDao: HistoriaDao, private val conte
 
         if (capitulosGuardados.isEmpty()) {
             poblarBaseDeDatos()
+        } else {
+            // Sincronizar siempre las preguntas del JSON para reflejar nuevas adiciones
+            poblarBaseDeDatos()
         }
     }
 

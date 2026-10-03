@@ -538,7 +538,7 @@
     // Load Database JSON
     async function loadData() {
       try {
-        const res = await fetch('historia_base.json');
+        const res = await fetch('historia_base.json?v=' + Date.now(), { cache: 'no-cache' });
         database = await res.json();
         renderMenu();
         actualizarContadorErrores();
