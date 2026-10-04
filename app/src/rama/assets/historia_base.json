@@ -2440,6 +2440,15 @@
       "respuestaCorrecta": "El 7 de julio de 1958 en un choque de auto",
       "justificacion": "El pastor Norman Ferris falleció el 7 de julio de 1958 en un choque de auto.",
       "vecesFallada": 0
+    },
+    {
+      "id": 260,
+      "capituloId": 12,
+      "enunciado": "¿De qué manera falleció Raymond, el hijo mayor de los Ferris?",
+      "opciones": "En un accidente de trabajo, En un choque de auto, Por fiebre tifoidea, En un naufragio marítimo",
+      "respuestaCorrecta": "En un accidente de trabajo",
+      "justificacion": "Poco después de que Norman regresara a Australia ocurrió una tragedia familiar: Raymond, el hijo mayor, falleció en un accidente en su trabajo.",
+      "vecesFallada": 0
     }
   ]
 }
