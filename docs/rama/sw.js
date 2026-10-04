@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rama-trivia-v4';
+const CACHE_NAME = 'rama-trivia-v5';
 const ASSETS = [
   './',
   './index.html',

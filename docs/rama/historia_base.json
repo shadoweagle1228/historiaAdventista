@@ -2449,6 +2449,24 @@
       "respuestaCorrecta": "En un accidente de trabajo",
       "justificacion": "Poco después de que Norman regresara a Australia ocurrió una tragedia familiar: Raymond, el hijo mayor, falleció en un accidente en su trabajo.",
       "vecesFallada": 0
+    },
+    {
+      "id": 261,
+      "capituloId": 13,
+      "enunciado": "¿A qué edad falleció el pastor Norman Ferris?",
+      "opciones": "A los 54 años, A los 60 años, A los 48 años, A los 64 años",
+      "respuestaCorrecta": "A los 54 años",
+      "justificacion": "El pastor Norman Ferris falleció a la edad de 54 años tras el trágico accidente automovilístico ocurrido el 7 de julio de 1958.",
+      "vecesFallada": 0
+    },
+    {
+      "id": 262,
+      "capituloId": 18,
+      "enunciado": "¿A qué edad falleció Ruby Ferris, la esposa de Norman?",
+      "opciones": "A los 103 años, A los 95 años, A los 88 años, A los 99 años",
+      "respuestaCorrecta": "A los 103 años",
+      "justificacion": "Ruby Ferris vivió una larga vida de consagración y servicio misionero, falleciendo a los 103 años de edad.",
+      "vecesFallada": 0
     }
   ]
 }
